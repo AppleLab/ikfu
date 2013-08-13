@@ -53,6 +53,8 @@
 		C5F7B85F17B9E84E00FB6223 /* iKFUTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iKFUTests-Info.plist"; sourceTree = "<group>"; };
 		C5F7B86117B9E84E00FB6223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
+		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +114,10 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
+				C5F7B87017B9E88B00FB6223 /* UI */,
+				C5F7B86D17B9E86D00FB6223 /* Core */,
 				C5F7B84717B9E84E00FB6223 /* AppDelegate.h */,
 				C5F7B84817B9E84E00FB6223 /* AppDelegate.m */,
-				C5F7B84A17B9E84E00FB6223 /* Main.storyboard */,
-				C5F7B84D17B9E84E00FB6223 /* ViewController.h */,
-				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
 				C5F7B85017B9E84E00FB6223 /* Images.xcassets */,
 				C5F7B83F17B9E84E00FB6223 /* Supporting Files */,
 			);
@@ -150,6 +151,25 @@
 				C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5F7B86D17B9E86D00FB6223 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5F7B86E17B9E88500FB6223 /* Core.h */,
+				C5F7B86F17B9E88500FB6223 /* Core.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C5F7B87017B9E88B00FB6223 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5F7B84A17B9E84E00FB6223 /* Main.storyboard */,
+				C5F7B84D17B9E84E00FB6223 /* ViewController.h */,
+				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
