@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface VkViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *web;
 
 @end
