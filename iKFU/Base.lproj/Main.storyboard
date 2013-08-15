@@ -48,6 +48,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="VkReg:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="C1t-9l-Wdp"/>
                                     <segue destination="YVM-UH-KA7" kind="push" id="G2O-nT-HSE"/>
                                 </connections>
                             </button>
@@ -128,16 +129,16 @@
             </objects>
             <point key="canvasLocation" x="-54" y="-1569"/>
         </scene>
-        <!--View Controller-->
+        <!--Vk View Controller-->
         <scene sceneID="aYo-0F-Nhb">
             <objects>
-                <viewController id="YVM-UH-KA7" sceneMemberID="viewController">
+                <viewController id="YVM-UH-KA7" customClass="VkViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ve6-zw-Paf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="wwQ-Mz-kW2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="325" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1184,7 +1185,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="b6J-gR-P1q"/>
-        <segue reference="Pvk-cv-76U"/>
+        <segue reference="T7J-bf-p1H"/>
         <segue reference="yQE-Zw-XOI"/>
     </inferredMetricsTieBreakers>
 </document>

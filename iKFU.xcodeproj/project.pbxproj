@@ -21,6 +21,7 @@
 		C5F7B85A17B9E84E00FB6223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F7B83C17B9E84E00FB6223 /* UIKit.framework */; };
 		C5F7B86217B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B86417B9E84E00FB6223 /* iKFUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86317B9E84E00FB6223 /* iKFUTests.m */; };
+		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		CE90A2D417BCE4BC006933A8 /* VkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkViewController.h; sourceTree = "<group>"; };
+		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
+				CE90A2D017BCE38F006933A8 /* ESI */,
 				C5F7B87017B9E88B00FB6223 /* UI */,
 				C5F7B86D17B9E86D00FB6223 /* Core */,
 				C5F7B84717B9E84E00FB6223 /* AppDelegate.h */,
@@ -170,6 +174,15 @@
 				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		CE90A2D017BCE38F006933A8 /* ESI */ = {
+			isa = PBXGroup;
+			children = (
+				CE90A2D417BCE4BC006933A8 /* VkViewController.h */,
+				CE90A2D517BCE4BC006933A8 /* VkViewController.m */,
+			);
+			name = ESI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
+				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
 			);
@@ -474,6 +488,7 @@
 				C5F7B86917B9E84E00FB6223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5F7B86A17B9E84E00FB6223 /* Build configuration list for PBXNativeTarget "iKFUTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +497,7 @@
 				C5F7B86C17B9E84E00FB6223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
