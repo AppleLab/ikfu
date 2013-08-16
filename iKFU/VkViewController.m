@@ -14,6 +14,7 @@
 
 @implementation VkViewController
 @synthesize web;
+@synthesize username, realName, ID, access_token, email, link;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -42,6 +43,15 @@
     [[self.view viewWithTag:1025] removeFromSuperview];
 }
 
+-(void) loginWithParams:(NSMutableDictionary *)params {
+    ID = [params objectForKey:@"user_id"];
+    access_token = [params objectForKey:@"access_token"];
+    //Сохраняемся, ребят!
+    [[NSUserDefaults standardUserDefaults] setValue:access_token forKey:@"vk_token"];
+    [[NSUserDefaults standardUserDefaults] setValue:ID forKey:@"vk_id"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 
 -(void) webViewDidFinishLoad:(UIWebView *)webView {
     //создадим хеш-таблицу для хранения данных
@@ -58,8 +68,7 @@
         [user setObject:[data objectAtIndex:3] forKey:@"expires_in"];
         [user setObject:[data objectAtIndex:5] forKey:@"user_id"];
         [self closeWebView];
-        
-        
+    
         //передаем всю информацию специально обученному классу
         [[VkViewController sharedInstance] loginWithParams:user];
     }
@@ -72,6 +81,15 @@
             [self closeWebView];
         }
     }
+}
+
++ (id)sharedInstance {
+    static VkViewController *__sharedInstance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        __sharedInstance = [[VkViewController alloc]init];
+    });
+    return __sharedInstance;
 }
 
 @end
