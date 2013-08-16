@@ -46,6 +46,7 @@
 		CE37E44F17BE3348008D4CAA /* список.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43817BE3348008D4CAA /* список.png */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE963C1017BE0515003C4DF7 /* DescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE963C0F17BE0515003C4DF7 /* DescribeViewController.m */; };
+		CEA7ED2717BE51010027C334 /* AddSortEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA7ED2617BE51010027C334 /* AddSortEvents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 		CE963C0E17BE0515003C4DF7 /* DescribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeViewController.h; sourceTree = "<group>"; };
 		CE963C0F17BE0515003C4DF7 /* DescribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeViewController.m; sourceTree = "<group>"; };
+		CEA7ED2517BE51010027C334 /* AddSortEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSortEvents.h; sourceTree = "<group>"; };
+		CEA7ED2617BE51010027C334 /* AddSortEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSortEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +255,7 @@
 		CE90A2D017BCE38F006933A8 /* ESI */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7ED2417BE50D10027C334 /* GetServer */,
 				CE90A2D417BCE4BC006933A8 /* VkViewController.h */,
 				CE90A2D517BCE4BC006933A8 /* VkViewController.m */,
 			);
@@ -265,6 +269,15 @@
 				CE963C0F17BE0515003C4DF7 /* DescribeViewController.m */,
 			);
 			name = DescribeEvents;
+			sourceTree = "<group>";
+		};
+		CEA7ED2417BE50D10027C334 /* GetServer */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7ED2517BE51010027C334 /* AddSortEvents.h */,
+				CEA7ED2617BE51010027C334 /* AddSortEvents.m */,
+			);
+			name = GetServer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA7ED2717BE51010027C334 /* AddSortEvents.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
