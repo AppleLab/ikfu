@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+
+{
+    NSString *eventTitle;
+}
+
+@property(nonatomic, retain) NSString *eventTitle;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @end

@@ -14,10 +14,13 @@
 
 @implementation ViewController
 
+@synthesize eventTitle;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.label.text = eventTitle;
 }
 
 - (void)didReceiveMemoryWarning
