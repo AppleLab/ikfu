@@ -31,15 +31,14 @@
 		CE37E3F117BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F017BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */; };
 		CE37E3F917BE0CD4008D4CAA /* голубая копочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F217BE0CD4008D4CAA /* голубая копочка.jpg */; };
 		CE37E3FA17BE0CD4008D4CAA /* желтая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F317BE0CD4008D4CAA /* желтая кнопочка.jpg */; };
-		CE37E3FB17BE0CD4008D4CAA /* желтенькая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F417BE0CD4008D4CAA /* желтенькая кнопочка.jpg */; };
 		CE37E3FC17BE0CD4008D4CAA /* зеленая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F517BE0CD4008D4CAA /* зеленая кнопочка.jpg */; };
 		CE37E3FD17BE0CD4008D4CAA /* красная кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F617BE0CD4008D4CAA /* красная кнопочка.jpg */; };
 		CE37E3FE17BE0CD4008D4CAA /* сериая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F717BE0CD4008D4CAA /* сериая кнопочка.jpg */; };
-		CE37E3FF17BE0CD4008D4CAA /* сиреневая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F817BE0CD4008D4CAA /* сиреневая кнопочка.jpg */; };
 		CE37E40317BE1F62008D4CAA /* дом.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E40017BE1F62008D4CAA /* дом.png */; };
 		CE37E40417BE1F62008D4CAA /* помощь.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E40117BE1F62008D4CAA /* помощь.png */; };
 		CE37E40517BE1F62008D4CAA /* список.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E40217BE1F62008D4CAA /* список.png */; };
 		CE37E40717BE20BB008D4CAA /* дом.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E40617BE20BB008D4CAA /* дом.jpg */; };
+		CE37E40917BE2869008D4CAA /* дом-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E40817BE2869008D4CAA /* дом-1.png */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE963C1017BE0515003C4DF7 /* DescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE963C0F17BE0515003C4DF7 /* DescribeViewController.m */; };
 /* End PBXBuildFile section */
@@ -86,15 +85,14 @@
 		CE37E3F017BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "%d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg"; path = "../../../Downloads/%d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg"; sourceTree = "<group>"; };
 		CE37E3F217BE0CD4008D4CAA /* голубая копочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "голубая копочка.jpg"; path = "../../../Downloads/голубая копочка.jpg"; sourceTree = "<group>"; };
 		CE37E3F317BE0CD4008D4CAA /* желтая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "желтая кнопочка.jpg"; path = "../../../Downloads/желтая кнопочка.jpg"; sourceTree = "<group>"; };
-		CE37E3F417BE0CD4008D4CAA /* желтенькая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "желтенькая кнопочка.jpg"; path = "../../../Downloads/желтенькая кнопочка.jpg"; sourceTree = "<group>"; };
 		CE37E3F517BE0CD4008D4CAA /* зеленая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "зеленая кнопочка.jpg"; path = "../../../Downloads/зеленая кнопочка.jpg"; sourceTree = "<group>"; };
 		CE37E3F617BE0CD4008D4CAA /* красная кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "красная кнопочка.jpg"; path = "../../../Downloads/красная кнопочка.jpg"; sourceTree = "<group>"; };
 		CE37E3F717BE0CD4008D4CAA /* сериая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "сериая кнопочка.jpg"; path = "../../../Downloads/сериая кнопочка.jpg"; sourceTree = "<group>"; };
-		CE37E3F817BE0CD4008D4CAA /* сиреневая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "сиреневая кнопочка.jpg"; path = "../../../Downloads/сиреневая кнопочка.jpg"; sourceTree = "<group>"; };
 		CE37E40017BE1F62008D4CAA /* дом.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "дом.png"; path = "../../../Downloads/дом.png"; sourceTree = "<group>"; };
 		CE37E40117BE1F62008D4CAA /* помощь.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "помощь.png"; path = "../../../Downloads/помощь.png"; sourceTree = "<group>"; };
 		CE37E40217BE1F62008D4CAA /* список.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "список.png"; path = "../../../Downloads/список.png"; sourceTree = "<group>"; };
 		CE37E40617BE20BB008D4CAA /* дом.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "дом.jpg"; path = "../../../Downloads/дом.jpg"; sourceTree = "<group>"; };
+		CE37E40817BE2869008D4CAA /* дом-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "дом-1.png"; path = "../../../Downloads/дом-1.png"; sourceTree = "<group>"; };
 		CE90A2D417BCE4BC006933A8 /* VkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkViewController.h; sourceTree = "<group>"; };
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 		CE963C0E17BE0515003C4DF7 /* DescribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeViewController.h; sourceTree = "<group>"; };
@@ -211,17 +209,16 @@
 		C5F7B87017B9E88B00FB6223 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CE37E40817BE2869008D4CAA /* дом-1.png */,
 				CE37E40617BE20BB008D4CAA /* дом.jpg */,
 				CE37E40017BE1F62008D4CAA /* дом.png */,
 				CE37E40117BE1F62008D4CAA /* помощь.png */,
 				CE37E40217BE1F62008D4CAA /* список.png */,
 				CE37E3F217BE0CD4008D4CAA /* голубая копочка.jpg */,
 				CE37E3F317BE0CD4008D4CAA /* желтая кнопочка.jpg */,
-				CE37E3F417BE0CD4008D4CAA /* желтенькая кнопочка.jpg */,
 				CE37E3F517BE0CD4008D4CAA /* зеленая кнопочка.jpg */,
 				CE37E3F617BE0CD4008D4CAA /* красная кнопочка.jpg */,
 				CE37E3F717BE0CD4008D4CAA /* сериая кнопочка.jpg */,
-				CE37E3F817BE0CD4008D4CAA /* сиреневая кнопочка.jpg */,
 				CE37E3F017BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */,
 				CE37E3EE17BE0700008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg */,
 				CE37E3EC17BE06EE008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg */,
@@ -333,7 +330,6 @@
 			files = (
 				CE37E3FE17BE0CD4008D4CAA /* сериая кнопочка.jpg in Resources */,
 				CE37E40417BE1F62008D4CAA /* помощь.png in Resources */,
-				CE37E3FB17BE0CD4008D4CAA /* желтенькая кнопочка.jpg in Resources */,
 				CE37E40517BE1F62008D4CAA /* список.png in Resources */,
 				CE37E3ED17BE06EE008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg in Resources */,
 				CE37E3E517BE0621008D4CAA /* facebook_login.png in Resources */,
@@ -349,7 +345,7 @@
 				CE37E3E717BE06D3008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg in Resources */,
 				CE37E3FC17BE0CD4008D4CAA /* зеленая кнопочка.jpg in Resources */,
 				CE37E3FD17BE0CD4008D4CAA /* красная кнопочка.jpg in Resources */,
-				CE37E3FF17BE0CD4008D4CAA /* сиреневая кнопочка.jpg in Resources */,
+				CE37E40917BE2869008D4CAA /* дом-1.png in Resources */,
 				C5F7B84C17B9E84E00FB6223 /* Main.storyboard in Resources */,
 				CE37E40717BE20BB008D4CAA /* дом.jpg in Resources */,
 				CE37E3E917BE06DB008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg in Resources */,

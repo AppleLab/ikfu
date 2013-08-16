@@ -689,7 +689,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <tableViewController id="1cd-Wm-dix" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="l4m-CN-fpi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LPL-2X-cCh">
@@ -769,7 +769,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <outlet property="delegate" destination="1cd-Wm-dix" id="i7y-mH-JxP"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Личный кабинет" image="дом.jpg" id="L9S-y2-FOI"/>
+                    <tabBarItem key="tabBarItem" title="Личный кабинет" image="дом-1.png" id="L9S-y2-FOI">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="EHv-4s-p3A"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s1y-zU-dNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1072,7 +1074,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <image name="facebook_login.png" width="199" height="28"/>
         <image name="login_with_vkontakte.png" width="261" height="58"/>
         <image name="голубая копочка.jpg" width="126.75" height="37.5"/>
-        <image name="дом.jpg" width="30" height="30"/>
+        <image name="дом-1.png" width="30" height="30"/>
         <image name="желтая кнопочка.jpg" width="124.5" height="35.25"/>
         <image name="зеленая кнопочка.jpg" width="123" height="36"/>
         <image name="сериая кнопочка.jpg" width="123.75" height="37.5"/>
@@ -1085,7 +1087,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="1By-67-vWr"/>
-        <segue reference="qRk-GD-HdG"/>
+        <segue reference="4CD-TI-l8g"/>
         <segue reference="yQE-Zw-XOI"/>
         <segue reference="4VT-rr-FMg"/>
         <segue reference="f87-9G-uGu"/>
