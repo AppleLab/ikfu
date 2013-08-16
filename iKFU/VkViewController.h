@@ -10,5 +10,8 @@
 
 @interface VkViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIWebView *web;
+@property NSString *username, *realName, *ID, *link, *email, *access_token;
 
++ (id)sharedInstance;
+-(void) loginWithParams: (NSMutableDictionary*) params;
 @end
