@@ -21,6 +21,21 @@
 		C5F7B85A17B9E84E00FB6223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F7B83C17B9E84E00FB6223 /* UIKit.framework */; };
 		C5F7B86217B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B86417B9E84E00FB6223 /* iKFUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86317B9E84E00FB6223 /* iKFUTests.m */; };
+		CE37E3E317BE03A7008D4CAA /* login_with_vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3E217BE0316008D4CAA /* login_with_vkontakte.png */; };
+		CE37E3E517BE0621008D4CAA /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3E417BE0621008D4CAA /* facebook_login.png */; };
+		CE37E3E717BE06D3008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3E617BE06D3008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg */; };
+		CE37E3E917BE06DB008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3E817BE06DB008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg */; };
+		CE37E3EB17BE06E3008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3EA17BE06E3008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg */; };
+		CE37E3ED17BE06EE008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3EC17BE06EE008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg */; };
+		CE37E3EF17BE0700008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3EE17BE0700008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg */; };
+		CE37E3F117BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F017BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */; };
+		CE37E3F917BE0CD4008D4CAA /* голубая копочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F217BE0CD4008D4CAA /* голубая копочка.jpg */; };
+		CE37E3FA17BE0CD4008D4CAA /* желтая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F317BE0CD4008D4CAA /* желтая кнопочка.jpg */; };
+		CE37E3FB17BE0CD4008D4CAA /* желтенькая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F417BE0CD4008D4CAA /* желтенькая кнопочка.jpg */; };
+		CE37E3FC17BE0CD4008D4CAA /* зеленая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F517BE0CD4008D4CAA /* зеленая кнопочка.jpg */; };
+		CE37E3FD17BE0CD4008D4CAA /* красная кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F617BE0CD4008D4CAA /* красная кнопочка.jpg */; };
+		CE37E3FE17BE0CD4008D4CAA /* сериая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F717BE0CD4008D4CAA /* сериая кнопочка.jpg */; };
+		CE37E3FF17BE0CD4008D4CAA /* сиреневая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E3F817BE0CD4008D4CAA /* сиреневая кнопочка.jpg */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +71,21 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		CE37E3E217BE0316008D4CAA /* login_with_vkontakte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_with_vkontakte.png; path = ../../../Downloads/login_with_vkontakte.png; sourceTree = "<group>"; };
+		CE37E3E417BE0621008D4CAA /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_login.png; path = ../../../Downloads/facebook_login.png; sourceTree = "<group>"; };
+		CE37E3E617BE06D3008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg"; path = "../../../Downloads/%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg"; sourceTree = "<group>"; };
+		CE37E3E817BE06DB008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg"; path = "../../../Downloads/%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg"; sourceTree = "<group>"; };
+		CE37E3EA17BE06E3008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg"; path = "../../../Downloads/%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg"; sourceTree = "<group>"; };
+		CE37E3EC17BE06EE008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "%d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg"; path = "../../../Downloads/%d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg"; sourceTree = "<group>"; };
+		CE37E3EE17BE0700008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "%d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg"; path = "../../../Downloads/%d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg"; sourceTree = "<group>"; };
+		CE37E3F017BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "%d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg"; path = "../../../Downloads/%d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg"; sourceTree = "<group>"; };
+		CE37E3F217BE0CD4008D4CAA /* голубая копочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "голубая копочка.jpg"; path = "../../../Downloads/голубая копочка.jpg"; sourceTree = "<group>"; };
+		CE37E3F317BE0CD4008D4CAA /* желтая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "желтая кнопочка.jpg"; path = "../../../Downloads/желтая кнопочка.jpg"; sourceTree = "<group>"; };
+		CE37E3F417BE0CD4008D4CAA /* желтенькая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "желтенькая кнопочка.jpg"; path = "../../../Downloads/желтенькая кнопочка.jpg"; sourceTree = "<group>"; };
+		CE37E3F517BE0CD4008D4CAA /* зеленая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "зеленая кнопочка.jpg"; path = "../../../Downloads/зеленая кнопочка.jpg"; sourceTree = "<group>"; };
+		CE37E3F617BE0CD4008D4CAA /* красная кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "красная кнопочка.jpg"; path = "../../../Downloads/красная кнопочка.jpg"; sourceTree = "<group>"; };
+		CE37E3F717BE0CD4008D4CAA /* сериая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "сериая кнопочка.jpg"; path = "../../../Downloads/сериая кнопочка.jpg"; sourceTree = "<group>"; };
+		CE37E3F817BE0CD4008D4CAA /* сиреневая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "сиреневая кнопочка.jpg"; path = "../../../Downloads/сиреневая кнопочка.jpg"; sourceTree = "<group>"; };
 		CE90A2D417BCE4BC006933A8 /* VkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkViewController.h; sourceTree = "<group>"; };
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,6 +199,21 @@
 		C5F7B87017B9E88B00FB6223 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CE37E3F217BE0CD4008D4CAA /* голубая копочка.jpg */,
+				CE37E3F317BE0CD4008D4CAA /* желтая кнопочка.jpg */,
+				CE37E3F417BE0CD4008D4CAA /* желтенькая кнопочка.jpg */,
+				CE37E3F517BE0CD4008D4CAA /* зеленая кнопочка.jpg */,
+				CE37E3F617BE0CD4008D4CAA /* красная кнопочка.jpg */,
+				CE37E3F717BE0CD4008D4CAA /* сериая кнопочка.jpg */,
+				CE37E3F817BE0CD4008D4CAA /* сиреневая кнопочка.jpg */,
+				CE37E3F017BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */,
+				CE37E3EE17BE0700008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg */,
+				CE37E3EC17BE06EE008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg */,
+				CE37E3EA17BE06E3008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg */,
+				CE37E3E817BE06DB008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg */,
+				CE37E3E617BE06D3008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg */,
+				CE37E3E417BE0621008D4CAA /* facebook_login.png */,
+				CE37E3E217BE0316008D4CAA /* login_with_vkontakte.png */,
 				C5F7B84A17B9E84E00FB6223 /* Main.storyboard */,
 				C5F7B84D17B9E84E00FB6223 /* ViewController.h */,
 				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
@@ -261,9 +306,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE37E3FE17BE0CD4008D4CAA /* сериая кнопочка.jpg in Resources */,
+				CE37E3FB17BE0CD4008D4CAA /* желтенькая кнопочка.jpg in Resources */,
+				CE37E3ED17BE06EE008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg in Resources */,
+				CE37E3E517BE0621008D4CAA /* facebook_login.png in Resources */,
+				CE37E3EB17BE06E3008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg in Resources */,
+				CE37E3FA17BE0CD4008D4CAA /* желтая кнопочка.jpg in Resources */,
 				C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */,
+				CE37E3E317BE03A7008D4CAA /* login_with_vkontakte.png in Resources */,
+				CE37E3F117BE0708008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg in Resources */,
 				C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */,
+				CE37E3F917BE0CD4008D4CAA /* голубая копочка.jpg in Resources */,
+				CE37E3EF17BE0700008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg in Resources */,
+				CE37E3E717BE06D3008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg in Resources */,
+				CE37E3FC17BE0CD4008D4CAA /* зеленая кнопочка.jpg in Resources */,
+				CE37E3FD17BE0CD4008D4CAA /* красная кнопочка.jpg in Resources */,
+				CE37E3FF17BE0CD4008D4CAA /* сиреневая кнопочка.jpg in Resources */,
 				C5F7B84C17B9E84E00FB6223 /* Main.storyboard in Resources */,
+				CE37E3E917BE06DB008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
