@@ -46,6 +46,7 @@
 		CE37E44F17BE3348008D4CAA /* список.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43817BE3348008D4CAA /* список.png */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE963C1017BE0515003C4DF7 /* DescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE963C0F17BE0515003C4DF7 /* DescribeViewController.m */; };
+		CEE7717B17BE87C200F76BCE /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE7717A17BE87C200F76BCE /* FbViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 		CE963C0E17BE0515003C4DF7 /* DescribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeViewController.h; sourceTree = "<group>"; };
 		CE963C0F17BE0515003C4DF7 /* DescribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeViewController.m; sourceTree = "<group>"; };
+		CEE7717917BE87C200F76BCE /* FbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
+		CEE7717A17BE87C200F76BCE /* FbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +257,8 @@
 			children = (
 				CE90A2D417BCE4BC006933A8 /* VkViewController.h */,
 				CE90A2D517BCE4BC006933A8 /* VkViewController.m */,
+				CEE7717917BE87C200F76BCE /* FbViewController.h */,
+				CEE7717A17BE87C200F76BCE /* FbViewController.m */,
 			);
 			name = ESI;
 			sourceTree = "<group>";
@@ -391,6 +396,7 @@
 				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				CE963C1017BE0515003C4DF7 /* DescribeViewController.m in Sources */,
+				CEE7717B17BE87C200F76BCE /* FbViewController.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
