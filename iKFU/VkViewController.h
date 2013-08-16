@@ -11,4 +11,7 @@
 @interface VkViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIWebView *web;
 
++ (id)sharedInstance;
+-(void) loginWithParams: (NSMutableDictionary*) params;
+-(void) postToWall;
 @end
