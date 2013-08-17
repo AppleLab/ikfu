@@ -27,9 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [web setDelegate:self];
+    [[self web] setDelegate:self];
 	[web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.facebook.com/dialog/oauth?client_id=542269072488443&redirect_uri=https://www.facebook.com/connect/login_success.html&scope=email&display=wap&response_type=token"]]];
-    //    [web setScalesPageToFit:YES];
+    [web setScalesPageToFit:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -67,10 +67,14 @@
         [user setObject:[data objectAtIndex:1] forKey:@"access_token"];
         [user setObject:[data objectAtIndex:3] forKey:@"expires_in"];
         [user setObject:[data objectAtIndex:5] forKey:@"user_id"];
-        [self closeWebView];
+        //[self closeWebView];
         
         //передаем всю информацию специально обученному классу
         [[FbViewController sharedInstance] loginWithParams:user];
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
+        [self presentModalViewController:yourViewController animated:YES];
+        
     }
     else {
         //Ну иначе сообщаем об ошибке...

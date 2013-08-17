@@ -27,7 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [web setDelegate:   self];
+    [[self web] setDelegate:self];
 	[web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://oauth.vk.com/authorize?client_id=3822741&redirect_uri=http://oauth.vk.com/blank.html&display=touch&response_type=token&scope=offline"]]];
     [web setScalesPageToFit:YES];
 }
@@ -67,13 +67,16 @@
         [user setObject:[data objectAtIndex:1] forKey:@"access_token"];
         [user setObject:[data objectAtIndex:3] forKey:@"expires_in"];
         [user setObject:[data objectAtIndex:5] forKey:@"user_id"];
-        [self closeWebView];
+        //[self closeWebView];
     
         //передаем всю информацию специально обученному классу
         [[VkViewController sharedInstance] loginWithParams:user];
-        
-        
-        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
+        [self presentModalViewController:yourViewController animated:YES];
+        if([[NSUserDefaults standardUserDefaults]objectForKey:@"vk_token"] != nil){
+            NSLog(@"hi");
+        }
     }
     else {
         //Ну иначе сообщаем об ошибке...
@@ -84,9 +87,14 @@
             [self closeWebView];
         }
     }
-    
-    
 }
+
+/*+ (BOOL) tokenIsHasVk{
+    if([[NSUserDefaults standardUserDefaults]objectForKey:@"vk_token"] == nil){
+        return false;
+    }
+    return false;
+}*/
 
 + (id)sharedInstance {
     static VkViewController *__sharedInstance;

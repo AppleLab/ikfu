@@ -7,7 +7,7 @@
 //
 
 #import "ProfileViewController.h"
-
+#import "VkViewController.h"
 @interface ProfileViewController ()
 
 @end
@@ -26,11 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-     if([[NSUserDefaults standardUserDefaults]boolForKey:@"vk_token"]){
-     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-     UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"89"];
-     [self.navigationController pushViewController:yourViewController animated:YES];
-     }
+    //if([VkViewController tokenIsHasVk] == true){
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"89"];
+        [self presentModalViewController:yourViewController animated:YES];
+    //}
      // Uncomment the following line to preserve selection between presentations.
      // self.clearsSelectionOnViewWillAppear = NO;
      

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FbViewController : UIViewController
+@interface FbViewController : UIViewController<UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *web;
 @property NSString *username, *realName, *ID, *link, *email, *access_token;
 

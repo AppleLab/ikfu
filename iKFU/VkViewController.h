@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VkViewController : UIViewController
+@interface VkViewController : UIViewController<UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *web;
 @property NSString *username, *realName, *ID, *link, *email, *access_token;
 
 + (id)sharedInstance;
 -(void) loginWithParams: (NSMutableDictionary*) params;
+//+(BOOL) tokenIsHasVk;
 @end
