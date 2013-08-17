@@ -594,7 +594,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2276" y="1103"/>
         </scene>
-        <!--Parcer Sort Add Data-->
+        <!--View Controller-->
         <scene sceneID="DZp-Fs-0S1">
             <objects>
                 <viewController id="uew-Pf-OvX" sceneMemberID="viewController">
@@ -703,10 +703,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </connections>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="K9G-wc-2Rj" id="AJv-De-3jG"/>
-                            <outlet property="delegate" destination="K9G-wc-2Rj" id="9Ls-Qh-Hia"/>
-                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="wjS-A8-gVg"/>
                 </tableViewController>
@@ -1204,7 +1200,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="4CD-TI-l8g"/>
         <segue reference="T7J-bf-p1H"/>
         <segue reference="4VT-rr-FMg"/>
         <segue reference="4CD-TI-l8g"/>
