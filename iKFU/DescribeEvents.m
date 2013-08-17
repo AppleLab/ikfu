@@ -1,0 +1,76 @@
+//
+//  DescribeEvents.m
+//  iKFU
+//
+//  Created by user on 16.08.13.
+//  Copyright (c) 2013 Ramil Garaev. All rights reserved.
+//
+
+#import "DescribeEvents.h"
+
+@interface DescribeEvents ()
+
+
+
+@end
+
+@implementation DescribeEvents
+
+
+
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+    array= [[NSArray alloc] init];
+    array = [NSArray arrayWithObjects: @"Jan", @"Feb", @"March", @"April",
+             @"May", @"June", @"July", @"Aug",@"Sep", @"Oct", @"Nov", @"Dec", nil];
+    NSLog(@"count of array: %lu", (unsigned long)array.count);
+    _label1.text = @"Jan";
+    indexOfMouth = 0;
+
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    
+    
+    // Dispose of any resources that can be recreated.
+}
+
+//event performed when NEXT push
+- (IBAction)ActionNext:(id)sender
+{
+    indexOfMouth++;
+    if ([_label1.text isEqualToString: @"Dec"])
+    {
+        indexOfMouth = 0;
+    }
+ 
+    _label1.text = [array objectAtIndex:indexOfMouth];
+}
+
+//event performed when PREV push
+- (IBAction)ActionPrev:(id)sender
+{
+    
+    indexOfMouth--;
+    if ([_label1.text isEqualToString: @"Jan"])
+    {
+        indexOfMouth += 12;
+    }
+    
+    _label1.text = [array objectAtIndex:indexOfMouth];
+}
+@end
