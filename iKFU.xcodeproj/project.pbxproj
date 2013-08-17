@@ -255,6 +255,8 @@
 				CEA7ED2417BE50D10027C334 /* GetServer */,
 				CE90A2D417BCE4BC006933A8 /* VkViewController.h */,
 				CE90A2D517BCE4BC006933A8 /* VkViewController.m */,
+				CEE7717917BE87C200F76BCE /* FbViewController.h */,
+				CEE7717A17BE87C200F76BCE /* FbViewController.m */,
 			);
 			name = ESI;
 			sourceTree = "<group>";
