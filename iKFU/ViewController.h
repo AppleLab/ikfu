@@ -13,6 +13,7 @@
 
 {
     NSString *eventTitle;
+    NSArray *events;
 }
 
 @property(nonatomic, retain) NSString *eventTitle;

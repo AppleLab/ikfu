@@ -12,11 +12,12 @@
 {
     NSArray* array;
     int indexOfMouth;
+    NSArray *events;
 }
 - (IBAction)ActionNext:(id)sender;
 - (IBAction)ActionPrev:(id)sender;
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UITableView *tv;
 @property (weak, nonatomic) IBOutlet UILabel *label1;
-
+@property (nonatomic, retain) NSArray *events;
 
 @end

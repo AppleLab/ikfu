@@ -7,6 +7,7 @@
 //
 
 #import "DescribeEvents.h"
+#import "ViewController.h"
 
 @interface DescribeEvents ()
 
@@ -15,9 +16,9 @@
 
 @end
 
+
 @implementation DescribeEvents
-
-
+@synthesize events;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -99,5 +100,15 @@
     return cell;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    ViewController *vc = [[ViewController alloc] init];
+    vc = [segue destinationViewController];
+    NSIndexPath *path = [self.tv indexPathForSelectedRow];
+    UITableViewCell *selectedCell = [self.tv cellForRowAtIndexPath:path];
+    vc.eventTitle =  selectedCell.textLabel.text;
+}
 
 @end
