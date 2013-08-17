@@ -47,6 +47,7 @@
 		CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE90F36517BF8245002E3494 /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90F36417BF7E2F002E3494 /* FbViewController.m */; };
+		CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */; };
 		CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB186117BE688C001D75C1 /* DescribeEvents.m */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +112,8 @@
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 		CE90F36317BF7E2F002E3494 /* FbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
 		CE90F36417BF7E2F002E3494 /* FbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
+		CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
+		CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
 		CEDB186017BE688C001D75C1 /* DescribeEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEvents.h; sourceTree = "<group>"; };
 		CEDB186117BE688C001D75C1 /* DescribeEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,6 +241,7 @@
 		C5F7B86D17B9E86D00FB6223 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CE9B7E6017BFB52A00B8CDA4 /* Registr */,
 				CE69D1C517BF79C00033E4C2 /* Profile */,
 				CE963C0D17BE04C9003C4DF7 /* DescribeEvents */,
 				C5F7B86E17B9E88500FB6223 /* Core.h */,
@@ -284,6 +288,15 @@
 				CEDB186117BE688C001D75C1 /* DescribeEvents.m */,
 			);
 			name = DescribeEvents;
+			sourceTree = "<group>";
+		};
+		CE9B7E6017BFB52A00B8CDA4 /* Registr */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */,
+				CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */,
+			);
+			name = Registr;
 			sourceTree = "<group>";
 		};
 		CEA7ED2417BE50D10027C334 /* GetServer */ = {
@@ -429,20 +442,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC25E6217BE851600DD6870 /* CDataScanner.m in Sources */,
-				CEC25E6317BE851600DD6870 /* CDataScanner_Extensions.m in Sources */,
-				CEC25E6417BE851600DD6870 /* CFilteringJSONSerializer.m in Sources */,
-				CEC25E6517BE851600DD6870 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
-				CEC25E6617BE851600DD6870 /* CJSONSerialization.m in Sources */,
-				CEC25E6717BE851600DD6870 /* CJSONSerializedData.m in Sources */,
-				CEC25E6817BE851600DD6870 /* CJSONSerializer.m in Sources */,
-				CEC25E6917BE851600DD6870 /* NSDictionary_JSONExtensions.m in Sources */,
-				CEC25E6117BE84CA00DD6870 /* CJSONScanner.m in Sources */,
-				CEC25E5F17BE84B300DD6870 /* CJSONDeserializer.m in Sources */,
 				CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */,
-				CEC25E6017BE84B300DD6870 /* APIDownload.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
+				CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */,
 				CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				CE90F36517BF8245002E3494 /* FbViewController.m in Sources */,
