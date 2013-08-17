@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
     [web setDelegate:self];
-	[web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.facebook.com/dialog/oauth?client_id=id542269072488443&redirect_uri=https://www.facebook.com/connect/login_success.html&scope=email&display=wap&response_type=token"]]];
+	[web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.facebook.com/dialog/oauth?client_id=542269072488443&redirect_uri=https://www.facebook.com/connect/login_success.html&scope=email&display=wap&response_type=token"]]];
     //    [web setScalesPageToFit:YES];
 }
 

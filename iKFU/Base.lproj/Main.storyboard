@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="-210" y="-1729"/>
         </scene>
-        <!--Facebook App View Controller-->
+        <!--Fb View Controller-->
         <scene sceneID="aYo-0F-Nhb">
             <objects>
-                <viewController id="YVM-UH-KA7" customClass="facebookAppViewController" sceneMemberID="viewController">
+                <viewController id="YVM-UH-KA7" customClass="FbViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ve6-zw-Paf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -145,6 +145,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="EU3-Tm-iR7"/>
+                    <connections>
+                        <outlet property="web" destination="wwQ-Mz-kW2" id="X5V-4G-gSs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QwE-Mr-dKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
