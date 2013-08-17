@@ -89,13 +89,6 @@
     }
 }
 
-/*+ (BOOL) tokenIsHasVk{
-    if([[NSUserDefaults standardUserDefaults]objectForKey:@"vk_token"] == nil){
-        return false;
-    }
-    return false;
-}*/
-
 + (id)sharedInstance {
     static VkViewController *__sharedInstance;
     static dispatch_once_t onceToken;

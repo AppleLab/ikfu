@@ -14,5 +14,4 @@
 
 + (id)sharedInstance;
 -(void) loginWithParams: (NSMutableDictionary*) params;
-//+(BOOL) tokenIsHasVk;
 @end
