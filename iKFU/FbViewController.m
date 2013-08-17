@@ -1,18 +1,18 @@
 //
-//  VkViewController.m
+//  FbViewController.m
 //  iKFU
 //
-//  Created by user on 15.08.13.
+//  Created by user on 16.08.13.
 //  Copyright (c) 2013 Ramil Garaev. All rights reserved.
 //
 
-#import "VkViewController.h"
+#import "FbViewController.h"
 
-@interface VkViewController ()
+@interface FbViewController ()
 
 @end
 
-@implementation VkViewController
+@implementation FbViewController
 @synthesize web;
 @synthesize username, realName, ID, access_token, email, link;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -27,9 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [web setDelegate:   self];
-	[web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://oauth.vk.com/authorize?client_id=3822741&redirect_uri=http://oauth.vk.com/blank.html&display=touch&response_type=token&scope=offline"]]];
-    [web setScalesPageToFit:YES];
+    [web setDelegate:self];
+	[web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.facebook.com/dialog/oauth?client_id=542269072488443&redirect_uri=https://www.facebook.com/connect/login_success.html&scope=email&display=wap&response_type=token"]]];
+    //    [web setScalesPageToFit:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,12 +68,9 @@
         [user setObject:[data objectAtIndex:3] forKey:@"expires_in"];
         [user setObject:[data objectAtIndex:5] forKey:@"user_id"];
         [self closeWebView];
-    
+        
         //передаем всю информацию специально обученному классу
-        [[VkViewController sharedInstance] loginWithParams:user];
-        
-        
-        
+        [[FbViewController sharedInstance] loginWithParams:user];
     }
     else {
         //Ну иначе сообщаем об ошибке...
@@ -84,15 +81,13 @@
             [self closeWebView];
         }
     }
-    
-    
 }
 
 + (id)sharedInstance {
-    static VkViewController *__sharedInstance;
+    static FbViewController *__sharedInstance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        __sharedInstance = [[VkViewController alloc]init];
+        __sharedInstance = [[FbViewController alloc]init];
     });
     return __sharedInstance;
 }
