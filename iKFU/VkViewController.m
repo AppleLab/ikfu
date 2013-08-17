@@ -29,7 +29,7 @@
     [super viewDidLoad];
     [web setDelegate:self];
 	[web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://oauth.vk.com/authorize?client_id=3822741&redirect_uri=http://oauth.vk.com/blank.html&display=touch&response_type=token&scope=offline"]]];
-//    [web setScalesPageToFit:YES];
+    [web setScalesPageToFit:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -71,6 +71,9 @@
     
         //передаем всю информацию специально обученному классу
         [[VkViewController sharedInstance] loginWithParams:user];
+        
+        
+        
     }
     else {
         //Ну иначе сообщаем об ошибке...
@@ -81,6 +84,8 @@
             [self closeWebView];
         }
     }
+    
+    
 }
 
 + (id)sharedInstance {

@@ -44,6 +44,7 @@
 		CE37E44D17BE3348008D4CAA /* помощь.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43617BE3348008D4CAA /* помощь.png */; };
 		CE37E44E17BE3348008D4CAA /* сериая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43717BE3348008D4CAA /* сериая кнопочка.jpg */; };
 		CE37E44F17BE3348008D4CAA /* список.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43817BE3348008D4CAA /* список.png */; };
+		CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE963C1017BE0515003C4DF7 /* DescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE963C0F17BE0515003C4DF7 /* DescribeViewController.m */; };
 		CEC25E5E17BE75CE00DD6870 /* ParcerSortAddData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC25E5D17BE75CE00DD6870 /* ParcerSortAddData.m */; };
@@ -115,6 +116,8 @@
 		CE37E43617BE3348008D4CAA /* помощь.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "помощь.png"; sourceTree = "<group>"; };
 		CE37E43717BE3348008D4CAA /* сериая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "сериая кнопочка.jpg"; sourceTree = "<group>"; };
 		CE37E43817BE3348008D4CAA /* список.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "список.png"; sourceTree = "<group>"; };
+		CE69D1C617BF79D70033E4C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		CE90A2D417BCE4BC006933A8 /* VkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkViewController.h; sourceTree = "<group>"; };
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 		CE963C0E17BE0515003C4DF7 /* DescribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeViewController.h; sourceTree = "<group>"; };
@@ -269,6 +272,7 @@
 		C5F7B86D17B9E86D00FB6223 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CE69D1C517BF79C00033E4C2 /* Profile */,
 				CE963C0D17BE04C9003C4DF7 /* DescribeEvents */,
 				C5F7B86E17B9E88500FB6223 /* Core.h */,
 				C5F7B86F17B9E88500FB6223 /* Core.m */,
@@ -284,6 +288,15 @@
 				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		CE69D1C517BF79C00033E4C2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE69D1C617BF79D70033E4C2 /* ProfileViewController.h */,
+				CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		CE90A2D017BCE38F006933A8 /* ESI */ = {
@@ -483,6 +496,7 @@
 				CEC25E6917BE851600DD6870 /* NSDictionary_JSONExtensions.m in Sources */,
 				CEC25E6117BE84CA00DD6870 /* CJSONScanner.m in Sources */,
 				CEC25E5F17BE84B300DD6870 /* CJSONDeserializer.m in Sources */,
+				CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */,
 				CEC25E6017BE84B300DD6870 /* APIDownload.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
