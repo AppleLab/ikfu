@@ -12,6 +12,7 @@
 
 
 
+
 @end
 
 @implementation DescribeEvents
@@ -36,9 +37,9 @@
     array = [NSArray arrayWithObjects: @"Jan", @"Feb", @"March", @"April",
              @"May", @"June", @"July", @"Aug",@"Sep", @"Oct", @"Nov", @"Dec", nil];
     NSLog(@"count of array: %lu", (unsigned long)array.count);
-    _label1.text = @"Jan";
+    self.label1.text = @"Jan";
     indexOfMouth = 0;
-
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,14 +58,13 @@
     {
         indexOfMouth = 0;
     }
- 
+    
     _label1.text = [array objectAtIndex:indexOfMouth];
 }
 
 //event performed when PREV push
 - (IBAction)ActionPrev:(id)sender
 {
-    
     indexOfMouth--;
     if ([_label1.text isEqualToString: @"Jan"])
     {
@@ -73,4 +73,31 @@
     
     _label1.text = [array objectAtIndex:indexOfMouth];
 }
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    //#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    //#warning Incomplete method implementation.
+    // Return the number of rows in the section.
+    return 3;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    // Configure the cell...
+    
+    return cell;
+}
+
+
 @end

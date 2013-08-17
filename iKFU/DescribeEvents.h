@@ -15,6 +15,7 @@
 }
 - (IBAction)ActionNext:(id)sender;
 - (IBAction)ActionPrev:(id)sender;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UILabel *label1;
 
 
