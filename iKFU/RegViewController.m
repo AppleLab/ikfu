@@ -30,7 +30,8 @@
 	if([[NSUserDefaults standardUserDefaults]objectForKey:@"vk_token"] != nil){
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
-        [self presentModalViewController:yourViewController animated:YES];
+//        [self presentModalViewController:yourViewController animated:YES];
+        [self presentViewController:yourViewController animated: YES completion: nil];
     }
 }
 
