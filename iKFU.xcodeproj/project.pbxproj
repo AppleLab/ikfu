@@ -48,6 +48,8 @@
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE90F36517BF8245002E3494 /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90F36417BF7E2F002E3494 /* FbViewController.m */; };
 		CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */; };
+		CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */; };
+		CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697917C2281D00C1E7E6 /* UserInfo.m */; };
 		CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB186117BE688C001D75C1 /* DescribeEvents.m */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +116,10 @@
 		CE90F36417BF7E2F002E3494 /* FbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
 		CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
 		CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
+		CEB3697417C204AC00C1E7E6 /* UserDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataViewController.h; sourceTree = "<group>"; };
+		CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataViewController.m; sourceTree = "<group>"; };
+		CEB3697817C2281D00C1E7E6 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		CEB3697917C2281D00C1E7E6 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		CEDB186017BE688C001D75C1 /* DescribeEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEvents.h; sourceTree = "<group>"; };
 		CEDB186117BE688C001D75C1 /* DescribeEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -295,6 +301,10 @@
 			children = (
 				CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */,
 				CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */,
+				CEB3697417C204AC00C1E7E6 /* UserDataViewController.h */,
+				CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */,
+				CEB3697817C2281D00C1E7E6 /* UserInfo.h */,
+				CEB3697917C2281D00C1E7E6 /* UserInfo.m */,
 			);
 			name = Registr;
 			sourceTree = "<group>";
@@ -445,10 +455,12 @@
 				CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
+				CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */,
 				CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */,
 				CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				CE90F36517BF8245002E3494 /* FbViewController.m in Sources */,
+				CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
