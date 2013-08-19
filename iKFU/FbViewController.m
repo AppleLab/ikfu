@@ -74,16 +74,6 @@
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
         [self presentModalViewController:yourViewController animated:YES];
-        
-    }
-    else {
-        //Ну иначе сообщаем об ошибке...
-        textRange =[[currentURL lowercaseString] rangeOfString:[@"access_denied" lowercaseString]];
-        if (textRange.location != NSNotFound) {
-            UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Ooops! something gonna wrong..." message:@"Check your internet connection and try again!" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
-            [alert show];
-            [self closeWebView];
-        }
     }
 }
 
