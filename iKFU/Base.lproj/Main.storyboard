@@ -271,7 +271,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UB1-gd-dor" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-100" y="841"/>
+            <point key="canvasLocation" x="426" y="841"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="m5P-SS-N8p">
@@ -342,7 +342,7 @@
                                 <items>
                                     <barButtonItem title="Готово" width="298" id="OlJ-y8-tU2">
                                         <connections>
-                                            <segue destination="U1f-bE-Yvy" kind="push" id="qRk-GD-HdG"/>
+                                            <segue destination="g4y-aq-Xq5" kind="modal" id="qRk-GD-HdG"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -371,13 +371,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Lxj-pJ-3Kv">
-                                <rect key="frame" x="40" y="69" width="240" height="430"/>
+                                <rect key="frame" x="40" y="69" width="240" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qGP-Jy-RPB">
+                                <rect key="frame" x="144" y="332" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Проверка для организованных">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g4y-aq-Xq5" kind="modal" id="oc0-fz-lxM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -386,7 +397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AIg-f5-xkk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2948" y="1051"/>
+            <point key="canvasLocation" x="3474" y="1051"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="69m-Wp-zve">
@@ -421,7 +432,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="U1f-bE-Yvy" kind="push" id="NFR-y9-O3L"/>
+                                    <segue destination="g4y-aq-Xq5" kind="push" id="NFR-y9-O3L"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ydU-cc-4HX">
@@ -444,7 +455,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TDX-bV-V0i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1184" y="773"/>
+            <point key="canvasLocation" x="1710" y="773"/>
         </scene>
         <!--View Controller - Организовать мероприятие-->
         <scene sceneID="W4I-VF-0vS">
@@ -550,7 +561,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2I-zt-4gP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1692" y="603"/>
+            <point key="canvasLocation" x="2218" y="603"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YIi-9M-2CA">
@@ -614,7 +625,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JTt-gb-f5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2276" y="1103"/>
+            <point key="canvasLocation" x="2802" y="1103"/>
         </scene>
         <!--Describe Events-->
         <scene sceneID="Met-Fx-R5b">
@@ -1093,6 +1104,25 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2710" y="-1327"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d2a-HS-y4y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g4y-aq-Xq5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Qdr-Sv-YCL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="abm-W1-mtD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="U1f-bE-Yvy" kind="relationship" relationship="rootViewController" id="T2x-2h-gPa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZJM-S4-2Rt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="841"/>
+        </scene>
     </scenes>
     <resources>
         <image name="%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg" width="425" height="423"/>
@@ -1114,10 +1144,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Gpf-bH-0tX"/>
+        <segue reference="1By-67-vWr"/>
+        <segue reference="qRk-GD-HdG"/>
         <segue reference="m7z-Hz-vvK"/>
         <segue reference="f87-9G-uGu"/>
-        <segue reference="qRk-GD-HdG"/>
         <segue reference="SjC-DB-a7j"/>
     </inferredMetricsTieBreakers>
 </document>
