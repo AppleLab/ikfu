@@ -11,5 +11,6 @@
 @interface ProfileViewController : UITableViewController
 
 @property (nonatomic, retain) NSArray *userActions;
+- (IBAction)Exit:(id)sender;
 
 @end

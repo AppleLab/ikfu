@@ -17,8 +17,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Регистрация">
-                                    <color key="titleColor" red="0.047058828175067902" green="0.039215687662363052" blue="0.93333339691162109" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.050980396568775177" green="0.074509806931018829" blue="0.023529414087533951" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="sof-WT-sLW" kind="modal" id="UVI-5N-veg"/>
@@ -51,8 +51,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Продолжить без авторизации">
-                                    <color key="titleColor" red="0.047058828179999998" green="0.039215687659999998" blue="0.93333339689999995" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.035294119268655777" green="0.043137256056070328" blue="0.074509806931018829" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="UJf-nn-tSE" kind="modal" id="5ky-F4-dbr"/>
@@ -86,8 +86,8 @@
                                 <rect key="frame" x="199" y="295" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Войти" backgroundImage="зеленая кнопочка.jpg">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Войти">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.92941182851791382" green="0.97647064924240112" blue="0.9803922176361084" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Авторизация" id="cQy-Ej-bJf"/>
                 </viewController>
@@ -418,7 +418,7 @@
                                 <rect key="frame" x="228" y="399" width="72" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Счетчик" backgroundImage="желтая кнопочка.jpg">
+                                <state key="normal" title="Счетчик">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -427,7 +427,7 @@
                                 <rect key="frame" x="71" y="448" width="179" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Отменить мероприятие" backgroundImage="сериая кнопочка.jpg">
+                                <state key="normal" title="Отменить мероприятие">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -567,7 +567,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <scene sceneID="YIi-9M-2CA">
             <objects>
                 <viewController id="7lO-d0-U1y" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SMr-ue-Xrg">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="SMr-ue-Xrg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -663,6 +663,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <segue destination="vCr-2J-Aq1" kind="push" id="r38-PL-nmZ"/>
                                         </connections>
@@ -734,7 +735,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <rect key="frame" x="72" y="394" width="176" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Принять участие" backgroundImage="голубая копочка.jpg">
+                                <state key="normal" title="Принять участие">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -797,7 +798,14 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <outlet property="delegate" destination="1cd-Wm-dix" id="i7y-mH-JxP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="EHv-4s-p3A"/>
+                    <navigationItem key="navigationItem" id="EHv-4s-p3A">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="92D-za-Dby">
+                            <connections>
+                                <action selector="Exit:" destination="1cd-Wm-dix" id="Yua-yr-rO2"/>
+                                <segue destination="UJf-nn-tSE" kind="modal" id="fSg-K5-6KZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s1y-zU-dNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -911,7 +919,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" red="0.92941182850000004" green="0.97647064920000004" blue="0.98039221759999995" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Регистрация" id="EIN-Iw-StY">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="z4d-Yx-Nao"/>
@@ -982,7 +990,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Все мероприятия" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KTd-or-5Zk">
-                                                    <rect key="frame" x="80" y="39" width="161" height="21"/>
+                                                    <rect key="frame" x="20" y="39" width="161" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
@@ -1001,7 +1009,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Культурные мероприятия" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Ld-z6-QB0">
-                                                    <rect key="frame" x="55" y="39" width="210" height="21"/>
+                                                    <rect key="frame" x="20" y="39" width="210" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
@@ -1020,7 +1028,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Научные мероприятия" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YI4-yb-mfn">
-                                                    <rect key="frame" x="70" y="39" width="181" height="21"/>
+                                                    <rect key="frame" x="20" y="39" width="181" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
@@ -1039,7 +1047,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Спортивные мероприятия" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hlI-LF-ecr">
-                                                    <rect key="frame" x="47" y="39" width="211" height="21"/>
+                                                    <rect key="frame" x="20" y="39" width="211" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
@@ -1131,11 +1139,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <image name="%d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg" width="228.75" height="177"/>
         <image name="facebook_login.png" width="199" height="28"/>
         <image name="login_with_vkontakte.png" width="261" height="58"/>
-        <image name="голубая копочка.jpg" width="126.75" height="37.5"/>
         <image name="дом-1.png" width="30" height="30"/>
-        <image name="желтая кнопочка.jpg" width="124.5" height="35.25"/>
-        <image name="зеленая кнопочка.jpg" width="123" height="36"/>
-        <image name="сериая кнопочка.jpg" width="123.75" height="37.5"/>
         <image name="список.png" width="24.747421264648438" height="28.497030258178711"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -1144,10 +1148,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="1By-67-vWr"/>
-        <segue reference="qRk-GD-HdG"/>
-        <segue reference="m7z-Hz-vvK"/>
-        <segue reference="f87-9G-uGu"/>
+        <segue reference="lbU-gf-Ii0"/>
         <segue reference="SjC-DB-a7j"/>
+        <segue reference="m7z-Hz-vvK"/>
+        <segue reference="r38-PL-nmZ"/>
+        <segue reference="NFR-y9-O3L"/>
     </inferredMetricsTieBreakers>
 </document>

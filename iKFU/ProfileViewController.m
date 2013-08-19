@@ -121,4 +121,50 @@
 
  */
 
+- (IBAction)Exit:(id)sender {
+    
+   /* - (void) logout:(id) sender
+    {
+        NSLog(@"---Logout---");
+        
+        // Forge request and stablish connection.
+        NSString *urlString = [NSString stringWithFormat:@"%@?accessToken=%@&socialNetwork=%@&code=%d", M_URL_SESSION, accessToken, socialNetwork, M_CODE_DELETE];
+        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
+        NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+        
+        if (connection) {
+            NSLog(@"Logout sent");
+        } else {
+            NSLog(@"Error trying to send logout");
+        }
+        
+        [webViewController dismissModalViewControllerAnimated:YES];
+    }*/
+
+
+    /*-(void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+        // index 0 is the YesButton that is supposed to "log out" the user.
+        if (buttonIndex == 0)
+        {
+            myAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+            
+            [appDelegate userLogsOut];
+            
+            
+        }
+        else{
+            
+            NSLog(@"The user chose not to logout. Passing the user to the first tab");
+            
+            [[self myTabBarController] setSelectedIndex:0];
+            
+        }     
+    }
+    
+    -(void)userLogsOut{
+        
+        [self.window setRootViewController:myLoginViewController]
+        [self.window makeKeyAndVisible];
+    }*/
+}
 @end
