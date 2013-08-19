@@ -28,7 +28,7 @@
    if([[NSUserDefaults standardUserDefaults]objectForKey:@"vk_token"] == nil){
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"89"];
-        [self presentModalViewController:yourViewController animated:YES];
+        [self presentViewController:yourViewController animated:YES completion:nil];
     }
      // Uncomment the following line to preserve selection between presentations.
      // self.clearsSelectionOnViewWillAppear = NO;
