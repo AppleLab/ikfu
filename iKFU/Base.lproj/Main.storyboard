@@ -681,7 +681,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="432" y="-162"/>
         </scene>
-        <!--View Controller - Какое-то мероприятие-->
+        <!--View Controller-->
         <scene sceneID="11H-c0-3Gp">
             <objects>
                 <viewController id="vCr-2J-Aq1" customClass="ViewController" sceneMemberID="viewController">
@@ -715,7 +715,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Какое-то мероприятие" id="vyk-WE-Uog">
+                    <navigationItem key="navigationItem" id="vyk-WE-Uog">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="zGk-XD-lgN"/>
                     </navigationItem>
                     <connections>
