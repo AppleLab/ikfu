@@ -26,11 +26,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	/*if([[NSUserDefaults standardUserDefaults]objectForKey:@"vk_token"] != nil){
+    
+	if([[NSUserDefaults standardUserDefaults]objectForKey:@"vk_token"] != nil){
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
         [self presentModalViewController:yourViewController animated:YES];
-    }*/
+    }
 }
 
 - (void)didReceiveMemoryWarning
