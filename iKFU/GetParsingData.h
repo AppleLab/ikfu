@@ -1,3 +1,4 @@
+
 //
 //  ParcerSortAddData.h
 //  iKFU
@@ -7,13 +8,17 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "Core.h"
 
-@interface ParcerSortAddData : UITableViewController
+@interface GetParsingData : UITableViewController
 //<UITableViewDelegate, UITableViewDataSource>
 
 //@property (strong, nonatomic) IBOutlet UITableView *newsList;
-@property (strong, nonatomic) NSArray *news;
+@property (strong, nonatomic) NSMutableArray *news;
 
 
+
+@property (strong, nonatomic) NSArray* eventsType;
 
 @end
+

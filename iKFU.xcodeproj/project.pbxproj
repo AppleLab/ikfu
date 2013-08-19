@@ -45,11 +45,13 @@
 		CE37E44E17BE3348008D4CAA /* сериая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43717BE3348008D4CAA /* сериая кнопочка.jpg */; };
 		CE37E44F17BE3348008D4CAA /* список.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43817BE3348008D4CAA /* список.png */; };
 		CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */; };
+		CE74398A17C263E800A5B9A8 /* GetParsingData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74398917C263E800A5B9A8 /* GetParsingData.m */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE90F36517BF8245002E3494 /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90F36417BF7E2F002E3494 /* FbViewController.m */; };
 		CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */; };
 		CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */; };
 		CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697917C2281D00C1E7E6 /* UserInfo.m */; };
+		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
 		CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB186117BE688C001D75C1 /* DescribeEvents.m */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +112,8 @@
 		CE37E43817BE3348008D4CAA /* список.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "список.png"; sourceTree = "<group>"; };
 		CE69D1C617BF79D70033E4C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		CE74398817C263E800A5B9A8 /* GetParsingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetParsingData.h; sourceTree = "<group>"; };
+		CE74398917C263E800A5B9A8 /* GetParsingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetParsingData.m; sourceTree = "<group>"; };
 		CE90A2D417BCE4BC006933A8 /* VkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkViewController.h; sourceTree = "<group>"; };
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 		CE90F36317BF7E2F002E3494 /* FbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
@@ -312,24 +316,10 @@
 		CEA7ED2417BE50D10027C334 /* GetServer */ = {
 			isa = PBXGroup;
 			children = (
-				CEA7ED3117BE66C00027C334 /* TouchJSON */,
-				CEA7ED2E17BE66B10027C334 /* APIDownload */,
+				CE74398817C263E800A5B9A8 /* GetParsingData.h */,
+				CE74398917C263E800A5B9A8 /* GetParsingData.m */,
 			);
 			name = GetServer;
-			sourceTree = "<group>";
-		};
-		CEA7ED2E17BE66B10027C334 /* APIDownload */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APIDownload;
-			sourceTree = "<group>";
-		};
-		CEA7ED3117BE66C00027C334 /* TouchJSON */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TouchJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,10 +442,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECC3C2117C27D930029F876 /* Core.m in Sources */,
 				CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
 				CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */,
+				CE74398A17C263E800A5B9A8 /* GetParsingData.m in Sources */,
 				CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */,
 				CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,

@@ -11,6 +11,7 @@
 static Core* _core;
 
 @implementation Core
+@synthesize events;
 
 -(id) init
 {
