@@ -16,9 +16,19 @@
 //@property (strong, nonatomic) IBOutlet UITableView *newsList;
 @property (strong, nonatomic) NSMutableArray *news;
 
-
+@property NSArray* parsedData;
 
 @property (strong, nonatomic) NSArray* eventsType;
 
+-(NSMutableArray*) GetData:(id) key;
+
 @end
+
+typedef enum {
+    JPG,
+    PNG,
+    GIF,
+    PVR
+} kImageType;
+NSString * const kImageTypeArray[];
 

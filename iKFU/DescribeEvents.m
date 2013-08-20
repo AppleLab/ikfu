@@ -45,15 +45,13 @@
     self.label1.text = @"Jan";
     indexOfMouth = 0;
     
-    NSData * data =[[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://192.168.25.30:3000/events.json"]];
-    NSLog(@"dataaaaaaa %@",data);
-    NSArray* objects = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-    NSLog(@"json from data %@", objects);
-    for (int i=0; i<objects.count; i++) {
-        NSLog(@"%d-th content is %@", i, [[objects objectAtIndex:i] valueForKey:@"content"]);
+      
+    NSLog(@"2 core %@", [Core core].events);
+     //  NSLog(@"json from data %@", objects);
+    //for (int i=0; i<objects.count; i++) {
+    //    NSLog(@"%d-th content is %@", i, [[objects objectAtIndex:i] valueForKey:@"content"]);
     }
     
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -99,11 +97,13 @@
 {
     //#warning Incomplete method implementation.
     // Return the number of rows in the section.
+    
     return [Core core].events.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     

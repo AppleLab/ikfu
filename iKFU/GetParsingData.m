@@ -22,7 +22,10 @@
 //@synthesize newsList;
 @synthesize news;
 @synthesize eventsType;
- 
+@synthesize parsedData;
+
+
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -37,6 +40,14 @@
 {
     [super viewDidLoad];
     
+    
+    NSString * const kImageTypeArray[] = {
+        @"JPEG",
+        @"PNG",
+        @"GIF",
+        @"PowerVR"
+    };
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -44,14 +55,27 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     eventsType = [[NSArray alloc]initWithObjects:@"All",@"Sport",@"Culture",@"Scientific", nil];
 
-    NSData * data =[[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://192.168.25.30:3000/events.json"]];
-    NSLog(@"dataaaaaaa %@",data);
-    NSArray* objects = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    @try {
+        NSData * data =[[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://192.168.25.30:3000/events.json"]];
+        NSLog(@"dataaaaaaa %@",data);
+        NSArray* objects = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+        [Core core].events = objects;
+        NSLog(@"Core data %@", [Core core].events);
+    }
+    @catch (NSException *exception)
+    {
+        NSLog(@"I got a trooble with my server!!!!");
+    }
+
+    
+//    NSData * data =[[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://192.168.25.30:3000/events.json"]];
+//    NSLog(@"dataaaaaaa %@",data);
+//    parsedData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
     //NSLog(@"json from data %@", objects);
    // for (int i=0; i<objects.count; i++) {
     //    NSLog(@"%d-th content is %@", i, [[objects objectAtIndex:i] valueForKey:@"content"]);
    // }
-    [Core core].events = objects;
+    //[Core core].events = parsedData;
     
 }
 - (void)didReceiveMemoryWarning{
@@ -101,6 +125,24 @@
     return cell;
 }
 
+
+
+-(NSMutableArray*) GetData:(kImageType) key
+{
+//    NSDictionary *story = [news objectAtIndex:indexPath.row];
+//    cell.textLabel.text = [story objectForKey:@"title"];
+//    cell.detailTextLabel.text = [story objectForKey:@"date"];
+    
+    
+    NSMutableArray* sortedData = [NSMutableArray array];
+    for (int i=0; i < [Core core].events.count; i++)
+    {
+        [sortedData addObject:[[[Core core].events objectAtIndex:i] valueForKey:kImageTypeArray[key]]];
+    }
+    
+    NSLog(@"i am here");
+    return sortedData;
+}
 /*
  // Override to support conditional editing of the table view.
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

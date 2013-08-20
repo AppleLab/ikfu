@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 //#import "Core.h"
 
-@interface DescribeEvents : UIViewController
+@interface DescribeEvents : UIViewController <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray* array;
     int indexOfMouth;
