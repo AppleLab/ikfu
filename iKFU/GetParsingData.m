@@ -81,11 +81,6 @@
     return 1;
 }
 
-- (void)viewDidUnload //iz
-{
-    [super viewDidUnload];
-    //self.newsList = nil;
-}
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
