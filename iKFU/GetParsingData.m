@@ -19,7 +19,6 @@
 @end
 
 @implementation GetParsingData
-//@synthesize newsList;
 @synthesize news;
 @synthesize eventsType;
 @synthesize parsedData;
@@ -68,15 +67,6 @@
     }
 
     
-//    NSData * data =[[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://192.168.25.30:3000/events.json"]];
-//    NSLog(@"dataaaaaaa %@",data);
-//    parsedData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-    //NSLog(@"json from data %@", objects);
-   // for (int i=0; i<objects.count; i++) {
-    //    NSLog(@"%d-th content is %@", i, [[objects objectAtIndex:i] valueForKey:@"content"]);
-   // }
-    //[Core core].events = parsedData;
-    
 }
 - (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
@@ -115,10 +105,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle
                                       reuseIdentifier:CellIdentifier];
     }
-    
-   // NSDictionary *story = [news objectAtIndex:indexPath.row];
-   // cell.textLabel.text = [story objectForKey:@"title"];
-    //cell.detailTextLabel.text = [story objectForKey:@"date"];
+   
     cell.textLabel.text = [eventsType objectAtIndex:indexPath.row];
     
     
@@ -129,10 +116,6 @@
 
 -(NSMutableArray*) GetData:(kImageType) key
 {
-//    NSDictionary *story = [news objectAtIndex:indexPath.row];
-//    cell.textLabel.text = [story objectForKey:@"title"];
-//    cell.detailTextLabel.text = [story objectForKey:@"date"];
-    
     
     NSMutableArray* sortedData = [NSMutableArray array];
     for (int i=0; i < [Core core].events.count; i++)
@@ -189,7 +172,6 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
-   // [APIDownload downloadWithURL:@"http://192.168.25.30:3000/events.json" delegate:self]; //iz
    
     DescribeEvents *vc = [[DescribeEvents alloc] init];
     vc = [segue destinationViewController];

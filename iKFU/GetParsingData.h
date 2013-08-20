@@ -11,9 +11,8 @@
 //#import "Core.h"
 
 @interface GetParsingData : UITableViewController
-//<UITableViewDelegate, UITableViewDataSource>
 
-//@property (strong, nonatomic) IBOutlet UITableView *newsList;
+
 @property (strong, nonatomic) NSMutableArray *news;
 
 @property NSArray* parsedData;
