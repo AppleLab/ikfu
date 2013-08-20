@@ -63,7 +63,8 @@
         us.email = email;
         us.password = pas1;
         [marray addObject:us];
-        [marray writeToFile:@"t59ny.txt" atomically:(YES)];
+         NSString *filePath = [DOCUMENTS stringByAppendingPathComponent:@"login.plist"];
+        [marray writeToFile:filePath atomically:(YES)];
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController *yourViewController = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
         [self presentModalViewController:yourViewController animated:YES];
