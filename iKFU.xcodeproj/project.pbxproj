@@ -87,6 +87,7 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		CE25015D17C352690043A23C /* login.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = login.plist; sourceTree = "<group>"; };
 		CE37E42217BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg"; sourceTree = "<group>"; };
 		CE37E42317BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg"; sourceTree = "<group>"; };
 		CE37E42417BE3348008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg"; sourceTree = "<group>"; };
@@ -226,6 +227,7 @@
 				C5F7B84117B9E84E00FB6223 /* InfoPlist.strings */,
 				C5F7B84417B9E84E00FB6223 /* main.m */,
 				C5F7B84617B9E84E00FB6223 /* iKFU-Prefix.pch */,
+				CE25015D17C352690043A23C /* login.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
