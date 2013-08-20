@@ -13,4 +13,8 @@
 +(Core*) core;
 
 @property (atomic, strong) NSArray* events;
+@property NSDate* date;
+@property NSDate* time;
+
+
 @end

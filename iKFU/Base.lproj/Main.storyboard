@@ -273,10 +273,10 @@
             </objects>
             <point key="canvasLocation" x="426" y="841"/>
         </scene>
-        <!--View Controller-->
+        <!--Names Email Tel Controller-->
         <scene sceneID="m5P-SS-N8p">
             <objects>
-                <viewController id="Del-Cq-MFI" sceneMemberID="viewController">
+                <viewController id="Del-Cq-MFI" customClass="NamesEmailTelController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RB8-Eh-Jkp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -342,7 +342,7 @@
                                 <items>
                                     <barButtonItem title="Готово" width="298" id="OlJ-y8-tU2">
                                         <connections>
-                                            <segue destination="g4y-aq-Xq5" kind="modal" id="qRk-GD-HdG"/>
+                                            <segue destination="U1f-bE-Yvy" kind="modal" id="9Qf-K0-GmT"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -351,10 +351,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="diu-AI-IrK"/>
+                    <connections>
+                        <outlet property="Email" destination="DWa-Zv-dox" id="qeF-wC-jfd"/>
+                        <outlet property="LastName" destination="77P-Bc-CpH" id="kga-1V-9ti"/>
+                        <outlet property="Name" destination="qu8-Pm-Kpj" id="ybJ-aE-5Bt"/>
+                        <outlet property="Telephone" destination="lcH-9x-33n" id="TJE-nA-0ZV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YgR-W9-Ial" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="975" y="1677"/>
+            <point key="canvasLocation" x="882" y="1510"/>
         </scene>
         <!--View Controller - Справка-->
         <scene sceneID="ue7-tm-90Y">
@@ -457,10 +463,10 @@
             </objects>
             <point key="canvasLocation" x="1710" y="773"/>
         </scene>
-        <!--View Controller - Организовать мероприятие-->
+        <!--Data Picker View Controller - Организовать мероприятие-->
         <scene sceneID="W4I-VF-0vS">
             <objects>
-                <viewController id="MAu-Ah-Vmr" sceneMemberID="viewController">
+                <viewController id="MAu-Ah-Vmr" customClass="DataPickerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FgG-Bl-cBa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -558,15 +564,19 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     <navigationItem key="navigationItem" title="Организовать мероприятие" id="LtR-nH-WXT">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="tZG-j0-e3j"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="datePicker1" destination="W1n-sJ-MSM" id="nsG-SJ-cwQ"/>
+                        <outlet property="datePicker2" destination="4aM-X8-d6j" id="6zP-TP-SxJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2I-zt-4gP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2218" y="603"/>
         </scene>
-        <!--View Controller-->
+        <!--Name Title Describe View Controller-->
         <scene sceneID="YIi-9M-2CA">
             <objects>
-                <viewController id="7lO-d0-U1y" sceneMemberID="viewController">
+                <viewController id="7lO-d0-U1y" customClass="NameTitleDescribeViewController" sceneMemberID="viewController">
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="SMr-ue-Xrg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -602,7 +612,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="dgC-cz-5MW">
-                                <rect key="frame" x="105" y="184" width="195" height="30"/>
+                                <rect key="frame" x="104" y="184" width="195" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -622,6 +632,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="KfM-LQ-3f4"/>
+                    <connections>
+                        <outlet property="describeTextBox" destination="dgC-cz-5MW" id="l3N-mJ-Gkf"/>
+                        <outlet property="nameTextBox" destination="SVX-o3-BLM" id="A5B-f7-rjF"/>
+                        <outlet property="themeTextBox" destination="DJo-wR-6wN" id="Fpd-S3-bBa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JTt-gb-f5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1062,9 +1077,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="1By-67-vWr"/>
-        <segue reference="qRk-GD-HdG"/>
-        <segue reference="r38-PL-nmZ"/>
         <segue reference="SjC-DB-a7j"/>
+        <segue reference="oc0-fz-lxM"/>
+        <segue reference="1By-67-vWr"/>
+        <segue reference="9Qf-K0-GmT"/>
+        <segue reference="r38-PL-nmZ"/>
     </inferredMetricsTieBreakers>
 </document>
