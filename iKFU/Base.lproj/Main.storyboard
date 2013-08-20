@@ -673,7 +673,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Q5-s9-pe1">
-                                <rect key="frame" x="256" y="65" width="44" height="30"/>
+                                <rect key="frame" x="256" y="69" width="44" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Next" backgroundImage="шаблон средняя.png">
@@ -691,7 +691,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kOS-gY-sEv">
-                                <rect key="frame" x="20" y="65" width="61" height="30"/>
+                                <rect key="frame" x="20" y="69" width="61" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Previous" backgroundImage="шаблон средняя.png">
@@ -1167,9 +1167,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="oc0-fz-lxM"/>
-        <segue reference="lbU-gf-Ii0"/>
-        <segue reference="CPM-KU-sYM"/>
+        <segue reference="fSg-K5-6KZ"/>
         <segue reference="m7z-Hz-vvK"/>
         <segue reference="r38-PL-nmZ"/>
+        <segue reference="CPM-KU-sYM"/>
     </inferredMetricsTieBreakers>
 </document>
