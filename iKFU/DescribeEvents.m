@@ -8,6 +8,7 @@
 
 #import "DescribeEvents.h"
 #import "ViewController.h"
+#import "Core.h"
 
 @interface DescribeEvents ()
 
@@ -19,6 +20,7 @@
 
 @implementation DescribeEvents
 @synthesize events;
+@synthesize getData;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -34,14 +36,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    array= [[NSArray alloc] init];
+
+    
+    array = [[NSArray alloc] init];
     array = [NSArray arrayWithObjects: @"Jan", @"Feb", @"March", @"April",
              @"May", @"June", @"July", @"Aug",@"Sep", @"Oct", @"Nov", @"Dec", nil];
     NSLog(@"count of array: %lu", (unsigned long)array.count);
     self.label1.text = @"Jan";
     indexOfMouth = 0;
     
-}
+      
+    NSLog(@"2 core %@", [Core core].events);
+     //  NSLog(@"json from data %@", objects);
+    //for (int i=0; i<objects.count; i++) {
+    //    NSLog(@"%d-th content is %@", i, [[objects objectAtIndex:i] valueForKey:@"content"]);
+    }
+    
 
 - (void)didReceiveMemoryWarning
 {
@@ -87,15 +97,32 @@
 {
     //#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 3;
+    
+    return [Core core].events.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+    // Configure the cell... UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle
+                                      reuseIdentifier:CellIdentifier];
+    }
+    
+    // NSDictionary *story = [news objectAtIndex:indexPath.row];
+    // cell.textLabel.text = [story objectForKey:@"title"];
+    //cell.detailTextLabel.text = [story objectForKey:@"date"];
+    NSLog(@"getdata %@",getData);
+    
+    
+    
+    cell.textLabel.text = [[[Core core].events objectAtIndex:indexPath.row] valueForKey:@"content"];
+
+    
     
     return cell;
 }
@@ -104,6 +131,9 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+
+    
     ViewController *vc = [[ViewController alloc] init];
     vc = [segue destinationViewController];
     NSIndexPath *path = [self.tv indexPathForSelectedRow];

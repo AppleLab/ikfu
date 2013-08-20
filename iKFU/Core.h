@@ -12,4 +12,5 @@
 
 +(Core*) core;
 
+@property (atomic, strong) NSArray* events;
 @end

@@ -7,17 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "Core.h"
 
-@interface DescribeEvents : UIViewController
+@interface DescribeEvents : UIViewController <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray* array;
     int indexOfMouth;
     NSArray *events;
+    
 }
 - (IBAction)ActionNext:(id)sender;
 - (IBAction)ActionPrev:(id)sender;
 @property (weak, nonatomic) IBOutlet UITableView *tv;
 @property (weak, nonatomic) IBOutlet UILabel *label1;
-@property (nonatomic, retain) NSArray *events;
+@property (strong, nonatomic) NSArray *events;
+@property (strong, nonatomic) NSMutableArray* getData;
 
 @end

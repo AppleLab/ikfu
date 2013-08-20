@@ -675,8 +675,8 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="kwD-O1-a0s" id="5Kz-IX-6Fs"/>
-                                    <outlet property="delegate" destination="kwD-O1-a0s" id="fxJ-lq-cPH"/>
+                                    <outlet property="dataSource" destination="kwD-O1-a0s" id="Uxm-OZ-KEL"/>
+                                    <outlet property="delegate" destination="kwD-O1-a0s" id="SFI-88-xNK"/>
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Q5-s9-pe1">
@@ -877,10 +877,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="3812" y="-492"/>
         </scene>
-        <!--View Controller - Регистрация-->
+        <!--User Data View Controller - Регистрация-->
         <scene sceneID="3CF-8U-5y2">
             <objects>
-                <viewController id="sof-WT-sLW" sceneMemberID="viewController">
+                <viewController id="sof-WT-sLW" customClass="UserDataViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mli-9K-s19">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -913,7 +913,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <items>
                                     <barButtonItem title="Готово" width="298" id="Hht-Wq-3m3">
                                         <connections>
-                                            <segue destination="UJf-nn-tSE" kind="modal" id="Pvk-cv-76U"/>
+                                            <action selector="button:" destination="sof-WT-sLW" id="hU0-Mu-GPm"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -943,6 +943,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     <navigationItem key="navigationItem" title="Регистрация" id="EIN-Iw-StY">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="z4d-Yx-Nao"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="emailTextField" destination="Np8-zM-ndw" id="7TH-Wa-rl6"/>
+                        <outlet property="password1TextField" destination="14T-ml-np8" id="d0P-V3-N3S"/>
+                        <outlet property="password2TextField" destination="svq-aT-UEi" id="f1g-vj-uqv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oul-4M-sau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -971,11 +976,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="1430" y="-1374"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Get Parsing Data-->
         <scene sceneID="PQO-qd-2mC">
             <objects>
-                <tableViewController storyboardIdentifier="73" id="Hlu-Kw-hHe" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="eWJ-MC-mJw">
+                <tableViewController id="Hlu-Kw-hHe" customClass="GetParsingData" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="eWJ-MC-mJw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
