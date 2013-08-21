@@ -31,21 +31,14 @@
 		CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30A17C37F4B009C473C /* шаблон маленькая.png */; };
 		CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30B17C37F4B009C473C /* шаблон средняя.png */; };
 		CE90F36517BF8245002E3494 /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90F36417BF7E2F002E3494 /* FbViewController.m */; };
-<<<<<<< HEAD
-		CE93D01D17C39E8C00AAD436 /* NamesEmailTelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93D01C17C39E8C00AAD436 /* NamesEmailTelController.m */; };
-=======
 		CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFB17C493F4000E3190 /* добавить плюсик.png */; };
 		CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */; };
 		CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */; };
 		CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */; };
->>>>>>> 2a8036bbe5b3f667de90bb4ffe1ebce6714fae07
 		CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */; };
 		CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */; };
 		CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697917C2281D00C1E7E6 /* UserInfo.m */; };
 		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
-		CED6E89717C3709200AEBB82 /* DataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6E89617C3709200AEBB82 /* DataPickerViewController.m */; };
-		CED6E89D17C385AA00AEBB82 /* NameTitleDescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6E89C17C385AA00AEBB82 /* NameTitleDescribeViewController.m */; };
-		CED6E8A017C3867600AEBB82 /* AnEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6E89F17C3867600AEBB82 /* AnEvent.m */; };
 		CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB186117BE688C001D75C1 /* DescribeEvents.m */; };
 /* End PBXBuildFile section */
 
@@ -95,27 +88,16 @@
 		CE90C30B17C37F4B009C473C /* шаблон средняя.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон средняя.png"; sourceTree = "<group>"; };
 		CE90F36317BF7E2F002E3494 /* FbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
 		CE90F36417BF7E2F002E3494 /* FbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		CE93D01B17C39E8C00AAD436 /* NamesEmailTelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamesEmailTelController.h; sourceTree = "<group>"; };
-		CE93D01C17C39E8C00AAD436 /* NamesEmailTelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamesEmailTelController.m; sourceTree = "<group>"; };
-=======
 		CE942FFB17C493F4000E3190 /* добавить плюсик.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "добавить плюсик.png"; sourceTree = "<group>"; };
 		CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ожидание формат (должна быть 106 пикс в длину).png"; sourceTree = "<group>"; };
 		CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "отказ крестик формат 106пикс в длину.png"; sourceTree = "<group>"; };
 		CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "разрешено галочка формат 160х40.png"; sourceTree = "<group>"; };
->>>>>>> 2a8036bbe5b3f667de90bb4ffe1ebce6714fae07
 		CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
 		CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
 		CEB3697417C204AC00C1E7E6 /* UserDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataViewController.h; sourceTree = "<group>"; };
 		CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataViewController.m; sourceTree = "<group>"; };
 		CEB3697817C2281D00C1E7E6 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		CEB3697917C2281D00C1E7E6 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
-		CED6E89517C3709200AEBB82 /* DataPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPickerViewController.h; sourceTree = "<group>"; };
-		CED6E89617C3709200AEBB82 /* DataPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPickerViewController.m; sourceTree = "<group>"; };
-		CED6E89B17C385AA00AEBB82 /* NameTitleDescribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameTitleDescribeViewController.h; sourceTree = "<group>"; };
-		CED6E89C17C385AA00AEBB82 /* NameTitleDescribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTitleDescribeViewController.m; sourceTree = "<group>"; };
-		CED6E89E17C3867600AEBB82 /* AnEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnEvent.h; sourceTree = "<group>"; };
-		CED6E89F17C3867600AEBB82 /* AnEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnEvent.m; sourceTree = "<group>"; };
 		CEDB186017BE688C001D75C1 /* DescribeEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEvents.h; sourceTree = "<group>"; };
 		CEDB186117BE688C001D75C1 /* DescribeEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,7 +212,6 @@
 		C5F7B86D17B9E86D00FB6223 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CED6E89917C383C500AEBB82 /* CreateNewEvent */,
 				CE9B7E6017BFB52A00B8CDA4 /* Registr */,
 				CE69D1C517BF79C00033E4C2 /* Profile */,
 				CE963C0D17BE04C9003C4DF7 /* DescribeEvents */,
@@ -271,15 +252,6 @@
 			name = ESI;
 			sourceTree = "<group>";
 		};
-		CE93D01A17C39B3500AAD436 /* NamesEmailTel */ = {
-			isa = PBXGroup;
-			children = (
-				CE93D01B17C39E8C00AAD436 /* NamesEmailTelController.h */,
-				CE93D01C17C39E8C00AAD436 /* NamesEmailTelController.m */,
-			);
-			name = NamesEmailTel;
-			sourceTree = "<group>";
-		};
 		CE963C0D17BE04C9003C4DF7 /* DescribeEvents */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,36 +281,6 @@
 				CE74398917C263E800A5B9A8 /* GetParsingData.m */,
 			);
 			name = GetServer;
-			sourceTree = "<group>";
-		};
-		CED6E89417C3706900AEBB82 /* DataPicker */ = {
-			isa = PBXGroup;
-			children = (
-				CED6E89517C3709200AEBB82 /* DataPickerViewController.h */,
-				CED6E89617C3709200AEBB82 /* DataPickerViewController.m */,
-			);
-			name = DataPicker;
-			sourceTree = "<group>";
-		};
-		CED6E89917C383C500AEBB82 /* CreateNewEvent */ = {
-			isa = PBXGroup;
-			children = (
-				CE93D01A17C39B3500AAD436 /* NamesEmailTel */,
-				CED6E89A17C3852F00AEBB82 /* AddNameTitleDescribe */,
-				CED6E89417C3706900AEBB82 /* DataPicker */,
-				CED6E89E17C3867600AEBB82 /* AnEvent.h */,
-				CED6E89F17C3867600AEBB82 /* AnEvent.m */,
-			);
-			name = CreateNewEvent;
-			sourceTree = "<group>";
-		};
-		CED6E89A17C3852F00AEBB82 /* AddNameTitleDescribe */ = {
-			isa = PBXGroup;
-			children = (
-				CED6E89B17C385AA00AEBB82 /* NameTitleDescribeViewController.h */,
-				CED6E89C17C385AA00AEBB82 /* NameTitleDescribeViewController.m */,
-			);
-			name = AddNameTitleDescribe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED6E8A017C3867600AEBB82 /* AnEvent.m in Sources */,
 				CECC3C2117C27D930029F876 /* Core.m in Sources */,
 				CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
@@ -457,13 +398,10 @@
 				CE74398A17C263E800A5B9A8 /* GetParsingData.m in Sources */,
 				CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */,
 				CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */,
-				CE93D01D17C39E8C00AAD436 /* NamesEmailTelController.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				CE90F36517BF8245002E3494 /* FbViewController.m in Sources */,
-				CED6E89717C3709200AEBB82 /* DataPickerViewController.m in Sources */,
 				CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
-				CED6E89D17C385AA00AEBB82 /* NameTitleDescribeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
