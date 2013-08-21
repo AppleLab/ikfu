@@ -31,6 +31,10 @@
 		CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30A17C37F4B009C473C /* шаблон маленькая.png */; };
 		CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30B17C37F4B009C473C /* шаблон средняя.png */; };
 		CE90F36517BF8245002E3494 /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90F36417BF7E2F002E3494 /* FbViewController.m */; };
+		CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFB17C493F4000E3190 /* добавить плюсик.png */; };
+		CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */; };
+		CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */; };
+		CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */; };
 		CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */; };
 		CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */; };
 		CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697917C2281D00C1E7E6 /* UserInfo.m */; };
@@ -84,6 +88,10 @@
 		CE90C30B17C37F4B009C473C /* шаблон средняя.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон средняя.png"; sourceTree = "<group>"; };
 		CE90F36317BF7E2F002E3494 /* FbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
 		CE90F36417BF7E2F002E3494 /* FbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
+		CE942FFB17C493F4000E3190 /* добавить плюсик.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "добавить плюсик.png"; sourceTree = "<group>"; };
+		CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ожидание формат (должна быть 106 пикс в длину).png"; sourceTree = "<group>"; };
+		CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "отказ крестик формат 106пикс в длину.png"; sourceTree = "<group>"; };
+		CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "разрешено галочка формат 160х40.png"; sourceTree = "<group>"; };
 		CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
 		CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
 		CEB3697417C204AC00C1E7E6 /* UserDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataViewController.h; sourceTree = "<group>"; };
@@ -165,6 +173,10 @@
 		C5F7B83F17B9E84E00FB6223 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE942FFB17C493F4000E3190 /* добавить плюсик.png */,
+				CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */,
+				CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */,
+				CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */,
 				CE90C30917C37F4B009C473C /* шаблон большая.png */,
 				CE90C30A17C37F4B009C473C /* шаблон маленькая.png */,
 				CE90C30B17C37F4B009C473C /* шаблон средняя.png */,
@@ -175,7 +187,6 @@
 				C5F7B84117B9E84E00FB6223 /* InfoPlist.strings */,
 				C5F7B84417B9E84E00FB6223 /* main.m */,
 				C5F7B84617B9E84E00FB6223 /* iKFU-Prefix.pch */,
-				CE25015D17C352690043A23C /* login.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -350,12 +361,16 @@
 			files = (
 				CE90C2FA17C37DD3009C473C /* фон.png in Resources */,
 				C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */,
+				CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */,
 				CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */,
 				C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */,
 				CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */,
+				CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */,
 				CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */,
 				CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */,
+				CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */,
 				CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */,
+				CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */,
 				C5F7B84C17B9E84E00FB6223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
