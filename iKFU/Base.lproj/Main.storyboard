@@ -259,7 +259,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UJf-nn-tSE" kind="push" id="1By-67-vWr"/>
+                                    <segue destination="FS2-ug-i74" kind="modal" id="MQQ-Z2-dM6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -342,7 +342,7 @@
                                 <items>
                                     <barButtonItem title="Готово" width="298" id="OlJ-y8-tU2">
                                         <connections>
-                                            <segue destination="U1f-bE-Yvy" kind="modal" id="9Qf-K0-GmT"/>
+                                            <segue destination="g4y-aq-Xq5" kind="modal" id="poH-5P-0qG"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -353,8 +353,8 @@
                     <navigationItem key="navigationItem" id="diu-AI-IrK"/>
                     <connections>
                         <outlet property="Email" destination="DWa-Zv-dox" id="qeF-wC-jfd"/>
+                        <outlet property="FirstName" destination="qu8-Pm-Kpj" id="krI-9d-mDT"/>
                         <outlet property="LastName" destination="77P-Bc-CpH" id="kga-1V-9ti"/>
-                        <outlet property="Name" destination="qu8-Pm-Kpj" id="ybJ-aE-5Bt"/>
                         <outlet property="Telephone" destination="lcH-9x-33n" id="TJE-nA-0ZV"/>
                     </connections>
                 </viewController>
@@ -780,11 +780,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <tableViewController id="1cd-Wm-dix" customClass="ProfileViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="124" sectionHeaderHeight="22" sectionFooterHeight="22" id="l4m-CN-fpi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LPL-2X-cCh">
-                            <rect key="frame" x="0.0" y="210" width="320" height="83"/>
+                            <rect key="frame" x="0.0" y="146" width="320" height="83"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" title="Выход из аккаунта">
@@ -796,7 +796,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </button>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="124" id="GTF-go-wRD">
-                                <rect key="frame" x="0.0" y="86" width="320" height="124"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="124"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GTF-go-wRD" id="CSJ-oL-XHd">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="123"/>
@@ -831,12 +831,12 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <tableViewController id="pdv-as-RYo" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="MOA-SR-DuE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="GVb-Ya-SfQ" detailTextLabel="QXF-mm-JqG" rowHeight="100" style="IBUITableViewCellStyleValue1" id="BCr-kK-bwv">
-                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BCr-kK-bwv" id="mKL-Ly-CoY">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="99"/>
@@ -1078,9 +1078,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="SjC-DB-a7j"/>
-        <segue reference="oc0-fz-lxM"/>
-        <segue reference="1By-67-vWr"/>
-        <segue reference="9Qf-K0-GmT"/>
+        <segue reference="poH-5P-0qG"/>
+        <segue reference="MQQ-Z2-dM6"/>
+        <segue reference="fSg-K5-6KZ"/>
         <segue reference="r38-PL-nmZ"/>
     </inferredMetricsTieBreakers>
 </document>

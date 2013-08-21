@@ -10,7 +10,7 @@
 
 @interface NamesEmailTelController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *LastName;
-@property (weak, nonatomic) IBOutlet UITextField *Name;
+@property (weak, nonatomic) IBOutlet UITextField *FirstName;
 @property (weak, nonatomic) IBOutlet UITextField *Email;
 @property (weak, nonatomic) IBOutlet UITextField *Telephone;
 

@@ -15,7 +15,7 @@
 
 @implementation NamesEmailTelController
 @synthesize LastName;
-@synthesize Name;
+@synthesize FirstName;
 @synthesize Email;
 @synthesize Telephone;
 
@@ -50,7 +50,7 @@
 {
     
     [AnEvent event].LastName = LastName.text;
-    [AnEvent event].Name = Name.text;
+    [AnEvent event].FirstName = FirstName.text;
     [AnEvent event].Email = Email.text;
     [AnEvent event].Telephone = Telephone.text;
     
