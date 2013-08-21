@@ -21,34 +21,24 @@
 		C5F7B85A17B9E84E00FB6223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F7B83C17B9E84E00FB6223 /* UIKit.framework */; };
 		C5F7B86217B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B86417B9E84E00FB6223 /* iKFUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86317B9E84E00FB6223 /* iKFUTests.m */; };
-		CE37E43917BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42217BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg */; };
-		CE37E43A17BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42317BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg */; };
-		CE37E43B17BE3348008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42417BE3348008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg */; };
-		CE37E43C17BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42517BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg */; };
-		CE37E43D17BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42617BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f.jpg */; };
-		CE37E43E17BE3348008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42717BE3348008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg */; };
-		CE37E43F17BE3348008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42817BE3348008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg */; };
-		CE37E44017BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42917BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */; };
-		CE37E44117BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42A17BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b.jpg */; };
-		CE37E44217BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42B17BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0-1.jpg */; };
-		CE37E44317BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42C17BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0.jpg */; };
 		CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42D17BE3348008D4CAA /* facebook_login.png */; };
 		CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */; };
-		CE37E44617BE3348008D4CAA /* голубая копочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42F17BE3348008D4CAA /* голубая копочка.jpg */; };
-		CE37E44717BE3348008D4CAA /* дом-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43017BE3348008D4CAA /* дом-1.png */; };
-		CE37E44817BE3348008D4CAA /* дом.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43117BE3348008D4CAA /* дом.jpg */; };
-		CE37E44917BE3348008D4CAA /* дом.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43217BE3348008D4CAA /* дом.png */; };
-		CE37E44A17BE3348008D4CAA /* желтая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43317BE3348008D4CAA /* желтая кнопочка.jpg */; };
-		CE37E44B17BE3348008D4CAA /* зеленая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43417BE3348008D4CAA /* зеленая кнопочка.jpg */; };
-		CE37E44C17BE3348008D4CAA /* красная кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43517BE3348008D4CAA /* красная кнопочка.jpg */; };
-		CE37E44D17BE3348008D4CAA /* помощь.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43617BE3348008D4CAA /* помощь.png */; };
-		CE37E44E17BE3348008D4CAA /* сериая кнопочка.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43717BE3348008D4CAA /* сериая кнопочка.jpg */; };
-		CE37E44F17BE3348008D4CAA /* список.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E43817BE3348008D4CAA /* список.png */; };
 		CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */; };
 		CE74398A17C263E800A5B9A8 /* GetParsingData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74398917C263E800A5B9A8 /* GetParsingData.m */; };
 		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
+		CE90C2FA17C37DD3009C473C /* фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C2F917C37DD3009C473C /* фон.png */; };
+		CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30917C37F4B009C473C /* шаблон большая.png */; };
+		CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30A17C37F4B009C473C /* шаблон маленькая.png */; };
+		CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30B17C37F4B009C473C /* шаблон средняя.png */; };
 		CE90F36517BF8245002E3494 /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90F36417BF7E2F002E3494 /* FbViewController.m */; };
+<<<<<<< HEAD
 		CE93D01D17C39E8C00AAD436 /* NamesEmailTelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93D01C17C39E8C00AAD436 /* NamesEmailTelController.m */; };
+=======
+		CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFB17C493F4000E3190 /* добавить плюсик.png */; };
+		CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */; };
+		CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */; };
+		CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */; };
+>>>>>>> 2a8036bbe5b3f667de90bb4ffe1ebce6714fae07
 		CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */; };
 		CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */; };
 		CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697917C2281D00C1E7E6 /* UserInfo.m */; };
@@ -91,40 +81,29 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
-		CE25015D17C352690043A23C /* login.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = login.plist; sourceTree = "<group>"; };
-		CE37E42217BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg"; sourceTree = "<group>"; };
-		CE37E42317BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg"; sourceTree = "<group>"; };
-		CE37E42417BE3348008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg"; sourceTree = "<group>"; };
-		CE37E42517BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg"; sourceTree = "<group>"; };
-		CE37E42617BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f.jpg"; sourceTree = "<group>"; };
-		CE37E42717BE3348008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg"; sourceTree = "<group>"; };
-		CE37E42817BE3348008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg"; sourceTree = "<group>"; };
-		CE37E42917BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg"; sourceTree = "<group>"; };
-		CE37E42A17BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b.jpg"; sourceTree = "<group>"; };
-		CE37E42B17BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0-1.jpg"; sourceTree = "<group>"; };
-		CE37E42C17BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "%d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0.jpg"; sourceTree = "<group>"; };
 		CE37E42D17BE3348008D4CAA /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_login.png; sourceTree = "<group>"; };
 		CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_vkontakte.png; sourceTree = "<group>"; };
-		CE37E42F17BE3348008D4CAA /* голубая копочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "голубая копочка.jpg"; sourceTree = "<group>"; };
-		CE37E43017BE3348008D4CAA /* дом-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "дом-1.png"; sourceTree = "<group>"; };
-		CE37E43117BE3348008D4CAA /* дом.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "дом.jpg"; sourceTree = "<group>"; };
-		CE37E43217BE3348008D4CAA /* дом.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "дом.png"; sourceTree = "<group>"; };
-		CE37E43317BE3348008D4CAA /* желтая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "желтая кнопочка.jpg"; sourceTree = "<group>"; };
-		CE37E43417BE3348008D4CAA /* зеленая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "зеленая кнопочка.jpg"; sourceTree = "<group>"; };
-		CE37E43517BE3348008D4CAA /* красная кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "красная кнопочка.jpg"; sourceTree = "<group>"; };
-		CE37E43617BE3348008D4CAA /* помощь.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "помощь.png"; sourceTree = "<group>"; };
-		CE37E43717BE3348008D4CAA /* сериая кнопочка.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "сериая кнопочка.jpg"; sourceTree = "<group>"; };
-		CE37E43817BE3348008D4CAA /* список.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "список.png"; sourceTree = "<group>"; };
 		CE69D1C617BF79D70033E4C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		CE74398817C263E800A5B9A8 /* GetParsingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetParsingData.h; sourceTree = "<group>"; };
 		CE74398917C263E800A5B9A8 /* GetParsingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetParsingData.m; sourceTree = "<group>"; };
 		CE90A2D417BCE4BC006933A8 /* VkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkViewController.h; sourceTree = "<group>"; };
 		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
+		CE90C2F917C37DD3009C473C /* фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон.png"; sourceTree = "<group>"; };
+		CE90C30917C37F4B009C473C /* шаблон большая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон большая.png"; sourceTree = "<group>"; };
+		CE90C30A17C37F4B009C473C /* шаблон маленькая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленькая.png"; sourceTree = "<group>"; };
+		CE90C30B17C37F4B009C473C /* шаблон средняя.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон средняя.png"; sourceTree = "<group>"; };
 		CE90F36317BF7E2F002E3494 /* FbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
 		CE90F36417BF7E2F002E3494 /* FbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CE93D01B17C39E8C00AAD436 /* NamesEmailTelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamesEmailTelController.h; sourceTree = "<group>"; };
 		CE93D01C17C39E8C00AAD436 /* NamesEmailTelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamesEmailTelController.m; sourceTree = "<group>"; };
+=======
+		CE942FFB17C493F4000E3190 /* добавить плюсик.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "добавить плюсик.png"; sourceTree = "<group>"; };
+		CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ожидание формат (должна быть 106 пикс в длину).png"; sourceTree = "<group>"; };
+		CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "отказ крестик формат 106пикс в длину.png"; sourceTree = "<group>"; };
+		CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "разрешено галочка формат 160х40.png"; sourceTree = "<group>"; };
+>>>>>>> 2a8036bbe5b3f667de90bb4ffe1ebce6714fae07
 		CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
 		CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
 		CEB3697417C204AC00C1E7E6 /* UserDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataViewController.h; sourceTree = "<group>"; };
@@ -212,34 +191,20 @@
 		C5F7B83F17B9E84E00FB6223 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE37E42217BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg */,
-				CE37E42317BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg */,
-				CE37E42417BE3348008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg */,
-				CE37E42517BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg */,
-				CE37E42617BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f.jpg */,
-				CE37E42717BE3348008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg */,
-				CE37E42817BE3348008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg */,
-				CE37E42917BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg */,
-				CE37E42A17BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b.jpg */,
-				CE37E42B17BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0-1.jpg */,
-				CE37E42C17BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0.jpg */,
+				CE942FFB17C493F4000E3190 /* добавить плюсик.png */,
+				CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */,
+				CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */,
+				CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */,
+				CE90C30917C37F4B009C473C /* шаблон большая.png */,
+				CE90C30A17C37F4B009C473C /* шаблон маленькая.png */,
+				CE90C30B17C37F4B009C473C /* шаблон средняя.png */,
+				CE90C2F917C37DD3009C473C /* фон.png */,
 				CE37E42D17BE3348008D4CAA /* facebook_login.png */,
 				CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */,
-				CE37E42F17BE3348008D4CAA /* голубая копочка.jpg */,
-				CE37E43017BE3348008D4CAA /* дом-1.png */,
-				CE37E43117BE3348008D4CAA /* дом.jpg */,
-				CE37E43217BE3348008D4CAA /* дом.png */,
-				CE37E43317BE3348008D4CAA /* желтая кнопочка.jpg */,
-				CE37E43417BE3348008D4CAA /* зеленая кнопочка.jpg */,
-				CE37E43517BE3348008D4CAA /* красная кнопочка.jpg */,
-				CE37E43617BE3348008D4CAA /* помощь.png */,
-				CE37E43717BE3348008D4CAA /* сериая кнопочка.jpg */,
-				CE37E43817BE3348008D4CAA /* список.png */,
 				C5F7B84017B9E84E00FB6223 /* iKFU-Info.plist */,
 				C5F7B84117B9E84E00FB6223 /* InfoPlist.strings */,
 				C5F7B84417B9E84E00FB6223 /* main.m */,
 				C5F7B84617B9E84E00FB6223 /* iKFU-Prefix.pch */,
-				CE25015D17C352690043A23C /* login.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -452,31 +417,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE37E44217BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0-1.jpg in Resources */,
-				CE37E44D17BE3348008D4CAA /* помощь.png in Resources */,
-				CE37E43E17BE3348008D4CAA /* %d0%be%d0%b6%d0%b8%d0%b4%d0%b0%d1%8e%d1%82.jpg in Resources */,
-				CE37E44A17BE3348008D4CAA /* желтая кнопочка.jpg in Resources */,
-				CE37E44117BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b.jpg in Resources */,
+				CE90C2FA17C37DD3009C473C /* фон.png in Resources */,
 				C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */,
-				CE37E43D17BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f.jpg in Resources */,
+				CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */,
 				CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */,
-				CE37E44F17BE3348008D4CAA /* список.png in Resources */,
 				C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */,
-				CE37E44B17BE3348008D4CAA /* зеленая кнопочка.jpg in Resources */,
-				CE37E43A17BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5.jpg in Resources */,
-				CE37E44917BE3348008D4CAA /* дом.png in Resources */,
-				CE37E44817BE3348008D4CAA /* дом.jpg in Resources */,
-				CE37E44E17BE3348008D4CAA /* сериая кнопочка.jpg in Resources */,
-				CE37E44017BE3348008D4CAA /* %d0%bf%d0%be%d0%b4%d1%82%d0%b2%d0%b5%d1%80%d0%b6%d0%b4%d0%b5%d0%bd%d1%8b-1.jpg in Resources */,
-				CE37E43B17BE3348008D4CAA /* %d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d0%b9%20%d0%ba%d0%b0%d0%b1%d0%b8%d0%bd%d0%b5%d1%82.jpg in Resources */,
-				CE37E44717BE3348008D4CAA /* дом-1.png in Resources */,
-				CE37E44317BE3348008D4CAA /* %d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%ba%d0%b0.jpg in Resources */,
+				CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */,
+				CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */,
 				CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */,
-				CE37E43F17BE3348008D4CAA /* %d0%be%d1%82%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%be.jpg in Resources */,
-				CE37E44617BE3348008D4CAA /* голубая копочка.jpg in Resources */,
-				CE37E43C17BE3348008D4CAA /* %d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f-1.jpg in Resources */,
-				CE37E44C17BE3348008D4CAA /* красная кнопочка.jpg in Resources */,
-				CE37E43917BE3348008D4CAA /* %d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%b8%d1%82%d1%8c%20%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d0%b5-1.jpg in Resources */,
+				CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */,
+				CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */,
+				CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */,
+				CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */,
 				C5F7B84C17B9E84E00FB6223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
