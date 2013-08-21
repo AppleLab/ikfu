@@ -13,7 +13,6 @@
 		C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84117B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B84517B9E84E00FB6223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B84417B9E84E00FB6223 /* main.m */; };
 		C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B84817B9E84E00FB6223 /* AppDelegate.m */; };
-		C5F7B84C17B9E84E00FB6223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
 		C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B84E17B9E84E00FB6223 /* ViewController.m */; };
 		C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B85017B9E84E00FB6223 /* Images.xcassets */; };
 		C5F7B85817B9E84E00FB6223 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F7B85717B9E84E00FB6223 /* XCTest.framework */; };
@@ -371,7 +370,6 @@
 				CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */,
 				CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */,
 				CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */,
-				C5F7B84C17B9E84E00FB6223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
