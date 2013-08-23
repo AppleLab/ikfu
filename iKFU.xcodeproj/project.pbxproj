@@ -20,6 +20,12 @@
 		C5F7B85A17B9E84E00FB6223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F7B83C17B9E84E00FB6223 /* UIKit.framework */; };
 		C5F7B86217B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B86417B9E84E00FB6223 /* iKFUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86317B9E84E00FB6223 /* iKFUTests.m */; };
+		CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
+		CE28F77F17C7697700AD56CA /* AnEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77717C765ED00AD56CA /* AnEvent.m */; };
+		CE28F78017C7698100AD56CA /* DataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77917C765ED00AD56CA /* DataPickerViewController.m */; };
+		CE28F78117C7698D00AD56CA /* NamesEmailTelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77B17C765ED00AD56CA /* NamesEmailTelController.m */; };
+		CE28F78217C7699600AD56CA /* NameTitleDescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77D17C765ED00AD56CA /* NameTitleDescribeViewController.m */; };
+		CE28F78317C769AA00AD56CA /* UserInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697817C2281D00C1E7E6 /* UserInfo.h */; };
 		CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42D17BE3348008D4CAA /* facebook_login.png */; };
 		CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */; };
 		CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */; };
@@ -79,6 +85,14 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		CE28F77617C765ED00AD56CA /* AnEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnEvent.h; sourceTree = "<group>"; };
+		CE28F77717C765ED00AD56CA /* AnEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnEvent.m; sourceTree = "<group>"; };
+		CE28F77817C765ED00AD56CA /* DataPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPickerViewController.h; sourceTree = "<group>"; };
+		CE28F77917C765ED00AD56CA /* DataPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPickerViewController.m; sourceTree = "<group>"; };
+		CE28F77A17C765ED00AD56CA /* NamesEmailTelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamesEmailTelController.h; sourceTree = "<group>"; };
+		CE28F77B17C765ED00AD56CA /* NamesEmailTelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NamesEmailTelController.m; sourceTree = "<group>"; };
+		CE28F77C17C765ED00AD56CA /* NameTitleDescribeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameTitleDescribeViewController.h; sourceTree = "<group>"; };
+		CE28F77D17C765ED00AD56CA /* NameTitleDescribeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameTitleDescribeViewController.m; sourceTree = "<group>"; };
 		CE37E42D17BE3348008D4CAA /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_login.png; sourceTree = "<group>"; };
 		CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_vkontakte.png; sourceTree = "<group>"; };
 		CE69D1C617BF79D70033E4C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
@@ -386,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */,
 				CE90C2FA17C37DD3009C473C /* фон.png in Resources */,
 				C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */,
 				CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */,
@@ -560,6 +575,7 @@
 				GCC_PREFIX_HEADER = "iKFU/iKFU-Prefix.pch";
 				INFOPLIST_FILE = "iKFU/iKFU-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -573,6 +589,7 @@
 				GCC_PREFIX_HEADER = "iKFU/iKFU-Prefix.pch";
 				INFOPLIST_FILE = "iKFU/iKFU-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
