@@ -333,7 +333,7 @@
                                 <items>
                                     <barButtonItem title="Готово" width="298" id="OlJ-y8-tU2">
                                         <connections>
-                                            <segue destination="U1f-bE-Yvy" kind="modal" id="rHm-W8-ieW"/>
+                                            <segue destination="g4y-aq-Xq5" kind="modal" id="kbF-02-AaM"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -381,7 +381,7 @@
                             <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Lxj-pJ-3Kv">
                                 <rect key="frame" x="40" y="77" width="240" height="305"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Начало работы
+                                <string key="text">Начало работы
 Для использования всех возможностей приложения рекомендуем авторизоваться
 любым из предложенных способов. 
 Мероприятия
@@ -418,7 +418,7 @@ cписок предстоящих мероприятий по
 поля и
 нажать "Готово". Далее
 мероприятие рассматривается
-модераторами. </mutableString>
+модераторами. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -430,6 +430,9 @@ cписок предстоящих мероприятий по
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="g4y-aq-Xq5" kind="push" id="Ni7-g6-pah"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -811,6 +814,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     </navigationItem>
                     <connections>
                         <outlet property="label" destination="R4l-JF-wKc" id="XfG-cv-dmH"/>
+                        <segue destination="g4y-aq-Xq5" kind="push" id="fu6-3Z-1VP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qkg-Pm-8y0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1215,10 +1219,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rHm-W8-ieW"/>
         <segue reference="5a3-fD-f8f"/>
-        <segue reference="9JJ-Yb-Lnb"/>
+        <segue reference="kbF-02-AaM"/>
         <segue reference="pax-QY-ohP"/>
         <segue reference="m7z-Hz-vvK"/>
+        <segue reference="9JJ-Yb-Lnb"/>
     </inferredMetricsTieBreakers>
 </document>
