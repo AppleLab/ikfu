@@ -43,6 +43,7 @@
 		CED460BA17C75F1200FC356C /* фон6.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B617C75F1200FC356C /* фон6.png */; };
 		CED460BB17C75F1200FC356C /* шаблон маленький.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B717C75F1200FC356C /* шаблон маленький.png */; };
 		CED460BD17C75F5A00FC356C /* панель.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460BC17C75F5A00FC356C /* панель.png */; };
+		CED460C417C7682800FC356C /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = CED460C317C7682800FC356C /* List.m */; };
 		CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB186117BE688C001D75C1 /* DescribeEvents.m */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +108,8 @@
 		CED460B617C75F1200FC356C /* фон6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон6.png"; sourceTree = "<group>"; };
 		CED460B717C75F1200FC356C /* шаблон маленький.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленький.png"; sourceTree = "<group>"; };
 		CED460BC17C75F5A00FC356C /* панель.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "панель.png"; sourceTree = "<group>"; };
+		CED460C217C7682800FC356C /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		CED460C317C7682800FC356C /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 		CEDB186017BE688C001D75C1 /* DescribeEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEvents.h; sourceTree = "<group>"; };
 		CEDB186117BE688C001D75C1 /* DescribeEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -226,6 +229,7 @@
 		C5F7B86D17B9E86D00FB6223 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CED460BE17C767F400FC356C /* ListController */,
 				CE9B7E6017BFB52A00B8CDA4 /* Registr */,
 				CE69D1C517BF79C00033E4C2 /* Profile */,
 				CE963C0D17BE04C9003C4DF7 /* DescribeEvents */,
@@ -295,6 +299,15 @@
 				CE74398917C263E800A5B9A8 /* GetParsingData.m */,
 			);
 			name = GetServer;
+			sourceTree = "<group>";
+		};
+		CED460BE17C767F400FC356C /* ListController */ = {
+			isa = PBXGroup;
+			children = (
+				CED460C217C7682800FC356C /* List.h */,
+				CED460C317C7682800FC356C /* List.m */,
+			);
+			name = ListController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED460C417C7682800FC356C /* List.m in Sources */,
 				CECC3C2117C27D930029F876 /* Core.m in Sources */,
 				CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,

@@ -868,10 +868,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="3137" y="-12"/>
         </scene>
-        <!--Table View Controller - Участвую-->
+        <!--List - Участвую-->
         <scene sceneID="Yll-He-H8J">
             <objects>
-                <tableViewController id="pdv-as-RYo" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="smh-cF-gd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="pdv-as-RYo" customClass="List" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="MOA-SR-DuE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -879,7 +880,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="sectionIndexColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="GVb-Ya-SfQ" detailTextLabel="QXF-mm-JqG" rowHeight="100" style="IBUITableViewCellStyleValue1" id="BCr-kK-bwv">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="GVb-Ya-SfQ" detailTextLabel="QXF-mm-JqG" rowHeight="100" style="IBUITableViewCellStyleValue1" id="BCr-kK-bwv">
                                 <rect key="frame" x="0.0" y="22" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BCr-kK-bwv" id="mKL-Ly-CoY">
@@ -919,7 +920,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <barButtonItem key="backBarButtonItem" title="Назад" id="Vgc-ps-TV7"/>
                     </navigationItem>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="smh-cF-gd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3812" y="-492"/>
         </scene>
@@ -1236,7 +1236,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="pUh-3W-L4r"/>
-        <segue reference="kbF-02-AaM"/>
+        <segue reference="Ni7-g6-pah"/>
         <segue reference="m7z-Hz-vvK"/>
         <segue reference="rZd-oF-UyE"/>
         <segue reference="CPM-KU-sYM"/>
