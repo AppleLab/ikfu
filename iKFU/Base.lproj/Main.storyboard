@@ -190,7 +190,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="sjo-gP-wl0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="sjo-gP-wl0">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -292,7 +292,7 @@
             </objects>
             <point key="canvasLocation" x="426" y="841"/>
         </scene>
-        <!--Names Email Tel Controller-->
+        <!--Names Email Tel Controller - Организовать мероприятие-->
         <scene sceneID="m5P-SS-N8p">
             <objects>
                 <viewController id="Del-Cq-MFI" customClass="NamesEmailTelController" sceneMemberID="viewController">
@@ -300,7 +300,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="tvO-7S-iQ6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="tvO-7S-iQ6">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -354,7 +354,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="diu-AI-IrK"/>
+                    <navigationItem key="navigationItem" title="Организовать мероприятие" id="diu-AI-IrK"/>
                     <connections>
                         <outlet property="Email" destination="DWa-Zv-dox" id="qeF-wC-jfd"/>
                         <outlet property="FirstName" destination="qu8-Pm-Kpj" id="krI-9d-mDT"/>
@@ -374,26 +374,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="FbF-tf-zIM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="FbF-tf-zIM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Справка" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wKC-Bu-hQO">
-                                <rect key="frame" x="113" y="38" width="94" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qGP-Jy-RPB">
+                                <rect key="frame" x="48" y="396" width="242" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Lxj-pJ-3Kv">
-                                <rect key="frame" x="40" y="77" width="240" height="305"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Проверка для организованных">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g4y-aq-Xq5" kind="push" id="Ni7-g6-pah"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="R6j-1c-8L7">
+                                <rect key="frame" x="20" y="82" width="280" height="306"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Начало работы
-Для использования всех возможностей приложения рекомендуем авторизоваться
+Для использования всех возможностей
+приложения рекомендуем авторизоваться
 любым из предложенных способов. 
 Мероприятия
 Каждый пользователь может просмотреть
-cписок предстоящих мероприятий по
+список предстоящих мероприятий по
 месяцам и видам. Во вкладке какого-либо
 мероприятия пользователь сможет
 просмотреть подробное описание, дату,
@@ -426,21 +433,16 @@ cписок предстоящих мероприятий по
 нажать "Готово". Далее
 мероприятие рассматривается
 модераторами. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qGP-Jy-RPB">
-                                <rect key="frame" x="48" y="396" width="242" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Проверка для организованных">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="g4y-aq-Xq5" kind="push" id="Ni7-g6-pah"/>
-                                </connections>
-                            </button>
+                            <navigationBar contentMode="scaleToFill" id="sua-Pw-hEZ">
+                                <rect key="frame" x="0.0" y="23" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Справка" id="qP4-pH-eV2"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -459,7 +461,7 @@ cписок предстоящих мероприятий по
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="lfZ-mW-TaU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="lfZ-mW-TaU">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -518,7 +520,7 @@ cписок предстоящих мероприятий по
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="1Jj-jc-WZF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="1Jj-jc-WZF">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -624,7 +626,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="2218" y="603"/>
         </scene>
-        <!--Name Title Describe View Controller-->
+        <!--Name Title Describe View Controller - Организовать мероприятие-->
         <scene sceneID="YIi-9M-2CA">
             <objects>
                 <viewController id="7lO-d0-U1y" customClass="NameTitleDescribeViewController" sceneMemberID="viewController">
@@ -632,7 +634,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="85h-tW-ShO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="85h-tW-ShO">
                                 <rect key="frame" x="0.0" y="0.0" width="326" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -679,7 +681,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KfM-LQ-3f4"/>
+                    <navigationItem key="navigationItem" title="Организовать мероприятие" id="KfM-LQ-3f4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JTt-gb-f5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -693,7 +695,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="t5C-KH-36O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="t5C-KH-36O">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -783,10 +785,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <viewController id="vCr-2J-Aq1" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tMc-xn-gex">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="VCn-ur-KWo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="VCn-ur-KWo">
                                 <rect key="frame" x="0.0" y="25" width="340" height="497"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1223,7 +1225,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <image name="ожидание формат (должна быть 106 пикс в длину).png" width="92" height="40"/>
         <image name="отказ крестик формат 106пикс в длину.png" width="106" height="40"/>
         <image name="разрешено галочка формат 160х40.png" width="106" height="40"/>
-        <image name="фон.png" width="320" height="480"/>
         <image name="фон6.png" width="320" height="480"/>
         <image name="шаблон большая.png" width="181" height="65"/>
         <image name="шаблон средняя.png" width="153" height="40"/>
@@ -1234,10 +1235,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="CPM-KU-sYM"/>
+        <segue reference="pUh-3W-L4r"/>
         <segue reference="kbF-02-AaM"/>
-        <segue reference="pax-QY-ohP"/>
         <segue reference="m7z-Hz-vvK"/>
-        <segue reference="9JJ-Yb-Lnb"/>
+        <segue reference="rZd-oF-UyE"/>
+        <segue reference="CPM-KU-sYM"/>
     </inferredMetricsTieBreakers>
 </document>
