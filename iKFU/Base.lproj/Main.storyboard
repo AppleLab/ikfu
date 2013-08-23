@@ -29,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vM0-Gt-aKE">
-                                <rect key="frame" x="41" y="116" width="180" height="28"/>
+                                <rect key="frame" x="41" y="130" width="180" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" image="facebook_login.png">
@@ -40,7 +40,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rc2-2E-SLH">
-                                <rect key="frame" x="41" y="79" width="180" height="34"/>
+                                <rect key="frame" x="41" y="88" width="180" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" image="login_with_vkontakte.png">
@@ -94,6 +94,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" id="z8i-9z-DCx">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="iКФУ" id="0n6-Mn-Nut"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -922,7 +929,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон.png" id="Kok-GK-YzQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="фон6.png" id="Kok-GK-YzQ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -963,7 +970,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mNN-Oc-tAc">
-                                <rect key="frame" x="20" y="64" width="46" height="30"/>
+                                <rect key="frame" x="20" y="83" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Back" backgroundImage="шаблон средняя.png">
@@ -974,6 +981,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="CPM-KU-sYM"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" id="D2H-0U-VK5">
+                                <rect key="frame" x="0.0" y="29" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="X3d-Ty-U2w"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -988,7 +1002,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oul-4M-sau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="588" y="-1617"/>
+            <point key="canvasLocation" x="530" y="-854"/>
         </scene>
         <!--Tab Bar Controller - Item-->
         <scene sceneID="oQt-QH-Kw2">
@@ -1004,9 +1018,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Fvl-2o-D6r" kind="relationship" relationship="viewControllers" id="1zR-Wc-cqk"/>
                         <segue destination="5kn-mC-MZq" kind="relationship" relationship="viewControllers" id="enc-I5-deL"/>
                         <segue destination="FS2-ug-i74" kind="relationship" relationship="viewControllers" id="pOl-gT-4ie"/>
+                        <segue destination="Fvl-2o-D6r" kind="relationship" relationship="viewControllers" id="1zR-Wc-cqk"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uKu-A1-UIM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1210,6 +1224,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <image name="отказ крестик формат 106пикс в длину.png" width="106" height="40"/>
         <image name="разрешено галочка формат 160х40.png" width="106" height="40"/>
         <image name="фон.png" width="320" height="480"/>
+        <image name="фон6.png" width="320" height="480"/>
         <image name="шаблон большая.png" width="181" height="65"/>
         <image name="шаблон средняя.png" width="153" height="40"/>
     </resources>
@@ -1219,10 +1234,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="5a3-fD-f8f"/>
-        <segue reference="kbF-02-AaM"/>
-        <segue reference="pax-QY-ohP"/>
+        <segue reference="CPM-KU-sYM"/>
+        <segue reference="aHt-Uh-Fye"/>
         <segue reference="m7z-Hz-vvK"/>
+        <segue reference="kbF-02-AaM"/>
         <segue reference="9JJ-Yb-Lnb"/>
     </inferredMetricsTieBreakers>
 </document>

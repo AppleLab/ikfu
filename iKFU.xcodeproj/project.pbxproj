@@ -38,6 +38,11 @@
 		CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */; };
 		CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697917C2281D00C1E7E6 /* UserInfo.m */; };
 		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
+		CED460B817C75F1200FC356C /* Копия стрелка прозрачный фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */; };
+		CED460B917C75F1200FC356C /* стрелка прозрачный фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */; };
+		CED460BA17C75F1200FC356C /* фон6.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B617C75F1200FC356C /* фон6.png */; };
+		CED460BB17C75F1200FC356C /* шаблон маленький.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B717C75F1200FC356C /* шаблон маленький.png */; };
+		CED460BD17C75F5A00FC356C /* панель.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460BC17C75F5A00FC356C /* панель.png */; };
 		CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB186117BE688C001D75C1 /* DescribeEvents.m */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +102,11 @@
 		CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataViewController.m; sourceTree = "<group>"; };
 		CEB3697817C2281D00C1E7E6 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		CEB3697917C2281D00C1E7E6 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Копия стрелка прозрачный фон.png"; sourceTree = "<group>"; };
+		CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "стрелка прозрачный фон.png"; sourceTree = "<group>"; };
+		CED460B617C75F1200FC356C /* фон6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон6.png"; sourceTree = "<group>"; };
+		CED460B717C75F1200FC356C /* шаблон маленький.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленький.png"; sourceTree = "<group>"; };
+		CED460BC17C75F5A00FC356C /* панель.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "панель.png"; sourceTree = "<group>"; };
 		CEDB186017BE688C001D75C1 /* DescribeEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEvents.h; sourceTree = "<group>"; };
 		CEDB186117BE688C001D75C1 /* DescribeEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +182,11 @@
 		C5F7B83F17B9E84E00FB6223 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CED460BC17C75F5A00FC356C /* панель.png */,
+				CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */,
+				CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */,
+				CED460B617C75F1200FC356C /* фон6.png */,
+				CED460B717C75F1200FC356C /* шаблон маленький.png */,
 				CE942FFB17C493F4000E3190 /* добавить плюсик.png */,
 				CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */,
 				CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */,
@@ -363,13 +378,18 @@
 				CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */,
 				CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */,
 				C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */,
+				CED460B917C75F1200FC356C /* стрелка прозрачный фон.png in Resources */,
 				CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */,
 				CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */,
+				CED460B817C75F1200FC356C /* Копия стрелка прозрачный фон.png in Resources */,
 				CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */,
 				CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */,
 				CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */,
+				CED460BB17C75F1200FC356C /* шаблон маленький.png in Resources */,
+				CED460BA17C75F1200FC356C /* фон6.png in Resources */,
 				CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */,
 				CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */,
+				CED460BD17C75F5A00FC356C /* панель.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
