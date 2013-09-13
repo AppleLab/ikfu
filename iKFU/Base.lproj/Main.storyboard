@@ -138,20 +138,31 @@
             </objects>
             <point key="canvasLocation" x="117" y="-706"/>
         </scene>
-        <!--View Controller - ВК-->
+        <!--View View Controller - ВК-->
         <scene sceneID="Cyt-QX-u4A">
             <objects>
-                <viewController id="YP3-Me-bld" sceneMemberID="viewController">
+                <viewController id="YP3-Me-bld" customClass="VKViewViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L6t-rY-tUg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" allowsInlineMediaPlayback="NO" id="aDU-Rf-h0c">
+                                <rect key="frame" x="0.0" y="20" width="320" height="500"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ВК" id="q8m-cV-hUx"/>
+                    <connections>
+                        <outlet property="vkWigdet" destination="aDU-Rf-h0c" id="Ziu-JG-K42"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZb-mP-vPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661" y="202"/>
+            <point key="canvasLocation" x="641" y="378"/>
         </scene>
         <!--View Controller - Личный кабинет-->
         <scene sceneID="Xhs-pR-uBy">
@@ -218,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BxO-Yy-Ksn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661" y="866"/>
+            <point key="canvasLocation" x="661" y="1162"/>
         </scene>
         <!--Navigation Controller - События-->
         <scene sceneID="ksW-Nc-lxw">

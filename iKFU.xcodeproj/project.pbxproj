@@ -23,6 +23,7 @@
 		CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
 		CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42D17BE3348008D4CAA /* facebook_login.png */; };
 		CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */; };
+		CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68092217E322960060B5F4 /* VKViewViewController.m */; };
 		CE90C2FA17C37DD3009C473C /* фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C2F917C37DD3009C473C /* фон.png */; };
 		CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30917C37F4B009C473C /* шаблон большая.png */; };
 		CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30A17C37F4B009C473C /* шаблон маленькая.png */; };
@@ -73,6 +74,9 @@
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
 		CE37E42D17BE3348008D4CAA /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_login.png; sourceTree = "<group>"; };
 		CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_vkontakte.png; sourceTree = "<group>"; };
+		CE68092117E322960060B5F4 /* VKViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKViewViewController.h; sourceTree = "<group>"; };
+		CE68092217E322960060B5F4 /* VKViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKViewViewController.m; sourceTree = "<group>"; };
+		CE68092417E3236C0060B5F4 /* vkWidget.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = vkWidget.html; sourceTree = "<group>"; };
 		CE90C2F917C37DD3009C473C /* фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон.png"; sourceTree = "<group>"; };
 		CE90C30917C37F4B009C473C /* шаблон большая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон большая.png"; sourceTree = "<group>"; };
 		CE90C30A17C37F4B009C473C /* шаблон маленькая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленькая.png"; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
+				CE68092017E3226F0060B5F4 /* VK */,
 				C5F7B87017B9E88B00FB6223 /* UI */,
 				C5F7B86D17B9E86D00FB6223 /* Core */,
 				C5F7B84717B9E84E00FB6223 /* AppDelegate.h */,
@@ -216,6 +221,16 @@
 				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		CE68092017E3226F0060B5F4 /* VK */ = {
+			isa = PBXGroup;
+			children = (
+				CE68092217E322960060B5F4 /* VKViewViewController.m */,
+				CE68092117E322960060B5F4 /* VKViewViewController.h */,
+				CE68092417E3236C0060B5F4 /* vkWidget.html */,
+			);
+			name = VK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECC3C2117C27D930029F876 /* Core.m in Sources */,
+				CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
