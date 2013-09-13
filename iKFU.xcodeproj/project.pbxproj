@@ -21,36 +21,22 @@
 		C5F7B86217B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B86417B9E84E00FB6223 /* iKFUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86317B9E84E00FB6223 /* iKFUTests.m */; };
 		CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
-		CE28F77F17C7697700AD56CA /* AnEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77717C765ED00AD56CA /* AnEvent.m */; };
-		CE28F78017C7698100AD56CA /* DataPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77917C765ED00AD56CA /* DataPickerViewController.m */; };
-		CE28F78117C7698D00AD56CA /* NamesEmailTelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77B17C765ED00AD56CA /* NamesEmailTelController.m */; };
-		CE28F78217C7699600AD56CA /* NameTitleDescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28F77D17C765ED00AD56CA /* NameTitleDescribeViewController.m */; };
-		CE28F78317C769AA00AD56CA /* UserInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697817C2281D00C1E7E6 /* UserInfo.h */; };
 		CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42D17BE3348008D4CAA /* facebook_login.png */; };
 		CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */; };
-		CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */; };
-		CE74398A17C263E800A5B9A8 /* GetParsingData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74398917C263E800A5B9A8 /* GetParsingData.m */; };
-		CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90A2D517BCE4BC006933A8 /* VkViewController.m */; };
 		CE90C2FA17C37DD3009C473C /* фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C2F917C37DD3009C473C /* фон.png */; };
 		CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30917C37F4B009C473C /* шаблон большая.png */; };
 		CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30A17C37F4B009C473C /* шаблон маленькая.png */; };
 		CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30B17C37F4B009C473C /* шаблон средняя.png */; };
-		CE90F36517BF8245002E3494 /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90F36417BF7E2F002E3494 /* FbViewController.m */; };
 		CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFB17C493F4000E3190 /* добавить плюсик.png */; };
 		CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */; };
 		CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */; };
 		CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */; };
-		CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */; };
-		CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */; };
-		CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3697917C2281D00C1E7E6 /* UserInfo.m */; };
 		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
 		CED460B817C75F1200FC356C /* Копия стрелка прозрачный фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */; };
 		CED460B917C75F1200FC356C /* стрелка прозрачный фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */; };
 		CED460BA17C75F1200FC356C /* фон6.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B617C75F1200FC356C /* фон6.png */; };
 		CED460BB17C75F1200FC356C /* шаблон маленький.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B717C75F1200FC356C /* шаблон маленький.png */; };
 		CED460BD17C75F5A00FC356C /* панель.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460BC17C75F5A00FC356C /* панель.png */; };
-		CED460C417C7682800FC356C /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = CED460C317C7682800FC356C /* List.m */; };
-		CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB186117BE688C001D75C1 /* DescribeEvents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,47 +71,21 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
-		CE28F77617C765ED00AD56CA /* AnEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnEvent.h; sourceTree = "<group>"; };
-		CE28F77717C765ED00AD56CA /* AnEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnEvent.m; sourceTree = "<group>"; };
-		CE28F77817C765ED00AD56CA /* DataPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPickerViewController.h; sourceTree = "<group>"; };
-		CE28F77917C765ED00AD56CA /* DataPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPickerViewController.m; sourceTree = "<group>"; };
-		CE28F77A17C765ED00AD56CA /* NamesEmailTelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamesEmailTelController.h; sourceTree = "<group>"; };
-		CE28F77B17C765ED00AD56CA /* NamesEmailTelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NamesEmailTelController.m; sourceTree = "<group>"; };
-		CE28F77C17C765ED00AD56CA /* NameTitleDescribeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameTitleDescribeViewController.h; sourceTree = "<group>"; };
-		CE28F77D17C765ED00AD56CA /* NameTitleDescribeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameTitleDescribeViewController.m; sourceTree = "<group>"; };
 		CE37E42D17BE3348008D4CAA /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_login.png; sourceTree = "<group>"; };
 		CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_vkontakte.png; sourceTree = "<group>"; };
-		CE69D1C617BF79D70033E4C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		CE74398817C263E800A5B9A8 /* GetParsingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetParsingData.h; sourceTree = "<group>"; };
-		CE74398917C263E800A5B9A8 /* GetParsingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetParsingData.m; sourceTree = "<group>"; };
-		CE90A2D417BCE4BC006933A8 /* VkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VkViewController.h; sourceTree = "<group>"; };
-		CE90A2D517BCE4BC006933A8 /* VkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VkViewController.m; sourceTree = "<group>"; };
 		CE90C2F917C37DD3009C473C /* фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон.png"; sourceTree = "<group>"; };
 		CE90C30917C37F4B009C473C /* шаблон большая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон большая.png"; sourceTree = "<group>"; };
 		CE90C30A17C37F4B009C473C /* шаблон маленькая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленькая.png"; sourceTree = "<group>"; };
 		CE90C30B17C37F4B009C473C /* шаблон средняя.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон средняя.png"; sourceTree = "<group>"; };
-		CE90F36317BF7E2F002E3494 /* FbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
-		CE90F36417BF7E2F002E3494 /* FbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
 		CE942FFB17C493F4000E3190 /* добавить плюсик.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "добавить плюсик.png"; sourceTree = "<group>"; };
 		CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ожидание формат (должна быть 106 пикс в длину).png"; sourceTree = "<group>"; };
 		CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "отказ крестик формат 106пикс в длину.png"; sourceTree = "<group>"; };
 		CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "разрешено галочка формат 160х40.png"; sourceTree = "<group>"; };
-		CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
-		CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
-		CEB3697417C204AC00C1E7E6 /* UserDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataViewController.h; sourceTree = "<group>"; };
-		CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataViewController.m; sourceTree = "<group>"; };
-		CEB3697817C2281D00C1E7E6 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
-		CEB3697917C2281D00C1E7E6 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Копия стрелка прозрачный фон.png"; sourceTree = "<group>"; };
 		CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "стрелка прозрачный фон.png"; sourceTree = "<group>"; };
 		CED460B617C75F1200FC356C /* фон6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон6.png"; sourceTree = "<group>"; };
 		CED460B717C75F1200FC356C /* шаблон маленький.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленький.png"; sourceTree = "<group>"; };
 		CED460BC17C75F5A00FC356C /* панель.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "панель.png"; sourceTree = "<group>"; };
-		CED460C217C7682800FC356C /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
-		CED460C317C7682800FC356C /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
-		CEDB186017BE688C001D75C1 /* DescribeEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEvents.h; sourceTree = "<group>"; };
-		CEDB186117BE688C001D75C1 /* DescribeEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEvents.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +145,6 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
-				CE90A2D017BCE38F006933A8 /* ESI */,
 				C5F7B87017B9E88B00FB6223 /* UI */,
 				C5F7B86D17B9E86D00FB6223 /* Core */,
 				C5F7B84717B9E84E00FB6223 /* AppDelegate.h */,
@@ -243,10 +202,6 @@
 		C5F7B86D17B9E86D00FB6223 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CED460BE17C767F400FC356C /* ListController */,
-				CE9B7E6017BFB52A00B8CDA4 /* Registr */,
-				CE69D1C517BF79C00033E4C2 /* Profile */,
-				CE963C0D17BE04C9003C4DF7 /* DescribeEvents */,
 				C5F7B86E17B9E88500FB6223 /* Core.h */,
 				C5F7B86F17B9E88500FB6223 /* Core.m */,
 			);
@@ -261,67 +216,6 @@
 				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
 			);
 			name = UI;
-			sourceTree = "<group>";
-		};
-		CE69D1C517BF79C00033E4C2 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				CE69D1C617BF79D70033E4C2 /* ProfileViewController.h */,
-				CE69D1C717BF79D70033E4C2 /* ProfileViewController.m */,
-			);
-			name = Profile;
-			sourceTree = "<group>";
-		};
-		CE90A2D017BCE38F006933A8 /* ESI */ = {
-			isa = PBXGroup;
-			children = (
-				CE90F36317BF7E2F002E3494 /* FbViewController.h */,
-				CE90F36417BF7E2F002E3494 /* FbViewController.m */,
-				CEA7ED2417BE50D10027C334 /* GetServer */,
-				CE90A2D417BCE4BC006933A8 /* VkViewController.h */,
-				CE90A2D517BCE4BC006933A8 /* VkViewController.m */,
-			);
-			name = ESI;
-			sourceTree = "<group>";
-		};
-		CE963C0D17BE04C9003C4DF7 /* DescribeEvents */ = {
-			isa = PBXGroup;
-			children = (
-				CEDB186017BE688C001D75C1 /* DescribeEvents.h */,
-				CEDB186117BE688C001D75C1 /* DescribeEvents.m */,
-			);
-			name = DescribeEvents;
-			sourceTree = "<group>";
-		};
-		CE9B7E6017BFB52A00B8CDA4 /* Registr */ = {
-			isa = PBXGroup;
-			children = (
-				CE9B7E6117BFB58900B8CDA4 /* RegViewController.h */,
-				CE9B7E6217BFB58900B8CDA4 /* RegViewController.m */,
-				CEB3697417C204AC00C1E7E6 /* UserDataViewController.h */,
-				CEB3697517C204AC00C1E7E6 /* UserDataViewController.m */,
-				CEB3697817C2281D00C1E7E6 /* UserInfo.h */,
-				CEB3697917C2281D00C1E7E6 /* UserInfo.m */,
-			);
-			name = Registr;
-			sourceTree = "<group>";
-		};
-		CEA7ED2417BE50D10027C334 /* GetServer */ = {
-			isa = PBXGroup;
-			children = (
-				CE74398817C263E800A5B9A8 /* GetParsingData.h */,
-				CE74398917C263E800A5B9A8 /* GetParsingData.m */,
-			);
-			name = GetServer;
-			sourceTree = "<group>";
-		};
-		CED460BE17C767F400FC356C /* ListController */ = {
-			isa = PBXGroup;
-			children = (
-				CED460C217C7682800FC356C /* List.h */,
-				CED460C317C7682800FC356C /* List.m */,
-			);
-			name = ListController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,18 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED460C417C7682800FC356C /* List.m in Sources */,
 				CECC3C2117C27D930029F876 /* Core.m in Sources */,
-				CE69D1C817BF79D70033E4C2 /* ProfileViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
-				CE90A2D617BCE4BC006933A8 /* VkViewController.m in Sources */,
-				CEB3697617C204AC00C1E7E6 /* UserDataViewController.m in Sources */,
-				CE74398A17C263E800A5B9A8 /* GetParsingData.m in Sources */,
-				CE9B7E6317BFB58900B8CDA4 /* RegViewController.m in Sources */,
-				CEDB186217BE688C001D75C1 /* DescribeEvents.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
-				CE90F36517BF8245002E3494 /* FbViewController.m in Sources */,
-				CEB3697A17C2281D00C1E7E6 /* UserInfo.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
