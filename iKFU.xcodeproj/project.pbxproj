@@ -24,6 +24,7 @@
 		CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42D17BE3348008D4CAA /* facebook_login.png */; };
 		CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */; };
 		CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68092217E322960060B5F4 /* VKViewViewController.m */; };
+		CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */ = {isa = PBXBuildFile; fileRef = CE68092517E32EC70060B5F4 /* vkWidget.html */; };
 		CE90C2FA17C37DD3009C473C /* фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C2F917C37DD3009C473C /* фон.png */; };
 		CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30917C37F4B009C473C /* шаблон большая.png */; };
 		CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30A17C37F4B009C473C /* шаблон маленькая.png */; };
@@ -76,7 +77,7 @@
 		CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_vkontakte.png; sourceTree = "<group>"; };
 		CE68092117E322960060B5F4 /* VKViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKViewViewController.h; sourceTree = "<group>"; };
 		CE68092217E322960060B5F4 /* VKViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKViewViewController.m; sourceTree = "<group>"; };
-		CE68092417E3236C0060B5F4 /* vkWidget.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = vkWidget.html; sourceTree = "<group>"; };
+		CE68092517E32EC70060B5F4 /* vkWidget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vkWidget.html; sourceTree = "<group>"; };
 		CE90C2F917C37DD3009C473C /* фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон.png"; sourceTree = "<group>"; };
 		CE90C30917C37F4B009C473C /* шаблон большая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон большая.png"; sourceTree = "<group>"; };
 		CE90C30A17C37F4B009C473C /* шаблон маленькая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленькая.png"; sourceTree = "<group>"; };
@@ -228,7 +229,7 @@
 			children = (
 				CE68092217E322960060B5F4 /* VKViewViewController.m */,
 				CE68092117E322960060B5F4 /* VKViewViewController.h */,
-				CE68092417E3236C0060B5F4 /* vkWidget.html */,
+				CE68092517E32EC70060B5F4 /* vkWidget.html */,
 			);
 			name = VK;
 			sourceTree = "<group>";
@@ -314,6 +315,7 @@
 				C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */,
 				CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */,
 				CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */,
+				CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */,
 				C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */,
 				CED460B917C75F1200FC356C /* стрелка прозрачный фон.png in Resources */,
 				CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */,

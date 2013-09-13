@@ -27,10 +27,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSString *fullURL = @"/Users/user/Documents/ikfu/ikfu/iKFU/vkWidget.html";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [_vkWigdet loadRequest:requestObj];
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"vkWidget" ofType:@"html"];
+    NSString* html = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+   [_vkWigdet loadHTMLString:html baseURL:nil];
 }
 
 - (void)didReceiveMemoryWarning
