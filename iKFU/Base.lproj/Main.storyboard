@@ -250,10 +250,10 @@
             </objects>
             <point key="canvasLocation" x="648" y="-413"/>
         </scene>
-        <!--View Controller - События-->
+        <!--Events View Controller - События-->
         <scene sceneID="SZZ-Vt-gzW">
             <objects>
-                <viewController id="OmK-9G-5SA" sceneMemberID="viewController">
+                <viewController id="OmK-9G-5SA" customClass="EventsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Md-Dx-sFh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -263,7 +263,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eqC-gE-9Uw">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="contentCell" id="eqC-gE-9Uw">
                                         <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eqC-gE-9Uw" id="tCM-lc-Zli">
@@ -272,6 +272,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="OmK-9G-5SA" id="yJb-U9-sTd"/>
+                                    <outlet property="delegate" destination="OmK-9G-5SA" id="Pch-Vc-8SX"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hNe-eq-piD">
                                 <rect key="frame" x="0.0" y="71" width="160" height="30"/>
@@ -294,6 +298,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="События" id="aJW-dV-vzl"/>
                     <navigationItem key="navigationItem" title="События" id="8T8-lA-IUh"/>
+                    <connections>
+                        <outlet property="tv" destination="BfK-f7-L5B" id="3So-zT-VJp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ymx-zl-PHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

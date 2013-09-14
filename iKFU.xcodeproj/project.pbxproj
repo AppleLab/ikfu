@@ -21,24 +21,11 @@
 		C5F7B86217B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B86417B9E84E00FB6223 /* iKFUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86317B9E84E00FB6223 /* iKFUTests.m */; };
 		CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
-		CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42D17BE3348008D4CAA /* facebook_login.png */; };
-		CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */ = {isa = PBXBuildFile; fileRef = CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */; };
+		CE2D1FCD17E476C0000FF052 /* ContentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FCC17E476C0000FF052 /* ContentClass.m */; };
+		CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD017E477AA000FF052 /* EventsViewController.m */; };
 		CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68092217E322960060B5F4 /* VKViewViewController.m */; };
 		CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */ = {isa = PBXBuildFile; fileRef = CE68092517E32EC70060B5F4 /* vkWidget.html */; };
-		CE90C2FA17C37DD3009C473C /* фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C2F917C37DD3009C473C /* фон.png */; };
-		CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30917C37F4B009C473C /* шаблон большая.png */; };
-		CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30A17C37F4B009C473C /* шаблон маленькая.png */; };
-		CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */ = {isa = PBXBuildFile; fileRef = CE90C30B17C37F4B009C473C /* шаблон средняя.png */; };
-		CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFB17C493F4000E3190 /* добавить плюсик.png */; };
-		CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */; };
-		CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */; };
-		CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */ = {isa = PBXBuildFile; fileRef = CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */; };
 		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
-		CED460B817C75F1200FC356C /* Копия стрелка прозрачный фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */; };
-		CED460B917C75F1200FC356C /* стрелка прозрачный фон.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */; };
-		CED460BA17C75F1200FC356C /* фон6.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B617C75F1200FC356C /* фон6.png */; };
-		CED460BB17C75F1200FC356C /* шаблон маленький.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460B717C75F1200FC356C /* шаблон маленький.png */; };
-		CED460BD17C75F5A00FC356C /* панель.png in Resources */ = {isa = PBXBuildFile; fileRef = CED460BC17C75F5A00FC356C /* панель.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,24 +60,13 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
-		CE37E42D17BE3348008D4CAA /* facebook_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_login.png; sourceTree = "<group>"; };
-		CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_vkontakte.png; sourceTree = "<group>"; };
+		CE2D1FCB17E476C0000FF052 /* ContentClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentClass.h; sourceTree = "<group>"; };
+		CE2D1FCC17E476C0000FF052 /* ContentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentClass.m; sourceTree = "<group>"; };
+		CE2D1FCF17E477AA000FF052 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		CE2D1FD017E477AA000FF052 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 		CE68092117E322960060B5F4 /* VKViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKViewViewController.h; sourceTree = "<group>"; };
 		CE68092217E322960060B5F4 /* VKViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKViewViewController.m; sourceTree = "<group>"; };
 		CE68092517E32EC70060B5F4 /* vkWidget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vkWidget.html; sourceTree = "<group>"; };
-		CE90C2F917C37DD3009C473C /* фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон.png"; sourceTree = "<group>"; };
-		CE90C30917C37F4B009C473C /* шаблон большая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон большая.png"; sourceTree = "<group>"; };
-		CE90C30A17C37F4B009C473C /* шаблон маленькая.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленькая.png"; sourceTree = "<group>"; };
-		CE90C30B17C37F4B009C473C /* шаблон средняя.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон средняя.png"; sourceTree = "<group>"; };
-		CE942FFB17C493F4000E3190 /* добавить плюсик.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "добавить плюсик.png"; sourceTree = "<group>"; };
-		CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ожидание формат (должна быть 106 пикс в длину).png"; sourceTree = "<group>"; };
-		CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "отказ крестик формат 106пикс в длину.png"; sourceTree = "<group>"; };
-		CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "разрешено галочка формат 160х40.png"; sourceTree = "<group>"; };
-		CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Копия стрелка прозрачный фон.png"; sourceTree = "<group>"; };
-		CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "стрелка прозрачный фон.png"; sourceTree = "<group>"; };
-		CED460B617C75F1200FC356C /* фон6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "фон6.png"; sourceTree = "<group>"; };
-		CED460B717C75F1200FC356C /* шаблон маленький.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "шаблон маленький.png"; sourceTree = "<group>"; };
-		CED460BC17C75F5A00FC356C /* панель.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "панель.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +126,7 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
+				CE2D1FCE17E47789000FF052 /* Events */,
 				CE68092017E3226F0060B5F4 /* VK */,
 				C5F7B87017B9E88B00FB6223 /* UI */,
 				C5F7B86D17B9E86D00FB6223 /* Core */,
@@ -164,25 +141,12 @@
 		C5F7B83F17B9E84E00FB6223 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CED460BC17C75F5A00FC356C /* панель.png */,
-				CED460B417C75F1200FC356C /* Копия стрелка прозрачный фон.png */,
-				CED460B517C75F1200FC356C /* стрелка прозрачный фон.png */,
-				CED460B617C75F1200FC356C /* фон6.png */,
-				CED460B717C75F1200FC356C /* шаблон маленький.png */,
-				CE942FFB17C493F4000E3190 /* добавить плюсик.png */,
-				CE942FFC17C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png */,
-				CE942FFD17C493F4000E3190 /* отказ крестик формат 106пикс в длину.png */,
-				CE942FFE17C493F4000E3190 /* разрешено галочка формат 160х40.png */,
-				CE90C30917C37F4B009C473C /* шаблон большая.png */,
-				CE90C30A17C37F4B009C473C /* шаблон маленькая.png */,
-				CE90C30B17C37F4B009C473C /* шаблон средняя.png */,
-				CE90C2F917C37DD3009C473C /* фон.png */,
-				CE37E42D17BE3348008D4CAA /* facebook_login.png */,
-				CE37E42E17BE3348008D4CAA /* login_with_vkontakte.png */,
 				C5F7B84017B9E84E00FB6223 /* iKFU-Info.plist */,
 				C5F7B84117B9E84E00FB6223 /* InfoPlist.strings */,
 				C5F7B84417B9E84E00FB6223 /* main.m */,
 				C5F7B84617B9E84E00FB6223 /* iKFU-Prefix.pch */,
+				CE2D1FCB17E476C0000FF052 /* ContentClass.h */,
+				CE2D1FCC17E476C0000FF052 /* ContentClass.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,6 +186,15 @@
 				C5F7B84E17B9E84E00FB6223 /* ViewController.m */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		CE2D1FCE17E47789000FF052 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D1FCF17E477AA000FF052 /* EventsViewController.h */,
+				CE2D1FD017E477AA000FF052 /* EventsViewController.m */,
+			);
+			name = Events;
 			sourceTree = "<group>";
 		};
 		CE68092017E3226F0060B5F4 /* VK */ = {
@@ -311,24 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */,
-				CE90C2FA17C37DD3009C473C /* фон.png in Resources */,
 				C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */,
-				CE94300117C493F4000E3190 /* отказ крестик формат 106пикс в длину.png in Resources */,
-				CE37E44517BE3348008D4CAA /* login_with_vkontakte.png in Resources */,
 				CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */,
 				C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */,
-				CED460B917C75F1200FC356C /* стрелка прозрачный фон.png in Resources */,
-				CE90C30D17C37F4B009C473C /* шаблон маленькая.png in Resources */,
-				CE94300217C493F4000E3190 /* разрешено галочка формат 160х40.png in Resources */,
-				CED460B817C75F1200FC356C /* Копия стрелка прозрачный фон.png in Resources */,
-				CE37E44417BE3348008D4CAA /* facebook_login.png in Resources */,
-				CE90C30E17C37F4B009C473C /* шаблон средняя.png in Resources */,
-				CE94300017C493F4000E3190 /* ожидание формат (должна быть 106 пикс в длину).png in Resources */,
-				CED460BB17C75F1200FC356C /* шаблон маленький.png in Resources */,
-				CED460BA17C75F1200FC356C /* фон6.png in Resources */,
-				CE90C30C17C37F4B009C473C /* шаблон большая.png in Resources */,
-				CE942FFF17C493F4000E3190 /* добавить плюсик.png in Resources */,
-				CED460BD17C75F5A00FC356C /* панель.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2D1FCD17E476C0000FF052 /* ContentClass.m in Sources */,
 				CECC3C2117C27D930029F876 /* Core.m in Sources */,
 				CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */,
+				CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
