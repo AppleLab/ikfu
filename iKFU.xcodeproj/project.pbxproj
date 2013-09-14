@@ -23,6 +23,7 @@
 		CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
 		CE2D1FCD17E476C0000FF052 /* ContentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FCC17E476C0000FF052 /* ContentClass.m */; };
 		CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD017E477AA000FF052 /* EventsViewController.m */; };
+		CE2D1FD417E48189000FF052 /* DetailEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD317E48188000FF052 /* DetailEvent.m */; };
 		CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68092217E322960060B5F4 /* VKViewViewController.m */; };
 		CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */ = {isa = PBXBuildFile; fileRef = CE68092517E32EC70060B5F4 /* vkWidget.html */; };
 		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
@@ -64,6 +65,8 @@
 		CE2D1FCC17E476C0000FF052 /* ContentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentClass.m; sourceTree = "<group>"; };
 		CE2D1FCF17E477AA000FF052 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
 		CE2D1FD017E477AA000FF052 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		CE2D1FD217E48188000FF052 /* DetailEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailEvent.h; sourceTree = "<group>"; };
+		CE2D1FD317E48188000FF052 /* DetailEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailEvent.m; sourceTree = "<group>"; };
 		CE68092117E322960060B5F4 /* VKViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKViewViewController.h; sourceTree = "<group>"; };
 		CE68092217E322960060B5F4 /* VKViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKViewViewController.m; sourceTree = "<group>"; };
 		CE68092517E32EC70060B5F4 /* vkWidget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vkWidget.html; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 			children = (
 				CE2D1FCF17E477AA000FF052 /* EventsViewController.h */,
 				CE2D1FD017E477AA000FF052 /* EventsViewController.m */,
+				CE2D1FD217E48188000FF052 /* DetailEvent.h */,
+				CE2D1FD317E48188000FF052 /* DetailEvent.m */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 				CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */,
 				CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
+				CE2D1FD417E48189000FF052 /* DetailEvent.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
 			);
