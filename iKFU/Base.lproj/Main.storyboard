@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.2" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="agx-9x-Wya">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.2" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="rme-2G-YV7">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Auth View Controller-->
         <scene sceneID="d1h-7I-JvZ">
             <objects>
-                <viewController id="agx-9x-Wya" sceneMemberID="viewController">
+                <viewController id="agx-9x-Wya" customClass="AuthViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WSz-24-eML">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -15,14 +15,16 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="I3y-Sj-Xol">
                                 <rect key="frame" x="20" y="112" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="WHs-Y2-Ko9">
                                 <rect key="frame" x="20" y="179" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите e-mail:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pfV-dw-Fgz">
                                 <rect key="frame" x="20" y="83" width="280" height="21"/>
@@ -51,71 +53,43 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rme-2G-YV7" kind="modal" id="h1b-jp-WFV"/>
+                                    <action selector="login:" destination="agx-9x-Wya" eventType="touchUpInside" id="c7o-oD-LAk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="biA-Aw-Ad9">
+                                <rect key="frame" x="20" y="263" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Регистрация">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signup:" destination="agx-9x-Wya" eventType="touchUpInside" id="jPf-BY-yvP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RqB-8c-MZg">
+                                <rect key="frame" x="20" y="301" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Отмена">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rme-2G-YV7" kind="modal" id="2ld-bt-3cU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="MgU-8m-kd5"/>
+                    <connections>
+                        <outlet property="email" destination="I3y-Sj-Xol" id="irr-xu-afD"/>
+                        <outlet property="password" destination="WHs-Y2-Ko9" id="yW9-Ha-aaW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BFq-av-nrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-315" y="-706"/>
-        </scene>
-        <!--Navigation Controller - Новости-->
-        <scene sceneID="gWG-bL-50G">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="Jsq-Ch-f5u" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Новости" id="HBn-k8-l8U"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tM6-Mm-SQ1">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="p5z-mg-Lrl" kind="relationship" relationship="rootViewController" id="buA-KQ-VBL"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lgE-rv-sSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="648" y="-1009"/>
-        </scene>
-        <!--View Controller - Новости-->
-        <scene sceneID="HjJ-OV-j8T">
-            <objects>
-                <viewController id="p5z-mg-Lrl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1SA-Vm-IG3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="otu-uv-D6o">
-                                <rect key="frame" x="0.0" y="109" width="320" height="408"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lrl-Gd-fwg">
-                                <rect key="frame" x="0.0" y="71" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Все">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="snh-iV-IwU">
-                                <rect key="frame" x="160" y="71" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Мой институт">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Новости" id="OAK-61-9BU"/>
-                    <navigationItem key="navigationItem" title="Новости" id="12g-Vq-ZCH"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="s4K-5p-Sce" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1135" y="-1009"/>
+            <point key="canvasLocation" x="-511" y="1402"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="W45-Wl-WK0">
@@ -128,15 +102,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Jsq-Ch-f5u" kind="relationship" relationship="viewControllers" id="QSf-9D-DSj"/>
                         <segue destination="vWo-EQ-gbu" kind="relationship" relationship="viewControllers" id="FBc-lg-JpD"/>
                         <segue destination="YP3-Me-bld" kind="relationship" relationship="viewControllers" id="E4y-u7-bPK"/>
                         <segue destination="ryd-AA-Jyh" kind="relationship" relationship="viewControllers" id="NnZ-3u-P7K"/>
+                        <segue destination="ATr-61-ezd" kind="relationship" relationship="viewControllers" id="6jC-Cs-dUL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RF4-ND-1bX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117" y="-706"/>
+            <point key="canvasLocation" x="-91" y="378"/>
         </scene>
         <!--View View Controller - ВК-->
         <scene sceneID="Cyt-QX-u4A">
@@ -167,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="641" y="378"/>
         </scene>
-        <!--View Controller - Личный кабинет-->
+        <!--Profile View Controller - Личный кабинет-->
         <scene sceneID="Xhs-pR-uBy">
             <objects>
-                <viewController id="ryd-AA-Jyh" sceneMemberID="viewController">
+                <viewController id="ryd-AA-Jyh" customClass="ProfileViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hiz-Cl-8uS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -189,9 +163,6 @@
                                 <state key="normal" title="Выйти">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="agx-9x-Wya" kind="modal" id="qvs-sA-X4S"/>
-                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E0a-QJ-H7h">
                                 <rect key="frame" x="20" y="122" width="280" height="44"/>
@@ -229,10 +200,81 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Личный кабинет" id="9eN-tp-1z7"/>
+                    <connections>
+                        <segue destination="agx-9x-Wya" kind="modal" identifier="authSegue1" animates="NO" id="9AN-d0-j6I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BxO-Yy-Ksn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="661" y="1162"/>
+        </scene>
+        <!--My Event View Controller - Мои события-->
+        <scene sceneID="1iJ-V7-DKi">
+            <objects>
+                <viewController id="n8N-By-tu4" customClass="MyEventViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ggK-Ku-zni">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="dI4-CJ-gvV">
+                                <rect key="frame" x="0.0" y="71" width="320" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="W9M-xa-d3D">
+                                <rect key="frame" x="0.0" y="107" width="320" height="410"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="contentCell" id="2uV-ty-WuP">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2uV-ty-WuP" id="CMG-t4-jxq">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="7mr-ZR-CKk" kind="push" id="MGc-JV-zpj"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="n8N-By-tu4" id="x0W-O2-0gu"/>
+                                    <outlet property="delegate" destination="n8N-By-tu4" id="AgR-uD-qjJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Мои события" id="N5e-xd-nmo"/>
+                    <navigationItem key="navigationItem" id="IZh-6E-1hG"/>
+                    <connections>
+                        <outlet property="tv" destination="W9M-xa-d3D" id="BGz-VS-Pcp"/>
+                        <segue destination="agx-9x-Wya" kind="modal" identifier="authSegue" animates="NO" id="kVk-3F-BMa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVF-ch-gkG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="1972"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="SGH-DV-SWb">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="ATr-61-ezd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Swl-mr-qTX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PBM-xw-jNY">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="n8N-By-tu4" kind="relationship" relationship="rootViewController" id="aLW-vQ-DXg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5k8-ct-6eE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661" y="1972"/>
         </scene>
         <!--Navigation Controller - События-->
         <scene sceneID="ksW-Nc-lxw">
@@ -258,43 +300,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BfK-f7-L5B">
-                                <rect key="frame" x="0.0" y="71" width="320" height="446"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="contentCell" id="eqC-gE-9Uw">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eqC-gE-9Uw" id="tCM-lc-Zli">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="7mr-ZR-CKk" kind="push" id="Fqr-Qd-CkY"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="OmK-9G-5SA" id="yJb-U9-sTd"/>
-                                    <outlet property="delegate" destination="OmK-9G-5SA" id="Pch-Vc-8SX"/>
-                                </connections>
-                            </tableView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="0nA-gE-Qg2">
                                 <rect key="frame" x="0.0" y="71" width="320" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Все"/>
-                                    <segment title="Мой институт"/>
+                                    <segment title="Календарь"/>
                                 </segments>
                             </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="W5M-gL-OgI">
+                                <rect key="frame" x="0.0" y="107" width="320" height="411"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="contentCell" id="hHb-rR-MYk">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hHb-rR-MYk" id="tST-c3-Sk7">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="7mr-ZR-CKk" kind="push" id="RpC-kW-G6l"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="OmK-9G-5SA" id="YP8-yg-SrE"/>
+                                    <outlet property="delegate" destination="OmK-9G-5SA" id="xvr-es-DU2"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="События" id="aJW-dV-vzl"/>
                     <navigationItem key="navigationItem" title="События" id="8T8-lA-IUh"/>
                     <connections>
-                        <outlet property="tv" destination="BfK-f7-L5B" id="3So-zT-VJp"/>
+                        <outlet property="tv" destination="W5M-gL-OgI" id="S6O-mh-n1t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ymx-zl-PHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -336,4 +378,8 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="9AN-d0-j6I"/>
+        <segue reference="RpC-kW-G6l"/>
+    </inferredMetricsTieBreakers>
 </document>

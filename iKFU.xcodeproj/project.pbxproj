@@ -27,6 +27,9 @@
 		CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68092217E322960060B5F4 /* VKViewViewController.m */; };
 		CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */ = {isa = PBXBuildFile; fileRef = CE68092517E32EC70060B5F4 /* vkWidget.html */; };
 		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
+		CEE0067117E6EEDC004397FC /* MyEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE0067017E6EEDC004397FC /* MyEventViewController.m */; };
+		CEE0067817E6FA00004397FC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE0067717E6FA00004397FC /* ProfileViewController.m */; };
+		CEE0067C17E6FF52004397FC /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE0067B17E6FF52004397FC /* AuthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,12 @@
 		CE68092117E322960060B5F4 /* VKViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKViewViewController.h; sourceTree = "<group>"; };
 		CE68092217E322960060B5F4 /* VKViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKViewViewController.m; sourceTree = "<group>"; };
 		CE68092517E32EC70060B5F4 /* vkWidget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vkWidget.html; sourceTree = "<group>"; };
+		CEE0066F17E6EEDC004397FC /* MyEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEventViewController.h; sourceTree = "<group>"; };
+		CEE0067017E6EEDC004397FC /* MyEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEventViewController.m; sourceTree = "<group>"; };
+		CEE0067617E6FA00004397FC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		CEE0067717E6FA00004397FC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		CEE0067A17E6FF52004397FC /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		CEE0067B17E6FF52004397FC /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +138,9 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
+				CEE0067917E6FE97004397FC /* Authentification */,
+				CEE0067217E6F782004397FC /* Profile */,
+				CEE0066E17E6EEB2004397FC /* MyEvents */,
 				CE2D1FCE17E47789000FF052 /* Events */,
 				CE68092017E3226F0060B5F4 /* VK */,
 				C5F7B87017B9E88B00FB6223 /* UI */,
@@ -210,6 +222,33 @@
 				CE68092517E32EC70060B5F4 /* vkWidget.html */,
 			);
 			name = VK;
+			sourceTree = "<group>";
+		};
+		CEE0066E17E6EEB2004397FC /* MyEvents */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0066F17E6EEDC004397FC /* MyEventViewController.h */,
+				CEE0067017E6EEDC004397FC /* MyEventViewController.m */,
+			);
+			name = MyEvents;
+			sourceTree = "<group>";
+		};
+		CEE0067217E6F782004397FC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0067617E6FA00004397FC /* ProfileViewController.h */,
+				CEE0067717E6FA00004397FC /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		CEE0067917E6FE97004397FC /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0067A17E6FF52004397FC /* AuthViewController.h */,
+				CEE0067B17E6FF52004397FC /* AuthViewController.m */,
+			);
+			name = Authentification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,8 +353,11 @@
 				CECC3C2117C27D930029F876 /* Core.m in Sources */,
 				CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */,
 				CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */,
+				CEE0067817E6FA00004397FC /* ProfileViewController.m in Sources */,
+				CEE0067117E6EEDC004397FC /* MyEventViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				CE2D1FD417E48189000FF052 /* DetailEvent.m in Sources */,
+				CEE0067C17E6FF52004397FC /* AuthViewController.m in Sources */,
 				C5F7B84917B9E84E00FB6223 /* AppDelegate.m in Sources */,
 				C5F7B84517B9E84E00FB6223 /* main.m in Sources */,
 			);

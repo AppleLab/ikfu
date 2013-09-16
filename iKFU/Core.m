@@ -12,7 +12,7 @@ static Core* _core;
 
 @implementation Core
 @synthesize events;
-
+@synthesize loggedin;
 -(id) init
 {
     self = [super init];

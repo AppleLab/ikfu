@@ -15,6 +15,6 @@
 @property (atomic, strong) NSArray* events;
 @property NSDate* date;
 @property NSDate* time;
-
+@property BOOL loggedin;
 
 @end
