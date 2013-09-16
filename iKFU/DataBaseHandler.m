@@ -7,7 +7,7 @@
 //
 
 #import "DataBaseHandler.h"
-#import "fmdb/src/FMDatabase.h"
+#import "FMDatabase.h"
 
 static DataBaseHandler *sharedInstance = nil;
 static FMDatabase *database = nil;
