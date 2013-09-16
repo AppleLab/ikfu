@@ -26,6 +26,7 @@
 		CE2D1FCD17E476C0000FF052 /* ContentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FCC17E476C0000FF052 /* ContentClass.m */; };
 		CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD017E477AA000FF052 /* EventsViewController.m */; };
 		CE2D1FD417E48189000FF052 /* DetailEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD317E48188000FF052 /* DetailEvent.m */; };
+		CE4A9DCA17E7085500A2234C /* DataBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4A9DC917E7085500A2234C /* DataBaseHandler.m */; };
 		CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68092217E322960060B5F4 /* VKViewViewController.m */; };
 		CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */ = {isa = PBXBuildFile; fileRef = CE68092517E32EC70060B5F4 /* vkWidget.html */; };
 		CECC3C2117C27D930029F876 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86F17B9E88500FB6223 /* Core.m */; };
@@ -74,6 +75,8 @@
 		CE2D1FD017E477AA000FF052 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 		CE2D1FD217E48188000FF052 /* DetailEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailEvent.h; sourceTree = "<group>"; };
 		CE2D1FD317E48188000FF052 /* DetailEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailEvent.m; sourceTree = "<group>"; };
+		CE4A9DC817E7085500A2234C /* DataBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseHandler.h; sourceTree = "<group>"; };
+		CE4A9DC917E7085500A2234C /* DataBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseHandler.m; sourceTree = "<group>"; };
 		CE68092117E322960060B5F4 /* VKViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKViewViewController.h; sourceTree = "<group>"; };
 		CE68092217E322960060B5F4 /* VKViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKViewViewController.m; sourceTree = "<group>"; };
 		CE68092517E32EC70060B5F4 /* vkWidget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vkWidget.html; sourceTree = "<group>"; };
@@ -144,6 +147,7 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
+				CE4A9DC717E7083700A2234C /* DataBase */,
 				CEE0067917E6FE97004397FC /* Authentification */,
 				CEE0067217E6F782004397FC /* Profile */,
 				CEE0066E17E6EEB2004397FC /* MyEvents */,
@@ -219,6 +223,15 @@
 				CE2D1FD317E48188000FF052 /* DetailEvent.m */,
 			);
 			name = Events;
+			sourceTree = "<group>";
+		};
+		CE4A9DC717E7083700A2234C /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A9DC817E7085500A2234C /* DataBaseHandler.h */,
+				CE4A9DC917E7085500A2234C /* DataBaseHandler.m */,
+			);
+			name = DataBase;
 			sourceTree = "<group>";
 		};
 		CE68092017E3226F0060B5F4 /* VK */ = {
@@ -360,6 +373,7 @@
 				CE2D1FCD17E476C0000FF052 /* ContentClass.m in Sources */,
 				CECC3C2117C27D930029F876 /* Core.m in Sources */,
 				CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */,
+				CE4A9DCA17E7085500A2234C /* DataBaseHandler.m in Sources */,
 				CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */,
 				CEE0067817E6FA00004397FC /* ProfileViewController.m in Sources */,
 				CEE0067117E6EEDC004397FC /* MyEventViewController.m in Sources */,

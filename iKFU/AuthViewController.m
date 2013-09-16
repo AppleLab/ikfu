@@ -7,6 +7,8 @@
 //
 
 #import "AuthViewController.h"
+#import "Core.h"
+#import "DataBaseHandler.h"
 
 @interface AuthViewController ()
 
@@ -39,7 +41,21 @@
 - (IBAction)login:(id)sender {
     NSString *email = self.email.text;
     NSString *pass = self.password.text;
-    
+    DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
+    if ([dbh checkAuth:email withpassword:pass]){
+        [Core core].loggedin = true;
+        [self dismissViewControllerAnimated:false completion:nil];
+    }
+    else{
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Alert Title here"
+                                                       message: @"Alert Message here"
+                                                      delegate: self
+                                             cancelButtonTitle:@"Cancel"
+                                             otherButtonTitles:@"OK",nil];
+        
+        
+        [alert show];
+    }
 }
 
 - (IBAction)signup:(id)sender {
