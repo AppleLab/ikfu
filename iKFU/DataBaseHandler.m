@@ -35,7 +35,6 @@ static FMDatabase *database = nil;
     [database open];
     NSString *query = [NSString stringWithFormat:@"select * from users where email=\"%@\" and password=\"%@\"", email, password];
     FMResultSet *results = [database executeQuery:query];
-    NSLog(@"query %@", query);
     while ([results next]) {
         [database closeOpenResultSets];
         [database close];
@@ -43,5 +42,23 @@ static FMDatabase *database = nil;
     }
     [database close];
     return NO;
+}
+- (BOOL) checkEmail:(NSString *)email{
+    [database open];
+    NSString *query = [NSString stringWithFormat:@"select * from users where email=\"%@\"", email];
+    FMResultSet *results = [database executeQuery:query];
+    while ([results next]) {
+        [database closeOpenResultSets];
+        [database close];
+        return YES;
+    }
+    [database close];
+    return NO;
+}
+- (void) addUser:(NSString *)email withpassword:(NSString *)password{
+    [database open];
+    NSString *query = [NSString stringWithFormat:@"insert into users values (\"%@\", \"%@\")", email, password];
+    [database executeUpdate:query];
+    [database close];
 }
 @end

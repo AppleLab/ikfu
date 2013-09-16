@@ -13,8 +13,7 @@
 }
 +(DataBaseHandler*)getSharedInstance;
 -(BOOL)createDB;
--(BOOL) saveData:(NSString*)registerNumber name:(NSString*)name
-      department:(NSString*)department year:(NSString*)year;
 -(BOOL) checkAuth:(NSString*)email withpassword:(NSString*)password;
-
+-(BOOL) checkEmail:(NSString*)email;
+-(void) addUser:(NSString*)email withpassword:(NSString*)password;
 @end
