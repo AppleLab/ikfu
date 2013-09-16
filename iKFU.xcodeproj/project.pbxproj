@@ -20,6 +20,8 @@
 		C5F7B85A17B9E84E00FB6223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F7B83C17B9E84E00FB6223 /* UIKit.framework */; };
 		C5F7B86217B9E84E00FB6223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B86017B9E84E00FB6223 /* InfoPlist.strings */; };
 		C5F7B86417B9E84E00FB6223 /* iKFUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F7B86317B9E84E00FB6223 /* iKFUTests.m */; };
+		CE1CC7D917E6EFDA00EE9FE0 /* base.db in Resources */ = {isa = PBXBuildFile; fileRef = CE1CC7D817E6EFDA00EE9FE0 /* base.db */; };
+		CE1CC7DB17E6F01500EE9FE0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1CC7DA17E6F01500EE9FE0 /* libsqlite3.0.dylib */; };
 		CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
 		CE2D1FCD17E476C0000FF052 /* ContentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FCC17E476C0000FF052 /* ContentClass.m */; };
 		CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD017E477AA000FF052 /* EventsViewController.m */; };
@@ -61,6 +63,8 @@
 		C5F7B86317B9E84E00FB6223 /* iKFUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iKFUTests.m; sourceTree = "<group>"; };
 		C5F7B86E17B9E88500FB6223 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		C5F7B86F17B9E88500FB6223 /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		CE1CC7D817E6EFDA00EE9FE0 /* base.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = base.db; path = ../base.db; sourceTree = "<group>"; };
+		CE1CC7DA17E6F01500EE9FE0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		CE2D1FCB17E476C0000FF052 /* ContentClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentClass.h; sourceTree = "<group>"; };
 		CE2D1FCC17E476C0000FF052 /* ContentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentClass.m; sourceTree = "<group>"; };
 		CE2D1FCF17E477AA000FF052 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1CC7DB17E6F01500EE9FE0 /* libsqlite3.0.dylib in Frameworks */,
 				C5F7B83B17B9E84E00FB6223 /* CoreGraphics.framework in Frameworks */,
 				C5F7B83D17B9E84E00FB6223 /* UIKit.framework in Frameworks */,
 				C5F7B83917B9E84E00FB6223 /* Foundation.framework in Frameworks */,
@@ -118,6 +123,7 @@
 		C5F7B83717B9E84E00FB6223 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE1CC7DA17E6F01500EE9FE0 /* libsqlite3.0.dylib */,
 				C5F7B83817B9E84E00FB6223 /* Foundation.framework */,
 				C5F7B83A17B9E84E00FB6223 /* CoreGraphics.framework */,
 				C5F7B83C17B9E84E00FB6223 /* UIKit.framework */,
@@ -144,6 +150,7 @@
 		C5F7B83F17B9E84E00FB6223 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE1CC7D817E6EFDA00EE9FE0 /* base.db */,
 				C5F7B84017B9E84E00FB6223 /* iKFU-Info.plist */,
 				C5F7B84117B9E84E00FB6223 /* InfoPlist.strings */,
 				C5F7B84417B9E84E00FB6223 /* main.m */,
@@ -292,6 +299,7 @@
 				C5F7B85117B9E84E00FB6223 /* Images.xcassets in Resources */,
 				CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */,
 				C5F7B84317B9E84E00FB6223 /* InfoPlist.strings in Resources */,
+				CE1CC7D917E6EFDA00EE9FE0 /* base.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
