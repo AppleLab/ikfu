@@ -57,7 +57,7 @@ static FMDatabase *database = nil;
 }
 - (void) addUser:(NSString *)email withpassword:(NSString *)password{
     [database open];
-    NSString *query = [NSString stringWithFormat:@"insert into users values(email, password) ('%@', '%@')", email, password];
+    NSString *query = [NSString stringWithFormat:@"insert into users(email, password) values ('%@', '%@')", email, password];
     [database executeUpdate:query];
     query = @"select email, password from users";
     FMResultSet *results = [database executeQuery:query];
