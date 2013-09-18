@@ -13,6 +13,9 @@
 }
 +(DataBaseHandler*)getSharedInstance;
 -(BOOL)createDB;
+-(NSMutableArray *) eventDetails;
+-(NSString *) eventTitle;
+-(NSString *) eventDate;
 -(BOOL) checkAuth:(NSString*)email withpassword:(NSString*)password;
 -(BOOL) checkEmail:(NSString*)email;
 -(void) addUser:(NSString*)email withpassword:(NSString*)password;

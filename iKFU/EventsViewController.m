@@ -8,13 +8,14 @@
 
 #import "EventsViewController.h"
 #import "ContentClass.h"
-@interface EventsViewController ()
 
+@interface EventsViewController ()
 @end
 
-@implementation EventsViewController{
+@implementation EventsViewController {
     NSArray *content;
 }
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

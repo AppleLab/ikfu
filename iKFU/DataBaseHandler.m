@@ -30,6 +30,46 @@ static FMDatabase *database = nil;
     database.traceExecution = true; //выводит подробный лог запросов в консоль
     return true;
 }
+
+- (NSString *) eventTitle {
+    [database open];
+    FMResultSet *results = [database executeQuery:@"select * from events"];
+    NSString *eventTitle;
+    while([results next]) {
+        eventTitle = [results stringForColumn:@"title"];
+    }
+    [database close];
+    return eventTitle;
+}
+
+- (NSString *) eventDate {
+    [database open];
+    FMResultSet *results = [database executeQuery:@"select * from events"];
+    NSString *eventDate;
+    while([results next]) {
+        eventDate = [results stringForColumn:@"date"];
+    }
+    [database close];
+    return eventDate;
+}
+
+- (NSMutableArray *) eventDetails {
+    [database open];
+    FMResultSet *results = [database executeQuery:@"select * from events"];
+    NSMutableArray *events = [[NSMutableArray alloc] init];
+    while([results next]) {
+        //NSString *id1= [[NSNumber numberWithInt:[results intForColumnIndex:@"id"]] stringValue];
+        NSString *ti = [results stringForColumn:@"title"];
+        NSString *co = [results stringForColumn:@"content"];
+        NSString *da = [results stringForColumn:@"date"];
+        NSString *ty = [results stringForColumn:@"type"];
+        //NSInteger *cr = [results stringForColumn:@"creator_id"];
+        [events addObject:[NSMutableArray arrayWithObjects: ti, co, da, ty, nil]];
+    }
+    return events;
+    [database close];
+}
+
 - (BOOL) checkAuth:(NSString *)email withpassword:(NSString *)password
 {
     [database open];
