@@ -8,11 +8,13 @@
 
 #import "ProfileViewController.h"
 #import "Core.h"
+#import "DataBaseHandler.h"
 
 @interface ProfileViewController ()
 
 @end
 
+NSMutableArray *content;
 @implementation ProfileViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -25,8 +27,17 @@
 }
 - (void)viewWillAppear:(BOOL)animated{
     if (![Core core].loggedin){
+        [self dismissViewControllerAnimated:NO completion:nil];
         [self performSegueWithIdentifier: @"authSegue1" sender: self];
     }
+    else{
+        DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
+        content = [dbh getProfileInfo:[Core core].email];
+        self.email.text = [content objectAtIndex:0];
+        self.name.text = [content objectAtIndex:1];
+        self.faculty.text = [content objectAtIndex:2];
+    }
+    [super viewWillAppear:NO];
 }
 - (void)viewDidLoad
 {

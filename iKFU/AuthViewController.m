@@ -44,6 +44,7 @@
     DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
     if ([dbh checkAuth:email withpassword:pass]){
         [Core core].loggedin = true;
+        [Core core].email = email;
         [self dismissViewControllerAnimated:false completion:nil];
     }
     else{
@@ -60,6 +61,5 @@
 
 - (IBAction)signup:(id)sender {
     [self performSegueWithIdentifier: @"signupsegue" sender: self];
-    [self dismissViewControllerAnimated:false completion:nil];
 }
 @end

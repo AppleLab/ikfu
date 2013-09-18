@@ -59,13 +59,22 @@ static FMDatabase *database = nil;
     [database open];
     NSString *query = [NSString stringWithFormat:@"insert into users(email, password) values ('%@', '%@')", email, password];
     [database executeUpdate:query];
-    query = @"select email, password from users";
+    [database close];
+}
+- (NSMutableArray *) getProfileInfo:(NSString *)email{
+    NSMutableArray *content = [[NSMutableArray alloc]init];
+    [database open];
+    NSString *query =[NSString stringWithFormat:@"select email, name, faculty from users where email='%@'",email];
     FMResultSet *results = [database executeQuery:query];
-    while ([results next]) {
-        NSString *email = [results stringForColumn:@"email"];
-        NSString *pass  = [results stringForColumn:@"password"];
-        NSLog(@"user: %@ %@", email, pass);
+    [results next];
+    for (int i = 0; i < 3; i++) {
+        NSString *info = [results stringForColumnIndex:i];
+        if ([info isEqualToString:@""]){
+            info = @"Не задано";
+        }
+        [content addObject:info];
     }
     [database close];
+    return content;
 }
 @end

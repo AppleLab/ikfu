@@ -16,5 +16,6 @@
 @property NSDate* date;
 @property NSDate* time;
 @property BOOL loggedin;
+@property NSString *email;
 
 @end

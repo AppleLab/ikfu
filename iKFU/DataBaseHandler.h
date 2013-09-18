@@ -16,4 +16,5 @@
 -(BOOL) checkAuth:(NSString*)email withpassword:(NSString*)password;
 -(BOOL) checkEmail:(NSString*)email;
 -(void) addUser:(NSString*)email withpassword:(NSString*)password;
+- (NSMutableArray *) getProfileInfo:(NSString *)email;
 @end

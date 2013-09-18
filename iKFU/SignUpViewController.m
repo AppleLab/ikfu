@@ -52,7 +52,8 @@
     else{
         [dbh addUser:email withpassword:pass];
         [Core core].loggedin = true;
-        [self dismissViewControllerAnimated:false completion:nil];
+        [Core core].email = email;
+        [self performSegueWithIdentifier:@"contSegue" sender:self];
     }
 }
 @end

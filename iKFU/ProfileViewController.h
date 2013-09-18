@@ -10,5 +10,8 @@
 
 @interface ProfileViewController : UIViewController
 - (IBAction)logoff:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *email;
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *faculty;
 
 @end

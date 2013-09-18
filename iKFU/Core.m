@@ -13,6 +13,7 @@ static Core* _core;
 @implementation Core
 @synthesize events;
 @synthesize loggedin;
+@synthesize email;
 -(id) init
 {
     self = [super init];
