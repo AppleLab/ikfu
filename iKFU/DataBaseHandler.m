@@ -53,6 +53,23 @@ static FMDatabase *database = nil;
     return eventDate;
 }
 
+- (NSMutableArray *) eventDetails {
+    [database open];
+    FMResultSet *results = [database executeQuery:@"select * from events"];
+    NSMutableArray *events = [[NSMutableArray alloc] init];
+    while([results next]) {
+        //NSString *id1= [[NSNumber numberWithInt:[results intForColumnIndex:@"id"]] stringValue];
+        NSString *ti = [results stringForColumn:@"title"];
+        NSString *co = [results stringForColumn:@"content"];
+        NSString *da = [results stringForColumn:@"date"];
+        NSString *ty = [results stringForColumn:@"type"];
+        //NSInteger *cr = [results stringForColumn:@"creator_id"];
+        [events addObject:[NSMutableArray arrayWithObjects: ti, co, da, ty, nil]];
+    }
+    return events;
+    [database close];
+}
+
 - (BOOL) checkAuth:(NSString *)email withpassword:(NSString *)password
 {
     [database open];

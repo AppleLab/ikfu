@@ -13,12 +13,20 @@ NSMutableArray *eventsToFill;
 
 @implementation ContentClass
 
+/*+(NSArray *)eventsFill{
+    //DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
+    //eventsToFill = [[NSMutableArray alloc] init];
+    //NSString *title = [dbh eventTitle];
+    //[eventsToFill addObject:title];
+    return eventsToFill;
+};*/
 +(NSArray *)eventsFill{
-    
     DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
     eventsToFill = [[NSMutableArray alloc] init];
-    NSString *title = [dbh eventTitle];
-    [eventsToFill addObject:title];
+    for(int i = 0; i < 5; i++) {
+        NSString *title = [[dbh.eventDetails objectAtIndex:i] objectAtIndex:0];
+        [eventsToFill addObject:title];
+    }
     return eventsToFill;
 };
 
