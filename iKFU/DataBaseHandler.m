@@ -30,6 +30,29 @@ static FMDatabase *database = nil;
     database.traceExecution = true; //выводит подробный лог запросов в консоль
     return true;
 }
+
+- (NSString *) eventTitle {
+    [database open];
+    FMResultSet *results = [database executeQuery:@"select * from events"];
+    NSString *eventTitle;
+    while([results next]) {
+        eventTitle = [results stringForColumn:@"title"];
+    }
+    [database close];
+    return eventTitle;
+}
+
+- (NSString *) eventDate {
+    [database open];
+    FMResultSet *results = [database executeQuery:@"select * from events"];
+    NSString *eventDate;
+    while([results next]) {
+        eventDate = [results stringForColumn:@"date"];
+    }
+    [database close];
+    return eventDate;
+}
+
 - (BOOL) checkAuth:(NSString *)email withpassword:(NSString *)password
 {
     [database open];

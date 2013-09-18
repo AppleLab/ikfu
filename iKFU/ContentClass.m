@@ -7,13 +7,18 @@
 //
 
 #import "ContentClass.h"
+#import "DataBaseHandler.h"
 
-NSArray *eventsToFill;
+NSMutableArray *eventsToFill;
 
 @implementation ContentClass
 
 +(NSArray *)eventsFill{
-    eventsToFill = [NSArray arrayWithObjects:@"Event1", @"Event2", nil];
+    
+    DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
+    eventsToFill = [[NSMutableArray alloc] init];
+    NSString *title = [dbh eventTitle];
+    [eventsToFill addObject:title];
     return eventsToFill;
 };
 
