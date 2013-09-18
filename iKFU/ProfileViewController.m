@@ -40,4 +40,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)logoff:(id)sender {
+    [Core core].loggedin = NO;
+    [self performSegueWithIdentifier: @"authSegue1" sender: self];
+}
 @end

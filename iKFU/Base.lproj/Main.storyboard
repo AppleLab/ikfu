@@ -219,6 +219,9 @@
                                 <state key="normal" title="Выйти">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="logoff:" destination="ryd-AA-Jyh" eventType="touchUpInside" id="eXd-1c-6Hf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E0a-QJ-H7h">
                                 <rect key="frame" x="20" y="122" width="280" height="44"/>
@@ -435,7 +438,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="kVk-3F-BMa"/>
+        <segue reference="9AN-d0-j6I"/>
         <segue reference="MGc-JV-zpj"/>
     </inferredMetricsTieBreakers>
 </document>
