@@ -321,7 +321,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVF-ch-gkG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1548" y="1972"/>
+            <point key="canvasLocation" x="1360" y="1840"/>
         </scene>
         <!--Navigation Controller - Item-->
         <scene sceneID="SGH-DV-SWb">
@@ -453,7 +453,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kgC-ng-UdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2664" y="414"/>
+            <point key="canvasLocation" x="2108" y="650"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -463,8 +463,8 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="2ld-bt-3cU"/>
-        <segue reference="9AN-d0-j6I"/>
-        <segue reference="MGc-JV-zpj"/>
+        <segue reference="kVk-3F-BMa"/>
         <segue reference="dI0-BZ-IdK"/>
+        <segue reference="MGc-JV-zpj"/>
     </inferredMetricsTieBreakers>
 </document>
