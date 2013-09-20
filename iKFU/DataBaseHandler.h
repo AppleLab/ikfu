@@ -20,4 +20,5 @@
 -(BOOL) checkEmail:(NSString*)email;
 -(void) addUser:(NSString*)email withpassword:(NSString*)password;
 - (NSMutableArray *) getProfileInfo:(NSString *)email;
+- (void) editUserInfo:(NSString *)email withPass:(NSString *)pass withFaculty:(NSString *)faculty;
 @end

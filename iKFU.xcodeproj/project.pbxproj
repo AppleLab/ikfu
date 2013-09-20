@@ -25,6 +25,7 @@
 		CE28F77E17C7694500AD56CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F7B84A17B9E84E00FB6223 /* Main.storyboard */; };
 		CE2D1FD117E477AA000FF052 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD017E477AA000FF052 /* EventsViewController.m */; };
 		CE2D1FD417E48189000FF052 /* DetailEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D1FD317E48188000FF052 /* DetailEvent.m */; };
+		CE2E87A617EC7945009FEB27 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E87A517EC7945009FEB27 /* EditProfileViewController.m */; };
 		CE4A9DCA17E7085500A2234C /* DataBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4A9DC917E7085500A2234C /* DataBaseHandler.m */; };
 		CE68092317E322960060B5F4 /* VKViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68092217E322960060B5F4 /* VKViewViewController.m */; };
 		CE68092617E32EC70060B5F4 /* vkWidget.html in Resources */ = {isa = PBXBuildFile; fileRef = CE68092517E32EC70060B5F4 /* vkWidget.html */; };
@@ -82,6 +83,8 @@
 		CE2D1FD017E477AA000FF052 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 		CE2D1FD217E48188000FF052 /* DetailEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailEvent.h; sourceTree = "<group>"; };
 		CE2D1FD317E48188000FF052 /* DetailEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailEvent.m; sourceTree = "<group>"; };
+		CE2E87A417EC7945009FEB27 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		CE2E87A517EC7945009FEB27 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 		CE4A9DC817E7085500A2234C /* DataBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseHandler.h; sourceTree = "<group>"; };
 		CE4A9DC917E7085500A2234C /* DataBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseHandler.m; sourceTree = "<group>"; };
 		CE68092117E322960060B5F4 /* VKViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKViewViewController.h; sourceTree = "<group>"; };
@@ -178,6 +181,7 @@
 		C5F7B83E17B9E84E00FB6223 /* iKFU */ = {
 			isa = PBXGroup;
 			children = (
+				CE2E87A317EC792D009FEB27 /* EditProfile */,
 				CEBB070817E9D77E00C2F335 /* Filter */,
 				CEF5EABE17E742240056F2A2 /* SignUp */,
 				CE4A9DC717E7083700A2234C /* DataBase */,
@@ -256,6 +260,15 @@
 				CE2D1FD317E48188000FF052 /* DetailEvent.m */,
 			);
 			name = Events;
+			sourceTree = "<group>";
+		};
+		CE2E87A317EC792D009FEB27 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E87A417EC7945009FEB27 /* EditProfileViewController.h */,
+				CE2E87A517EC7945009FEB27 /* EditProfileViewController.m */,
+			);
+			name = EditProfile;
 			sourceTree = "<group>";
 		};
 		CE4A9DC717E7083700A2234C /* DataBase */ = {
@@ -433,6 +446,7 @@
 				CEE0067817E6FA00004397FC /* ProfileViewController.m in Sources */,
 				CEF5EABC17E7406C0056F2A2 /* FMDatabaseQueue.m in Sources */,
 				CEBB070717E9D77600C2F335 /* FilterViewController.m in Sources */,
+				CE2E87A617EC7945009FEB27 /* EditProfileViewController.m in Sources */,
 				CEE0067117E6EEDC004397FC /* MyEventViewController.m in Sources */,
 				C5F7B84F17B9E84E00FB6223 /* ViewController.m in Sources */,
 				CE2D1FD417E48189000FF052 /* DetailEvent.m in Sources */,

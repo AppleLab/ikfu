@@ -1,20 +1,20 @@
 //
-//  AuthViewController.m
+//  EditProfileViewController.m
 //  iKFU
 //
-//  Created by User on 16.09.13.
+//  Created by user on 20.09.13.
 //  Copyright (c) 2013 Ramil Garaev. All rights reserved.
 //
 
-#import "AuthViewController.h"
+#import "EditProfileViewController.h"
 #import "Core.h"
 #import "DataBaseHandler.h"
 
-@interface AuthViewController ()
+@interface EditProfileViewController ()
 
 @end
 
-@implementation AuthViewController
+@implementation EditProfileViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,7 +29,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,30 +37,26 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)login:(id)sender {
-    NSString *email = self.email.text;
-    NSString *pass = self.password.text;
-    DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
-    if ([dbh checkAuth:email withpassword:pass]){
-        [Core core].loggedin = true;
-        [Core core].email = email;
-        [Core core].password = pass;
-        [Core core].faculty = [[dbh getProfileInfo:email] objectAtIndex:2];
-        [self dismissViewControllerAnimated:false completion:nil];
+- (IBAction)edit:(id)sender {
+    NSString *oldPass = self.oldPass.text;
+    NSString *newPass = self.reallynewPass.text;
+    if ([oldPass isEqualToString:[Core core].password]){
+        NSString *faculty = self.faculty.text;
+        DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
+        [dbh editUserInfo:[Core core].email withPass:newPass withFaculty:faculty];
+        [self dismissViewControllerAnimated:YES completion:nil];
     }
     else{
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Ошибка"
-                                                       message: @"Данный email не зарегистрирован, или пароль не верен."
+                                                       message: @"Текущий пароль не верен."
                                                       delegate: self
                                              cancelButtonTitle: nil
                                              otherButtonTitles:@"OK",nil];
-        
-        
         [alert show];
     }
 }
 
-- (IBAction)signup:(id)sender {
-    [self performSegueWithIdentifier: @"signupsegue" sender: self];
+- (IBAction)cancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

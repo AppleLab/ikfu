@@ -17,5 +17,7 @@
 @property NSDate* time;
 @property BOOL loggedin;
 @property NSString *email;
+@property NSString *password;
+@property NSString *faculty;
 
 @end

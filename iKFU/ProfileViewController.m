@@ -27,7 +27,6 @@ NSMutableArray *content;
 }
 - (void)viewWillAppear:(BOOL)animated{
     if (![Core core].loggedin){
-        [self dismissViewControllerAnimated:NO completion:nil];
         [self performSegueWithIdentifier: @"authSegue1" sender: self];
     }
     else{
