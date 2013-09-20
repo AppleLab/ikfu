@@ -117,4 +117,10 @@ static FMDatabase *database = nil;
     [database close];
     return content;
 }
+- (void) editUserInfo:(NSString *)email withPass:(NSString *)pass withFaculty:(NSString *)faculty{
+    [database open];
+    NSString *query = [NSString stringWithFormat:@"update users set password='%@', faculty='%@' where email='%@'", pass,faculty,email];
+    [database executeUpdate:query];
+    [database close];
+}
 @end

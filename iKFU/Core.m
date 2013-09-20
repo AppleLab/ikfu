@@ -14,6 +14,8 @@ static Core* _core;
 @synthesize events;
 @synthesize loggedin;
 @synthesize email;
+@synthesize password;
+@synthesize faculty;
 -(id) init
 {
     self = [super init];

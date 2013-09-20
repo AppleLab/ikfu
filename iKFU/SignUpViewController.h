@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *email;
 @property (weak, nonatomic) IBOutlet UITextField *pass;
 - (IBAction)signup:(id)sender;
+- (IBAction)cancel:(id)sender;
 
 @end
