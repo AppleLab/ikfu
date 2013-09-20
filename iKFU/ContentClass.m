@@ -13,13 +13,6 @@ NSMutableArray *eventsToFill;
 
 @implementation ContentClass
 
-/*+(NSArray *)eventsFill{
-    //DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
-    //eventsToFill = [[NSMutableArray alloc] init];
-    //NSString *title = [dbh eventTitle];
-    //[eventsToFill addObject:title];
-    return eventsToFill;
-};*/
 +(NSArray *)eventsFill{
     DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
     eventsToFill = [[NSMutableArray alloc] init];
