@@ -30,7 +30,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    content = [ContentClass eventsFill];
+    NSArray *myContent = [ContentClass eventsFill];
+    NSMutableArray *content1 = [[NSMutableArray alloc] init];
+    NSString *title;
+    for(int i = 0; i < 5; i++) {
+        if ([[[myContent objectAtIndex:i] objectAtIndex:3] isEqual: @"sport"]) {
+            title = [[myContent objectAtIndex:i] objectAtIndex:0];
+            [content1 addObject:title];
+        }
+    }
+    content = [NSArray arrayWithArray:content1];
 }
 
 - (void)didReceiveMemoryWarning
