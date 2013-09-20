@@ -19,5 +19,7 @@
 @property NSString *email;
 @property NSString *password;
 @property NSString *faculty;
+@property NSInteger limit1;
+@property NSInteger limit2;
 
 @end

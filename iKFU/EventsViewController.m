@@ -8,6 +8,7 @@
 
 #import "EventsViewController.h"
 #import "ContentClass.h"
+#import "Core.h"
 
 @interface EventsViewController ()
 @end
@@ -30,10 +31,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSArray *myContent = [ContentClass eventsFill];
+    NSArray *myContent = [ContentClass eventsFill:[Core core].limit1];
     NSMutableArray *content1 = [[NSMutableArray alloc] init];
     NSString *title;
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < [myContent count]; i++) {
         if ([[[myContent objectAtIndex:i] objectAtIndex:3] isEqual: @"sport"]) {
             title = [[myContent objectAtIndex:i] objectAtIndex:0];
             [content1 addObject:title];

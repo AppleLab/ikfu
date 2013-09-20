@@ -30,41 +30,18 @@ static FMDatabase *database = nil;
     database.traceExecution = true; //выводит подробный лог запросов в консоль
     return true;
 }
-
-- (NSString *) eventTitle {
+- (NSMutableArray *) eventDetails:(NSInteger)limit {
     [database open];
-    FMResultSet *results = [database executeQuery:@"select * from events"];
-    NSString *eventTitle;
-    while([results next]) {
-        eventTitle = [results stringForColumn:@"title"];
-    }
-    [database close];
-    return eventTitle;
-}
-
-- (NSString *) eventDate {
-    [database open];
-    FMResultSet *results = [database executeQuery:@"select * from events"];
-    NSString *eventDate;
-    while([results next]) {
-        eventDate = [results stringForColumn:@"date"];
-    }
-    [database close];
-    return eventDate;
-}
-
-- (NSMutableArray *) eventDetails {
-    [database open];
-    FMResultSet *results = [database executeQuery:@"select * from events limit 10"];
+    FMResultSet *results = [database executeQuery:@"select * from events limit %d", limit];
     NSMutableArray *events = [[NSMutableArray alloc] init];
     while([results next]) {
-        //NSString *id1= [[NSNumber numberWithInt:[results intForColumnIndex:@"id"]] stringValue];
+        NSNumber *id1 = [NSNumber numberWithInt:[results intForColumn:@"id"]];
         NSString *ti = [results stringForColumn:@"title"];
         NSString *co = [results stringForColumn:@"content"];
         NSString *da = [results stringForColumn:@"date"];
         NSString *ty = [results stringForColumn:@"type"];
-        //NSInteger *cr = [results stringForColumn:@"creator_id"];
-        [events addObject:[NSMutableArray arrayWithObjects: ti, co, da, ty, nil]];
+        NSNumber *cr = [NSNumber numberWithInt:[results intForColumn:@"creator_id"]];
+        [events addObject:[NSMutableArray arrayWithObjects: id1, ti, co, da, ty, cr, nil]];
     }
     return events;
     [database close];

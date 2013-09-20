@@ -10,6 +10,6 @@
 
 @interface ContentClass : NSObject
 
-+(NSArray *)eventsFill;
++(NSArray *)eventsFill:(NSInteger)limit;
 
 @end

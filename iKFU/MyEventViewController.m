@@ -38,7 +38,7 @@ NSArray *content;
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     //check_for_Auth
-    content = [ContentClass eventsFill];
+    content = [ContentClass eventsFill:<#(NSInteger)#>;
 }
 
 - (void)didReceiveMemoryWarning

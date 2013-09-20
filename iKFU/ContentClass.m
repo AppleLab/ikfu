@@ -13,13 +13,10 @@ NSMutableArray *eventsToFill;
 
 @implementation ContentClass
 
-+(NSArray *)eventsFill{
++(NSArray *)eventsFill:(NSInteger)limit{
     DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
     eventsToFill = [[NSMutableArray alloc] init];
-    for(int i = 0; i < MIN(10, <#B#>); i++) {
-        NSString *title = [[dbh.eventDetails objectAtIndex:i] objectAtIndex:0];
-        [eventsToFill addObject:title];
-    }
+    eventsToFill = [dbh eventDetails:limit];
     return eventsToFill;
 };
 

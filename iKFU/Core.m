@@ -16,6 +16,8 @@ static Core* _core;
 @synthesize email;
 @synthesize password;
 @synthesize faculty;
+@synthesize limit1;
+@synthesize limit2;
 -(id) init
 {
     self = [super init];
