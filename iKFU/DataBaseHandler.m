@@ -55,7 +55,7 @@ static FMDatabase *database = nil;
 
 - (NSMutableArray *) eventDetails {
     [database open];
-    FMResultSet *results = [database executeQuery:@"select * from events"];
+    FMResultSet *results = [database executeQuery:@"select * from events limit 10"];
     NSMutableArray *events = [[NSMutableArray alloc] init];
     while([results next]) {
         //NSString *id1= [[NSNumber numberWithInt:[results intForColumnIndex:@"id"]] stringValue];

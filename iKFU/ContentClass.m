@@ -23,7 +23,7 @@ NSMutableArray *eventsToFill;
 +(NSArray *)eventsFill{
     DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
     eventsToFill = [[NSMutableArray alloc] init];
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < MIN(10, <#B#>); i++) {
         NSString *title = [[dbh.eventDetails objectAtIndex:i] objectAtIndex:0];
         [eventsToFill addObject:title];
     }
