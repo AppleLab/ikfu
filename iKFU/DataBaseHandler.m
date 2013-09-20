@@ -32,7 +32,7 @@ static FMDatabase *database = nil;
 }
 - (NSMutableArray *) eventDetails:(NSInteger)limit {
     [database open];
-    FMResultSet *results = [database executeQuery:@"select * from events limit %d", limit];
+    FMResultSet *results = [database executeQuery:[NSString stringWithFormat:@"select * from events limit %d", limit]];
     NSMutableArray *events = [[NSMutableArray alloc] init];
     while([results next]) {
         NSNumber *id1 = [NSNumber numberWithInt:[results intForColumn:@"id"]];

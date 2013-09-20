@@ -28,8 +28,11 @@ static Core* _core;
 {
     @synchronized(_core)
     {
-        if (!_core)
+        if (!_core){
             _core = [[Core alloc] init];
+            _core.limit1 = 10;
+            _core.limit2 = 10;
+        }
         return _core;
     }
 }
