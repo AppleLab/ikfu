@@ -11,5 +11,6 @@
 @interface ContentClass : NSObject
 
 +(NSArray *)eventsFill:(NSInteger)limit;
-
++(NSArray *)eventsFillWithCreator:(NSInteger)limit withcreator:(NSInteger)creator;
++(NSArray *)eventsFillWithParticipant:(NSInteger)limit withpart:(NSInteger)part;
 @end

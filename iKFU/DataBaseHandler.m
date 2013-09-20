@@ -46,6 +46,38 @@ static FMDatabase *database = nil;
     return events;
     [database close];
 }
+- (NSMutableArray *) eventDetailsWithKnownCreator:(NSInteger)limit withCreator:(NSInteger)creator{
+    [database open];
+    FMResultSet *results = [database executeQuery:[NSString stringWithFormat:@"select * from events where creator_id = %d limit %d ", creator, limit]];
+    NSMutableArray *events = [[NSMutableArray alloc] init];
+    while([results next]) {
+        NSNumber *id1 = [NSNumber numberWithInt:[results intForColumn:@"id"]];
+        NSString *ti = [results stringForColumn:@"title"];
+        NSString *co = [results stringForColumn:@"content"];
+        NSString *da = [results stringForColumn:@"date"];
+        NSString *ty = [results stringForColumn:@"type"];
+        NSNumber *cr = [NSNumber numberWithInt:[results intForColumn:@"creator_id"]];
+        [events addObject:[NSMutableArray arrayWithObjects: id1, ti, co, da, ty, cr, nil]];
+    }
+    return events;
+    [database close];
+}
+- (NSMutableArray *) eventDetailsWithKnownParticipant:(NSInteger)limit withCreator:(NSInteger)part{
+    [database open];
+    FMResultSet *results = [database executeQuery:[NSString stringWithFormat:@"select * from events where part_user_id = %d limit %d ", part, limit]];
+    NSMutableArray *events = [[NSMutableArray alloc] init];
+    while([results next]) {
+        NSNumber *id1 = [NSNumber numberWithInt:[results intForColumn:@"id"]];
+        NSString *ti = [results stringForColumn:@"title"];
+        NSString *co = [results stringForColumn:@"content"];
+        NSString *da = [results stringForColumn:@"date"];
+        NSString *ty = [results stringForColumn:@"type"];
+        NSNumber *cr = [NSNumber numberWithInt:[results intForColumn:@"creator_id"]];
+        [events addObject:[NSMutableArray arrayWithObjects: id1, ti, co, da, ty, cr, nil]];
+    }
+    return events;
+    [database close];
+}
 
 - (BOOL) checkAuth:(NSString *)email withpassword:(NSString *)password
 {
@@ -81,10 +113,10 @@ static FMDatabase *database = nil;
 - (NSMutableArray *) getProfileInfo:(NSString *)email{
     NSMutableArray *content = [[NSMutableArray alloc]init];
     [database open];
-    NSString *query =[NSString stringWithFormat:@"select email, name, faculty from users where email='%@'",email];
+    NSString *query =[NSString stringWithFormat:@"select email, name, faculty, id from users where email='%@'",email];
     FMResultSet *results = [database executeQuery:query];
     [results next];
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 4; i++) {
         NSString *info = [results stringForColumnIndex:i];
         if ([info isEqualToString:@""]){
             info = @"Не задано";

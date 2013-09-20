@@ -375,6 +375,9 @@
                                     <segment title="Учавствую"/>
                                     <segment title="Организую"/>
                                 </segments>
+                                <connections>
+                                    <action selector="check:" destination="n8N-By-tu4" eventType="valueChanged" id="yag-b5-FaV"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="W9M-xa-d3D">
                                 <rect key="frame" x="0.0" y="107" width="320" height="410"/>
@@ -418,11 +421,11 @@
             </objects>
             <point key="canvasLocation" x="1660" y="1972"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Мои события-->
         <scene sceneID="SGH-DV-SWb">
             <objects>
                 <navigationController definesPresentationContext="YES" id="ATr-61-ezd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Swl-mr-qTX"/>
+                    <tabBarItem key="tabBarItem" title="Мои события" id="Swl-mr-qTX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PBM-xw-jNY">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -557,9 +560,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9AN-d0-j6I"/>
         <segue reference="Pl3-Rh-7oz"/>
-        <segue reference="MGc-JV-zpj"/>
+        <segue reference="kVk-3F-BMa"/>
         <segue reference="dI0-BZ-IdK"/>
+        <segue reference="MGc-JV-zpj"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -31,6 +31,16 @@ NSArray *content;
     if (![Core core].loggedin){
         [self performSegueWithIdentifier: @"authSegue" sender: self];
     }
+    else{
+        [Core core].partorcreate = NO;
+        NSArray *myContent = [ContentClass eventsFillWithParticipant:[Core core].limit2 withpart:[Core core].id];
+        NSMutableArray *content1 = [[NSMutableArray alloc]init];
+        for (int i = 0; i < [myContent count]; i++){
+            [content1 addObject:[[myContent objectAtIndex:i] objectAtIndex:1]];
+        }
+        content = [NSArray arrayWithArray:content1];
+    }
+    [super viewWillAppear:NO];
 }
 
 - (void)viewDidLoad
@@ -38,7 +48,7 @@ NSArray *content;
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     //check_for_Auth
-    content = [ContentClass eventsFill:[Core core].limit2];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,5 +67,29 @@ NSArray *content;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     cell.textLabel.text = [content objectAtIndex:indexPath.row];
     return cell;
+}
+- (IBAction)check:(id)sender {
+    if (![Core core].partorcreate){
+        [Core core].partorcreate = YES;
+        [Core core].limit2 = 10;
+        NSArray *myContent = [ContentClass eventsFillWithCreator:[Core core].limit2 withcreator:[Core core].id];
+        NSMutableArray *content1 = [[NSMutableArray alloc]init];
+        for (int i = 0; i < [myContent count]; i++){
+            [content1 addObject:[[myContent objectAtIndex:i] objectAtIndex:1]];
+        }
+        content = [NSArray arrayWithArray:content1];
+        [[self tv] reloadData];
+    }
+    else{
+        [Core core].partorcreate = NO;
+        [Core core].limit2 = 10;
+        NSArray *myContent = [ContentClass eventsFillWithParticipant:[Core core].limit2 withpart:[Core core].id];
+        NSMutableArray *content1 = [[NSMutableArray alloc]init];
+        for (int i = 0; i < [myContent count]; i++){
+            [content1 addObject:[[myContent objectAtIndex:i] objectAtIndex:1]];
+        }
+        content = [NSArray arrayWithArray:content1];
+        [[self tv] reloadData];
+    }
 }
 @end

@@ -10,5 +10,6 @@
 
 @interface MyEventViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tv;
+- (IBAction)check:(id)sender;
 
 @end

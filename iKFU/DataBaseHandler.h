@@ -21,4 +21,6 @@
 -(void) addUser:(NSString*)email withpassword:(NSString*)password;
 - (NSMutableArray *) getProfileInfo:(NSString *)email;
 - (void) editUserInfo:(NSString *)email withPass:(NSString *)pass withFaculty:(NSString *)faculty;
+- (NSMutableArray *) eventDetailsWithKnownParticipant:(NSInteger)limit withCreator:(NSInteger)part;
+- (NSMutableArray *) eventDetailsWithKnownCreator:(NSInteger)limit withCreator:(NSInteger)creator;
 @end

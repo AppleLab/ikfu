@@ -21,5 +21,7 @@
 @property NSString *faculty;
 @property NSInteger limit1;
 @property NSInteger limit2;
+@property BOOL partorcreate;
+@property NSInteger id;
 
 @end

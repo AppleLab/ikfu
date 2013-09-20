@@ -46,7 +46,9 @@
         [Core core].loggedin = true;
         [Core core].email = email;
         [Core core].password = pass;
-        [Core core].faculty = [[dbh getProfileInfo:email] objectAtIndex:2];
+        NSMutableArray *info = [dbh getProfileInfo:email];
+        [Core core].faculty = [info objectAtIndex:2];
+        [Core core].id = [[info objectAtIndex:3] integerValue];
         [self dismissViewControllerAnimated:false completion:nil];
     }
     else{

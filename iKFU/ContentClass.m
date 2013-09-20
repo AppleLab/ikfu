@@ -9,9 +9,8 @@
 #import "ContentClass.h"
 #import "DataBaseHandler.h"
 
-NSMutableArray *eventsToFill;
-
 @implementation ContentClass
+NSMutableArray *eventsToFill;
 
 +(NSArray *)eventsFill:(NSInteger)limit{
     DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
@@ -19,5 +18,16 @@ NSMutableArray *eventsToFill;
     eventsToFill = [dbh eventDetails:limit];
     return eventsToFill;
 };
-
++(NSArray *)eventsFillWithParticipant:(NSInteger)limit withpart:(NSInteger)part{
+    DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
+    eventsToFill = [[NSMutableArray alloc] init];
+    eventsToFill = [dbh eventDetailsWithKnownParticipant:limit withCreator:part];
+    return eventsToFill;
+};
++(NSArray *)eventsFillWithCreator:(NSInteger)limit withcreator:(NSInteger)creator{
+    DataBaseHandler *dbh = [DataBaseHandler getSharedInstance];
+    eventsToFill = [[NSMutableArray alloc] init];
+    eventsToFill = [dbh eventDetailsWithKnownCreator:limit withCreator:creator];
+    return eventsToFill;
+};
 @end

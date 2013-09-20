@@ -18,6 +18,8 @@ static Core* _core;
 @synthesize faculty;
 @synthesize limit1;
 @synthesize limit2;
+@synthesize partorcreate;
+@synthesize id;
 -(id) init
 {
     self = [super init];
@@ -32,6 +34,7 @@ static Core* _core;
             _core = [[Core alloc] init];
             _core.limit1 = 10;
             _core.limit2 = 10;
+            _core.partorcreate = false;
         }
         return _core;
     }
